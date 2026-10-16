@@ -15,14 +15,14 @@ checkpoints, and large execution caches are intentionally not included.
 
 | ID | Architecture | Parameters | Five-fold pooled WER | Exact sentence accuracy |
 |---|---|---:|---:|---:|
-| G1 | Near-Gu Conv2Dâ€“2xBiLSTMâ€“CTC | 4,791,688 | 0.001074 | 0.996486 |
-| C1 | Compact Conv1Dâ€“BiLSTMâ€“CTC | 392,488 | 0.067215 | 0.799595 |
-| C2 | Compact Conv1Dâ€“BiLSTMâ€“self-attentionâ€“CTC | 656,168 | 0.040050 | 0.864730 |
-| C3 | Compact Conv1Dâ€“Transformerâ€“CTC | 237,352 | 0.444667 | 0.136486 |
-| C4 | Custom Tiny-Swinâ€“BiLSTMâ€“CTC | 348,604 | 0.040909 | 0.876622 |
+| G1 | Near-Gu Conv2D–2xBiLSTM–CTC | 4,791,688 | 0.001074 | 0.996486 |
+| C1 | Compact Conv1D–BiLSTM–CTC | 392,488 | 0.067215 | 0.799595 |
+| C2 | Compact Conv1D–BiLSTM–self-attention–CTC | 656,168 | 0.040050 | 0.864730 |
+| C3 | Compact Conv1D–Transformer–CTC | 237,352 | 0.444667 | 0.136486 |
+| C4 | Custom Tiny-Swin–BiLSTM–CTC | 348,604 | 0.040909 | 0.876622 |
 
 G1 is retained as the recognition-quality reference. C2 is the recommended
-lightweight recognizer because the C2â€“C4 WER difference was not resolved after
+lightweight recognizer because the C2–C4 WER difference was not resolved after
 Holm correction and C2 offered the stronger overall quality, efficiency,
 stability, and downstream-language trade-off. See
 `docs/STAGE_43_ALL_MODEL_STATISTICAL_VALIDATION.md` for the five-model tests.
