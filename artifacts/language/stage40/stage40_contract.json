@@ -1,0 +1,147 @@
+{
+  "coverage": {
+    "counts_by_model_system": {
+      "c1-L0": 7400,
+      "c1-L1": 7400,
+      "c1-L2": 7400,
+      "c2-L0": 7400,
+      "c2-L1": 7400,
+      "c2-L2": 7400,
+      "c3-L0": 7400,
+      "c3-L1": 7400,
+      "c3-L2": 7400,
+      "c4-L0": 7400,
+      "c4-L1": 7400,
+      "c4-L2": 7400,
+      "g1-L0": 7400,
+      "g1-L1": 7400,
+      "g1-L2": 7400
+    },
+    "models": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "paired_model_samples": 37000,
+    "scored_system_rows": 111000,
+    "subject_sentence_clusters": 368,
+    "systems": [
+      "L0",
+      "L1",
+      "L2"
+    ]
+  },
+  "execution": {
+    "language_generation_started": false,
+    "predictions_regenerated": false,
+    "recognizer_training_started": false,
+    "v1_results_scored": false
+  },
+  "inputs": {
+    "stage13_sample_metadata": {
+      "path": "artifacts/splits/stage13_known_signer_5fold.csv",
+      "rows": 7400,
+      "sha256": "9b921fae66a1986450f01393c77ccf98f20c7e77a0488d5992a8d12ecdf0367b"
+    },
+    "stage38_l0_l1": {
+      "path": "artifacts/language/stage38/stage38_l0_l1_outputs.csv",
+      "rows": 74000,
+      "sha256": "7b59e5768df4f66982932998aaee44666b38559e0335b2017eab22973ac2e103"
+    },
+    "stage39a_sample_request_map": {
+      "path": "artifacts/language/stage39/stage39a_sample_request_map.csv",
+      "rows": 37000,
+      "sha256": "7961d9a8acb0c2fb33705823875462a01f1930695a18fc80579e4004507c03d2"
+    },
+    "stage39b_v2_results": {
+      "archive_name": "stage39b_v2_results.zip",
+      "archive_sha256": "c79a495439b7c84a22e50770c54fc49880317c007a7dd1cb9fca3d06c7b7e15c",
+      "outer_references_exposed": false,
+      "response_sha256": "141e8bf469c2abd115a4aa5157d284cbe246ecb14b00bb532bddd2449f30e3dd",
+      "training_started": false,
+      "unique_responses": 11720
+    }
+  },
+  "metrics": {
+    "accuracy_used_alone": false,
+    "content_stopwords": [
+      "a",
+      "am",
+      "an",
+      "and",
+      "are",
+      "as",
+      "at",
+      "be",
+      "been",
+      "being",
+      "but",
+      "by",
+      "did",
+      "do",
+      "does",
+      "for",
+      "from",
+      "in",
+      "is",
+      "of",
+      "on",
+      "or",
+      "than",
+      "that",
+      "the",
+      "to",
+      "was",
+      "were",
+      "with"
+    ],
+    "primary": "pooled_english_wer",
+    "reported": [
+      "pooled_wer",
+      "macro_sample_wer",
+      "exact_sentence_accuracy",
+      "content_precision",
+      "content_recall",
+      "content_f1",
+      "unsupported_content_rate",
+      "correction_harm_rate"
+    ]
+  },
+  "outputs": {
+    "artifacts/language/stage40/stage40_l2_model_ranking.csv": "f213583a75a7811e9855fdc7304ab9d01fd30ff0e6624eb851b4d6ac04cb591f",
+    "artifacts/language/stage40/stage40_l2_model_tests.csv": "3ce353fa94a410b9439b846bb50eb19e29c7852e184ba78f869ade7cfe85d0fd",
+    "artifacts/language/stage40/stage40_l2_sample_outputs.csv": "3c34ba3294477768b8059684afb8830ab6396c5d17ad12d06edd47f24790d838",
+    "artifacts/language/stage40/stage40_paired_system_tests.csv": "dfd50bef1f910913591b5bacc1a168380d2ada376cb9ba242faa3e77a7db6f3a",
+    "artifacts/language/stage40/stage40_system_summary.csv": "d976e42a9a126ae7d9b2ba894e9b65a5dc6f897e6d21a708260947daad337a5c",
+    "docs/STAGE_40_END_TO_END_LANGUAGE_EVALUATION.md": "26a628ed264e5202d82c66e15d64907c9f2cef9128c6f57d267200f8240d5341"
+  },
+  "protocol": "known_signer_stratified_five_fold",
+  "ranking": {
+    "primary_lightweight_recognizer": "c2",
+    "primary_order": "lower_pooled_wer",
+    "recognition_quality_reference": "g1",
+    "scope": "L2_end_to_end_language_quality_only",
+    "tie_breakers": [
+      "higher_content_f1",
+      "higher_exact_sentence_accuracy"
+    ],
+    "winner": "g1"
+  },
+  "stage": "40",
+  "statistics": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_unit": "subject_sentence_cluster",
+    "confidence_level": 0.95,
+    "holm_families": {
+      "l2_between_model_comparisons": 10,
+      "within_model_system_comparisons": 15
+    },
+    "multiple_comparison_correction": "holm",
+    "seed": 20260826,
+    "sentence_correctness_test": "exact_two_sided_mcnemar"
+  },
+  "status": "COMPLETE",
+  "title": "All-model end-to-end language evaluation"
+}

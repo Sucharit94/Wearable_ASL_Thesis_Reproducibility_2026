@@ -1,0 +1,337 @@
+{
+  "benchmark": {
+    "batch_sizes": [
+      1,
+      16
+    ],
+    "device": "cpu",
+    "dtype": "float32",
+    "evaluation_mode": true,
+    "inference_mode": true,
+    "input_shape": [
+      "batch",
+      108,
+      38
+    ],
+    "isolated_process_per_model": true,
+    "latency_statistic": "median_with_inclusive_iqr",
+    "memory_statistic": "isolated_process_peak_rss_minus_pre_model_rss",
+    "seed": 20260912,
+    "timed_iterations": {
+      "1": 10,
+      "16": 5
+    },
+    "warmup_iterations": 2
+  },
+  "generated_sha256": {
+    "artifacts/analysis/stage34/stage34d_efficiency_metrics.csv": "c3cc3aa46ed080fe53d3518e1e4cfd5cbce59f41006cb8a292ba81694f3bd58d",
+    "docs/STAGE_34D_MODEL_EFFICIENCY.md": "1226d3b2e03c2dc99a5c63789229ee438ee57c7d476e6a1ec737b43f105d0c62"
+  },
+  "implementation_sha256": {
+    "scripts/build_stage34_efficiency.py": "398fe822439852d30153581d3bf6acf074a69f813d4655379d971fca7f4e3813",
+    "scripts/verify_stage34_efficiency.py": "063ac8163b5c74520df4a0b9aac8d431cd57ff310a1a4b2241215e5333237ab9",
+    "src/evaluation/stage34_efficiency.py": "fb17562735a0ed908828a3510acae09ef915760a6cbcfa37809088884411190a",
+    "tests/test_stage34_efficiency.py": "df4edf0e783d15fb9f51e6b53b31aafa66602ea0f97bf0ffb435e2669bb07773"
+  },
+  "input": {
+    "stage34c_contract_sha256": "9bac5fc0a4ab97e5e477a8b46724402cd315b4122e08e2be3bebfdefc9e456af"
+  },
+  "models": [
+    {
+      "baseline_rss_bytes": 199884800,
+      "batch1": {
+        "batch_size": 1,
+        "latency_median_ms": 12.81715,
+        "latency_q1_ms": 12.56345,
+        "latency_q3_ms": 14.3473,
+        "throughput_samples_per_second": 78.02046476790862,
+        "timed_iterations": 10
+      },
+      "batch16": {
+        "batch_size": 16,
+        "latency_median_ms": 134.3457,
+        "latency_q1_ms": 122.6456,
+        "latency_q3_ms": 137.9376,
+        "throughput_samples_per_second": 119.09573585161269,
+        "timed_iterations": 5
+      },
+      "buffer_bytes": 1816,
+      "device": "cpu",
+      "dtype": "float32",
+      "gradients_created": false,
+      "incremental_peak_rss_bytes": 72417280,
+      "largest_observed_output_bytes": 146048,
+      "model_id": "g1",
+      "model_in_eval_mode": true,
+      "output_lengths": {
+        "1": [
+          5
+        ],
+        "16": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "parameter_bytes": 19166752,
+      "peak_process_rss_bytes": 272302080,
+      "state_dict_serialized_bytes": 19180974,
+      "trainable_parameters": 4791688,
+      "training_started": false
+    },
+    {
+      "baseline_rss_bytes": 199921664,
+      "batch1": {
+        "batch_size": 1,
+        "latency_median_ms": 2.18335,
+        "latency_q1_ms": 1.976375,
+        "latency_q3_ms": 2.5071250000000003,
+        "throughput_samples_per_second": 458.01177090251224,
+        "timed_iterations": 10
+      },
+      "batch16": {
+        "batch_size": 16,
+        "latency_median_ms": 9.3791,
+        "latency_q1_ms": 8.7301,
+        "latency_q3_ms": 10.6001,
+        "throughput_samples_per_second": 1705.9206107195787,
+        "timed_iterations": 5
+      },
+      "buffer_bytes": 1296,
+      "device": "cpu",
+      "dtype": "float32",
+      "gradients_created": false,
+      "incremental_peak_rss_bytes": 21704704,
+      "largest_observed_output_bytes": 788096,
+      "model_id": "c1",
+      "model_in_eval_mode": true,
+      "output_lengths": {
+        "1": [
+          27
+        ],
+        "16": [
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ]
+      },
+      "parameter_bytes": 1569952,
+      "peak_process_rss_bytes": 221626368,
+      "state_dict_serialized_bytes": 1579221,
+      "trainable_parameters": 392488,
+      "training_started": false
+    },
+    {
+      "baseline_rss_bytes": 200216576,
+      "batch1": {
+        "batch_size": 1,
+        "latency_median_ms": 4.52455,
+        "latency_q1_ms": 3.78705,
+        "latency_q3_ms": 5.5304,
+        "throughput_samples_per_second": 221.01645467505057,
+        "timed_iterations": 10
+      },
+      "batch16": {
+        "batch_size": 16,
+        "latency_median_ms": 18.6874,
+        "latency_q1_ms": 17.5822,
+        "latency_q3_ms": 19.9629,
+        "throughput_samples_per_second": 856.1918725986494,
+        "timed_iterations": 5
+      },
+      "buffer_bytes": 1296,
+      "device": "cpu",
+      "dtype": "float32",
+      "gradients_created": false,
+      "incremental_peak_rss_bytes": 27049984,
+      "largest_observed_output_bytes": 788096,
+      "model_id": "c2",
+      "model_in_eval_mode": true,
+      "output_lengths": {
+        "1": [
+          27
+        ],
+        "16": [
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ]
+      },
+      "parameter_bytes": 2624672,
+      "peak_process_rss_bytes": 227266560,
+      "state_dict_serialized_bytes": 2635907,
+      "trainable_parameters": 656168,
+      "training_started": false
+    },
+    {
+      "baseline_rss_bytes": 199970816,
+      "batch1": {
+        "batch_size": 1,
+        "latency_median_ms": 2.08955,
+        "latency_q1_ms": 2.0193499999999998,
+        "latency_q3_ms": 2.463775,
+        "throughput_samples_per_second": 478.57194132708,
+        "timed_iterations": 10
+      },
+      "batch16": {
+        "batch_size": 16,
+        "latency_median_ms": 9.2697,
+        "latency_q1_ms": 8.6233,
+        "latency_q3_ms": 9.5872,
+        "throughput_samples_per_second": 1726.0537018457985,
+        "timed_iterations": 5
+      },
+      "buffer_bytes": 385296,
+      "device": "cpu",
+      "dtype": "float32",
+      "gradients_created": false,
+      "incremental_peak_rss_bytes": 17670144,
+      "largest_observed_output_bytes": 788096,
+      "model_id": "c3",
+      "model_in_eval_mode": true,
+      "output_lengths": {
+        "1": [
+          27
+        ],
+        "16": [
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ]
+      },
+      "parameter_bytes": 949408,
+      "peak_process_rss_bytes": 217640960,
+      "state_dict_serialized_bytes": 1349154,
+      "trainable_parameters": 237352,
+      "training_started": false
+    },
+    {
+      "baseline_rss_bytes": 199475200,
+      "batch1": {
+        "batch_size": 1,
+        "latency_median_ms": 24.896549999999998,
+        "latency_q1_ms": 24.13,
+        "latency_q3_ms": 25.326475,
+        "throughput_samples_per_second": 40.166207767742925,
+        "timed_iterations": 10
+      },
+      "batch16": {
+        "batch_size": 16,
+        "latency_median_ms": 383.4523,
+        "latency_q1_ms": 379.4149,
+        "latency_q3_ms": 397.4681,
+        "throughput_samples_per_second": 41.72618080527878,
+        "timed_iterations": 5
+      },
+      "buffer_bytes": 51200,
+      "device": "cpu",
+      "dtype": "float32",
+      "gradients_created": false,
+      "incremental_peak_rss_bytes": 104603648,
+      "largest_observed_output_bytes": 146048,
+      "model_id": "c4",
+      "model_in_eval_mode": true,
+      "output_lengths": {
+        "1": [
+          5
+        ],
+        "16": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "parameter_bytes": 1394416,
+      "peak_process_rss_bytes": 304078848,
+      "state_dict_serialized_bytes": 1474684,
+      "trainable_parameters": 348604,
+      "training_started": false
+    }
+  ],
+  "project_generation": "fresh_start_2026_v1",
+  "runtime": {
+    "logical_cpu_count": 8,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+    "python_version": "3.11.9",
+    "pytorch_version": "2.14.0+cpu",
+    "torch_interop_threads": 1,
+    "torch_intraop_threads": 1
+  },
+  "stage": 34,
+  "status": "passed",
+  "substage": "D",
+  "training_started": false,
+  "validation": {
+    "all_models_eval_mode": true,
+    "model_count": 5,
+    "no_gradients_created": true,
+    "parameter_counts_match": true,
+    "positive_latency": true
+  }
+}

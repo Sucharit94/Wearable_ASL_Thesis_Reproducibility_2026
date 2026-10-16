@@ -1,0 +1,78 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+
+# Raw/derived data
+data/raw/
+data/cache/
+*.npy
+*.npz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Generated large artifacts
+artifacts/runs/
+backups/
+
+# Dataset source archives / raw recordings
+data/raw/
+data/source_files/
+*.zip
+*.7z
+*.rar
+
+# Generated binary execution caches
+/cache/
+
+# Public GitHub exclusions added by preparation script
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+/data/
+/cache/
+/imports/
+/local_stage_packages/
+/stage32c_import_*/
+/artifacts/runs/
+/gu_asl_stage*_runs*/
+/gu_asl_stage*_transfer/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.bundle
+*.zip
+*.7z
+*.rar

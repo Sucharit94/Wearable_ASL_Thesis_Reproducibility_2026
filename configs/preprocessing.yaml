@@ -1,0 +1,120 @@
+﻿version: 1
+stage: 18
+project_generation: fresh_start_2026_v1
+
+primary:
+  representation:
+    name: raw_rotation_38d
+    input_width: 38
+    temporal_unwrap: false
+    circular_encoding: false
+
+  normalization:
+    name: featurewise_zscore
+    fit_scope: current_training_partition_only
+    aggregation: all_valid_training_timesteps_frame_weighted
+    mean_dtype: float64
+    variance_dtype: float64
+    variance_definition: population_ddof_0
+    output_dtype: float32
+    minimum_allowed_std: 1.0e-8
+    low_std_policy: error
+    clipping: false
+
+  operations:
+    filtering: false
+    smoothing: false
+    angle_unwrapping: false
+    resampling: false
+    truncation: false
+    augmentation: false
+    per_sample_standardization: false
+
+  ordering:
+    - load_raw_sequence
+    - fit_or_apply_training_partition_normalization
+    - model_specific_input_adapter
+    - batch_padding_and_masking
+
+  padding:
+    performed_during_preprocessing_fit: false
+    future_batch_padding_value_after_normalization: 0.0
+    valid_length_required: true
+
+model_input_policy:
+  G1:
+    base_representation: normalized_Tx38
+    adapter: windowed_2d
+    window_length: deferred_to_stage20_ctc_feasibility
+    stride: deferred_to_stage20_ctc_feasibility
+
+  C1:
+    base_representation: normalized_Tx38
+    adapter: direct_sequence
+
+  C2:
+    base_representation: normalized_Tx38
+    adapter: direct_sequence
+
+  C3:
+    base_representation: normalized_Tx38
+    adapter: direct_sequence
+
+  C4:
+    base_representation: normalized_Tx38
+    adapter: native_source_order_temporal_feature_map
+    window_length: deferred_to_stage20_ctc_feasibility
+    stride: deferred_to_stage20_ctc_feasibility
+
+split_fit_rules:
+  known_signer_outer:
+    fit_on: outer_training_pool_only
+    never_fit_on: outer_test_fold
+
+  known_signer_inner_selection:
+    fit_on: inner_training_partition_only
+    never_fit_on:
+      - inner_validation_partition
+      - outer_test_fold
+
+  known_signer_final_refit:
+    fit_on: full_outer_training_pool
+    never_fit_on: outer_test_fold
+
+  loso_inner_selection:
+    fit_on: inner_training_partition_from_training_subjects_only
+    never_fit_on:
+      - inner_validation_partition
+      - held_out_subject
+
+  loso_final_refit:
+    fit_on: all_training_subject_recordings
+    never_fit_on: held_out_subject
+
+  template_holdout_inner_selection:
+    fit_on: inner_training_partition_only
+    never_fit_on:
+      - inner_validation_partition
+      - held_out_template_groups
+
+  template_holdout_final_refit:
+    fit_on: all_template_holdout_training_recordings
+    never_fit_on: held_out_template_groups
+
+circular_ablation:
+  enabled_as_primary: false
+  source_units: empirically_degree_scaled
+  transform:
+    input_width: 38
+    output_width: 76
+    order: interleaved_sin_cos_per_source_column
+  normalization:
+    fit_scope: current_training_partition_only
+    aggregation: all_valid_training_timesteps_frame_weighted
+
+important:
+  - Numeric normalization statistics are NOT globally frozen in Stage 18.
+  - Each training partition must fit its own statistics.
+  - The outer test fold, held-out signer, or held-out template must never influence fitted statistics.
+  - The global Stage-10 vocabulary does not influence sensor normalization.
+  - Stage-20 will determine the shared safe G1/C4 temporal window stride before model training.

@@ -1,0 +1,6 @@
+outer_fold,recordings,inner_train_recordings,inner_validation_recordings,outer_test_recordings,outer_training_pool_recordings,target_validation_recordings,observed_validation_fraction,absolute_target_difference,maximum_atomic_group_size,duplicate_groups_crossing_partitions,outer_test_assignment_mismatches,subjects_missing_inner_partition,strata_missing_inner_partition
+1,7400,5328,592,1480,5920,592,0.1,0,2,0,0,0,0
+2,7400,5328,592,1480,5920,592,0.1,0,2,0,0,0,0
+3,7400,5328,592,1480,5920,592,0.1,0,2,0,0,0,0
+4,7400,5328,592,1480,5920,592,0.1,0,2,0,0,0,0
+5,7400,5328,592,1480,5920,592,0.1,0,2,0,0,0,0

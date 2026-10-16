@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "feature_width": 38,
+    "input_layout": "T_x_38",
+    "raw_cache": "cache/raw/stage17_raw_f32.bin",
+    "raw_cache_index": "artifacts/cache/stage17_raw_cache_index.csv",
+    "recordings": 7400,
+    "sentence_targets": "artifacts/labels/stage10_sentence_targets.csv",
+    "sentence_templates": 300,
+    "subjects": 3,
+    "token_to_id": "artifacts/labels/stage10_token_to_id.json"
+  },
+  "leakage_guards": {
+    "exact_duplicate_groups_must_not_cross_partitions": true,
+    "normalization_must_not_observe_validation_or_test": true,
+    "test_labels_must_not_control_training": true
+  },
+  "preprocessing": {
+    "augmentation": "none",
+    "ctc_blank_id": 0,
+    "input_padding_value": 0.0,
+    "normalization": "training_partition_feature_zscore_per_feature",
+    "normalization_recomputed_for_every_training_partition": true,
+    "target_padding_value": -1,
+    "valid_lengths_required": true
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "schema_version": 1,
+  "split_hashes": {
+    "known_signer_5fold": "7b9943145ffd9658fe20fedc37e4bd4515496a7cd59b893f95e99f95ea6c95e9",
+    "loso": "28fef677789f652c0939fb4550a78ef928dfdbc58615ebea773c5ff8a9c86de9",
+    "loso_support": "6e827b9ff0ee9dec2ff991c26d01c0e52c96b739a084509c4fe6091f8c4e9e6f",
+    "template_holdout": "b36096c0cb14cf137eb2a5bdbf206a5aad462326cdc490dbe5810705ac5e3376"
+  },
+  "splits": {
+    "known_signer_5fold": "artifacts/splits/stage13_known_signer_5fold.csv",
+    "loso": "artifacts/splits/stage14_loso_assignment.csv",
+    "loso_support": "artifacts/splits/stage15_loso_support_assignment.csv",
+    "template_holdout": "artifacts/splits/stage16_template_holdout_assignment.csv"
+  },
+  "status": "frozen_before_outer_evaluation"
+}

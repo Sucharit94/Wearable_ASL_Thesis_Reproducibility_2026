@@ -1,0 +1,115 @@
+{
+  "created_at_utc": "2026-09-09T13:40:55.527772+00:00",
+  "dry_run": {
+    "checkpoints_created": false,
+    "passed": true,
+    "path": "artifacts/training/stage32b_runner_dry_run.json",
+    "scores_computed": false,
+    "sha256": "4eeeb596cd7b25a4633c949747ec5d9532a3e983e8d5c6e13f1ab6f7811246d5",
+    "training_started": false
+  },
+  "implementation_hashes": {
+    "configs/experiments/stage32_runner.json": "ca706c26747b86175a0cc508bca94bc5f2463222f77b5e69bdba4922b2948be1",
+    "scripts/build_stage32_runner_contract.py": "c4e8e74430b226743bd8d0052904326870c157b09e0cecaf565ec6d67eed3205",
+    "scripts/run_stage32_known_signer.py": "cd1eede72b27a54178010f604536dd79d315eb45c53458806048651699dcd2fa",
+    "scripts/verify_stage32_runner.py": "96b9d8ad8bf6615488b4a843bf9135cd9d74d37b38bda503896c47a721007512",
+    "src/training/known_signer_runner.py": "38ae7d91e08a988750bff0ae23095b1db96e58abdb2e0f2216cbe4c72b06ba8e",
+    "tests/test_known_signer_runner.py": "aa92f089d6a68c104c19fa85713792767e781661fb2739113dbc86a4ecd1a666"
+  },
+  "matrix": {
+    "first": "g1_known_fold01_seed20260826_v1",
+    "fold_major": true,
+    "last": "c4_known_fold05_seed20260826_v1",
+    "outer_evaluations": 25,
+    "phase_counts": {
+      "full_refit": 25,
+      "inner_selection": 25,
+      "outer_evaluation": 25
+    },
+    "registry_rows": 75,
+    "validated_identities": 75
+  },
+  "partitions": [
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 1,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 2,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 3,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 4,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 5,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    }
+  ],
+  "project_generation": "fresh_start_2026_v1",
+  "protocol": {
+    "automatic_mixed_precision": false,
+    "compact_epoch_cap": 80,
+    "compact_minimum_early_stop_epoch": 15,
+    "execution_precision": "float32",
+    "g1_full_selection_cap": 20,
+    "inner_selection_only": true,
+    "outer_test_controls_training": false,
+    "outer_test_evaluations_per_model_fold": 1,
+    "refit_exact_selected_epochs": true,
+    "reset_before_refit": true,
+    "selection_tie_break_order": [
+      "lower_validation_wer",
+      "higher_validation_exact_sentence_accuracy",
+      "lower_validation_ctc_loss",
+      "earlier_epoch"
+    ]
+  },
+  "runner_tag": {
+    "creation_authorized_only_after_stage32b_pass": true,
+    "must_be_annotated": true,
+    "must_equal_head_before_training": true,
+    "name": "stage32-known-runner-v1"
+  },
+  "safety": {
+    "atomic_epoch_checkpoints": true,
+    "clean_tagged_git_checkout": true,
+    "effective_batch_preserved": true,
+    "epoch_boundary_resume": true,
+    "external_durable_artifact_root": true,
+    "fallback_restarts_from_seed": true,
+    "float32_for_all_models": true,
+    "length_safe_decoder": true,
+    "oom_only_batch_fallback": true,
+    "required_gpu": "NVIDIA T4",
+    "test_dataset_constructed_only_after_refit": true
+  },
+  "stage": 32,
+  "status": "runner_frozen_before_outer_evaluation",
+  "substage": "B"
+}

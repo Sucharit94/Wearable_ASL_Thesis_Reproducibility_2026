@@ -1,0 +1,24 @@
+{
+  "decoding": {
+    "model_identifier": "must_be_recorded_and_frozen_before_stage39_execution",
+    "n": 1,
+    "retry_on_schema_failure": 1,
+    "temperature": 0.0
+  },
+  "human_post_editing": false,
+  "input_fields": [
+    "sample_id",
+    "outer_fold",
+    "source_gloss",
+    "training_only_examples"
+  ],
+  "instruction": "Convert the ASL gloss tokens into one grammatical English sentence. Preserve supported meaning and do not invent people, places, numbers, objects or actions absent from the gloss or training-only examples.",
+  "outer_reference_in_prompt": false,
+  "output_schema": {
+    "added_content_tokens": "array_of_strings",
+    "constraint_passed": "boolean",
+    "sentence": "string"
+  },
+  "schema_version": 1,
+  "task": "asl_gloss_to_constrained_english"
+}

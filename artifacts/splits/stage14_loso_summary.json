@@ -1,0 +1,66 @@
+{
+  "assignment_sha256": "28fef677789f652c0939fb4550a78ef928dfdbc58615ebea773c5ff8a9c86de9",
+  "created_at_utc": "2026-08-29T12:23:04.074596+00:00",
+  "duplicate_safety": {
+    "loso_split_group_overlap": {
+      "loso_subject1": 0,
+      "loso_subject2": 0,
+      "loso_subject3": 0
+    },
+    "stage12_cross_subject_numeric_duplicate_groups": 0
+  },
+  "long_assignment_rows": 22200,
+  "loso_runs": [
+    {
+      "held_out_subject": "subject1",
+      "loso_id": "loso_subject1",
+      "sample_overlap": 0,
+      "split_group_overlap": 0,
+      "test_recordings": 6000,
+      "test_subject_count": 1,
+      "test_unique_templates": 300,
+      "train_recordings": 1400,
+      "train_subject_count": 2,
+      "train_unique_templates": 67,
+      "training_subjects": "subject2+subject3"
+    },
+    {
+      "held_out_subject": "subject2",
+      "loso_id": "loso_subject2",
+      "sample_overlap": 0,
+      "split_group_overlap": 0,
+      "test_recordings": 1000,
+      "test_subject_count": 1,
+      "test_unique_templates": 48,
+      "train_recordings": 6400,
+      "train_subject_count": 2,
+      "train_unique_templates": 300,
+      "training_subjects": "subject1+subject3"
+    },
+    {
+      "held_out_subject": "subject3",
+      "loso_id": "loso_subject3",
+      "sample_overlap": 0,
+      "split_group_overlap": 0,
+      "test_recordings": 400,
+      "test_subject_count": 1,
+      "test_unique_templates": 20,
+      "train_recordings": 7000,
+      "train_subject_count": 2,
+      "train_unique_templates": 300,
+      "training_subjects": "subject1+subject2"
+    }
+  ],
+  "normalization_policy": "No normalization statistics are calculated in Stage 14. All future preprocessing statistics must use only the training subjects of the corresponding LOSO run.",
+  "project_generation": "fresh_start_2026_v1",
+  "recordings": 7400,
+  "scientific_interpretation": "Each LOSO run tests an entirely unseen signer. Template and token support are not assumed equivalent across runs.",
+  "split_name": "three_subject_loso",
+  "stage": 14,
+  "subjects": [
+    "subject1",
+    "subject2",
+    "subject3"
+  ],
+  "support_analysis": "Deferred to Stage 15. Stage 14 defines only signer-based train/test membership."
+}

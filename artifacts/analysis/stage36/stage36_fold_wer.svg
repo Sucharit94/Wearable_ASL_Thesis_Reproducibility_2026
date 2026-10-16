@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="55.0" y="38.0" font-size="25" font-weight="700" fill="#172B4D">Five-fold pooled WER by model</text>
+<text x="55.0" y="63.0" font-size="15" fill="#52606D">Lower is better; points are frozen outer-fold results</text>
+<line x1="95" y1="570.0" x2="1065" y2="570.0" stroke="#D9E2EC" stroke-width="1"/>
+<text x="83.0" y="575.0" text-anchor="end" font-size="13" fill="#52606D">0.00</text>
+<line x1="95" y1="471.0" x2="1065" y2="471.0" stroke="#D9E2EC" stroke-width="1"/>
+<text x="83.0" y="476.0" text-anchor="end" font-size="13" fill="#52606D">0.10</text>
+<line x1="95" y1="372.0" x2="1065" y2="372.0" stroke="#D9E2EC" stroke-width="1"/>
+<text x="83.0" y="377.0" text-anchor="end" font-size="13" fill="#52606D">0.20</text>
+<line x1="95" y1="273.0" x2="1065" y2="273.0" stroke="#D9E2EC" stroke-width="1"/>
+<text x="83.0" y="278.0" text-anchor="end" font-size="13" fill="#52606D">0.30</text>
+<line x1="95" y1="174.0" x2="1065" y2="174.0" stroke="#D9E2EC" stroke-width="1"/>
+<text x="83.0" y="179.0" text-anchor="end" font-size="13" fill="#52606D">0.40</text>
+<line x1="95" y1="75.0" x2="1065" y2="75.0" stroke="#D9E2EC" stroke-width="1"/>
+<text x="83.0" y="80.0" text-anchor="end" font-size="13" fill="#52606D">0.50</text>
+<line x1="95.0" y1="75" x2="95.0" y2="570" stroke="#EEF2F6" stroke-width="1"/>
+<text x="95.0" y="605.0" text-anchor="middle" font-size="14" fill="#334E68">Fold 1</text>
+<line x1="337.5" y1="75" x2="337.5" y2="570" stroke="#EEF2F6" stroke-width="1"/>
+<text x="337.5" y="605.0" text-anchor="middle" font-size="14" fill="#334E68">Fold 2</text>
+<line x1="580.0" y1="75" x2="580.0" y2="570" stroke="#EEF2F6" stroke-width="1"/>
+<text x="580.0" y="605.0" text-anchor="middle" font-size="14" fill="#334E68">Fold 3</text>
+<line x1="822.5" y1="75" x2="822.5" y2="570" stroke="#EEF2F6" stroke-width="1"/>
+<text x="822.5" y="605.0" text-anchor="middle" font-size="14" fill="#334E68">Fold 4</text>
+<line x1="1065.0" y1="75" x2="1065.0" y2="570" stroke="#EEF2F6" stroke-width="1"/>
+<text x="1065.0" y="605.0" text-anchor="middle" font-size="14" fill="#334E68">Fold 5</text>
+<polyline points="95.0,567.7 337.5,569.6 580.0,568.4 822.5,569.3 1065.0,569.6" fill="none" stroke="#173F5F" stroke-width="3"/>
+<circle cx="95.0" cy="567.7" r="5" fill="#173F5F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="337.5" cy="569.6" r="5" fill="#173F5F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="580.0" cy="568.4" r="5" fill="#173F5F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="822.5" cy="569.3" r="5" fill="#173F5F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1065.0" cy="569.6" r="5" fill="#173F5F" stroke="#FFFFFF" stroke-width="2"/>
+<polyline points="95.0,499.7 337.5,515.4 580.0,500.7 822.5,503.4 1065.0,498.1" fill="none" stroke="#6C757D" stroke-width="3"/>
+<circle cx="95.0" cy="499.7" r="5" fill="#6C757D" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="337.5" cy="515.4" r="5" fill="#6C757D" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="580.0" cy="500.7" r="5" fill="#6C757D" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="822.5" cy="503.4" r="5" fill="#6C757D" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1065.0" cy="498.1" r="5" fill="#6C757D" stroke="#FFFFFF" stroke-width="2"/>
+<polyline points="95.0,531.0 337.5,529.8 580.0,525.4 822.5,531.6 1065.0,534.0" fill="none" stroke="#00796B" stroke-width="3"/>
+<circle cx="95.0" cy="531.0" r="5" fill="#00796B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="337.5" cy="529.8" r="5" fill="#00796B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="580.0" cy="525.4" r="5" fill="#00796B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="822.5" cy="531.6" r="5" fill="#00796B" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1065.0" cy="534.0" r="5" fill="#00796B" stroke="#FFFFFF" stroke-width="2"/>
+<polyline points="95.0,134.7 337.5,119.1 580.0,129.6 822.5,135.8 1065.0,129.7" fill="none" stroke="#C62828" stroke-width="3"/>
+<circle cx="95.0" cy="134.7" r="5" fill="#C62828" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="337.5" cy="119.1" r="5" fill="#C62828" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="580.0" cy="129.6" r="5" fill="#C62828" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="822.5" cy="135.8" r="5" fill="#C62828" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1065.0" cy="129.7" r="5" fill="#C62828" stroke="#FFFFFF" stroke-width="2"/>
+<polyline points="95.0,525.4 337.5,523.4 580.0,524.8 822.5,535.1 1065.0,538.8" fill="none" stroke="#EF6C00" stroke-width="3"/>
+<circle cx="95.0" cy="525.4" r="5" fill="#EF6C00" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="337.5" cy="523.4" r="5" fill="#EF6C00" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="580.0" cy="524.8" r="5" fill="#EF6C00" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="822.5" cy="535.1" r="5" fill="#EF6C00" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1065.0" cy="538.8" r="5" fill="#EF6C00" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="240" y1="637" x2="264" y2="637" stroke="#173F5F" stroke-width="4"/>
+<text x="271.0" y="642.0" font-size="14" font-weight="700" fill="#243B53">G1</text>
+<line x1="375" y1="637" x2="399" y2="637" stroke="#6C757D" stroke-width="4"/>
+<text x="406.0" y="642.0" font-size="14" font-weight="700" fill="#243B53">C1</text>
+<line x1="510" y1="637" x2="534" y2="637" stroke="#00796B" stroke-width="4"/>
+<text x="541.0" y="642.0" font-size="14" font-weight="700" fill="#243B53">C2</text>
+<line x1="645" y1="637" x2="669" y2="637" stroke="#C62828" stroke-width="4"/>
+<text x="676.0" y="642.0" font-size="14" font-weight="700" fill="#243B53">C3</text>
+<line x1="780" y1="637" x2="804" y2="637" stroke="#EF6C00" stroke-width="4"/>
+<text x="811.0" y="642.0" font-size="14" font-weight="700" fill="#243B53">C4</text>
+<text x="25.0" y="322.5" font-size="15" fill="#334E68" transform="rotate(-90 25 322.5)" text-anchor="middle">Pooled WER</text>
+</svg>

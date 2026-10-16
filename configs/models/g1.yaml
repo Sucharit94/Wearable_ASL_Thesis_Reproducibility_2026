@@ -1,0 +1,49 @@
+{
+  "architecture_family": "window_conv2d_two_bilstm_ctc",
+  "constructor": "G1NearGu",
+  "implementation_contract": {
+    "parameter_counts": {
+      "breakdown": {
+        "bilstm1": 2887680,
+        "bilstm2": 1576960,
+        "classifier": 233928,
+        "window_encoder": 93120
+      },
+      "count_passed": true,
+      "expected_total": 4791688,
+      "trainable_total": 4791688
+    },
+    "path": "artifacts/models/stage26_g1_model_contract.json",
+    "sha256": "db462476907a791d9ce4b6a15e3ab7916476160b543c61dd4f29281583bbdcca",
+    "stage": 26
+  },
+  "input_adapter": "windowed_2d",
+  "interface": {
+    "blank_id": 0,
+    "input": "B_x_T_x_38_padded_float",
+    "input_lengths": "B_exact_raw_valid_lengths",
+    "output_lengths": "B_exact_valid_output_lengths",
+    "output_logits": "B_x_Tout_x_456_raw_logits",
+    "target_padding_value": -1
+  },
+  "model_id": "g1",
+  "project_generation": "fresh_start_2026_v1",
+  "schema_version": 1,
+  "scientific_role": "dimension_consistent_near_gu_reference",
+  "source": {
+    "path": "src/models/g1_near_gu.py",
+    "sha256": "3812694dfb3a0559e1c54bdf40d36f8bfaa03d415dd79b506907c5b5cdee3e4a"
+  },
+  "status": "frozen_before_outer_evaluation",
+  "training": {
+    "early_stopping_patience": 6,
+    "epoch_cap": 20,
+    "fixed_epoch_reference": true,
+    "gradient_clip_norm": 5.0,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "physical_batch_size": 16,
+    "selection_scheduler": "none",
+    "weight_decay": 0.0
+  }
+}

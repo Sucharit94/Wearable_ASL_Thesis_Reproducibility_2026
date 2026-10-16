@@ -1,0 +1,4 @@
+test,statistic,df1,df2,p_value,effect_name,effect_value,greenhouse_geisser_epsilon,corrected_df1,corrected_df2,corrected_p_value
+Repeated-measures ANOVA F-test,1381.425058614204,4.0,1468.0,0.0,partial_eta_squared,0.7900968084437757,0.5294101468913339,2.1176405875653357,777.1740956364782,5.0730910547570735e-264
+Friedman repeated-measures test,1033.1566343042068,4.0,,2.3273594548667637e-222,kendalls_w,0.7018727135218796,,,,
+Cochran Q test,16940.29317986373,4.0,,0.0,,,,,,

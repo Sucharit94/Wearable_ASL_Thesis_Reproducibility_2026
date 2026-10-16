@@ -1,0 +1,71 @@
+{
+  "created_at_utc": "2026-08-31T05:30:43.012546+00:00",
+  "ctc_minimum_length_rule": "target_length + adjacent_repeated_target_pairs",
+  "direct_sequence": {
+    "infeasible_recordings": 0,
+    "interpretation": "Raw source-level feasibility only; model-specific output downsampling is checked later."
+  },
+  "hashes": {
+    "sample_audit_sha256": "6af76cd7ecdab666e074a8e56fd9e654dd9bcf3473c85e06c48942d84210d5d3",
+    "upstream": {
+      "stage10_targets": "2f87dab3a80e1d49029d809fc45f6cc885a521b750e7d8448e08a68484ac1de8",
+      "stage17_cache_index": "094050ed305b4e8093a1463aeea30db0a508ebac9131d28214619f9b6b5cd822"
+    }
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "recordings": 7400,
+  "reference_summary": {
+    "feasible_recordings": 7400,
+    "infeasible_recordings": 0,
+    "maximum_ctc_margin": 41,
+    "maximum_output_windows": 45,
+    "minimum_ctc_margin": 2,
+    "minimum_output_windows": 3,
+    "recordings": 7400,
+    "stride": 18,
+    "subject1_infeasible": 0,
+    "subject2_infeasible": 0,
+    "subject3_infeasible": 0,
+    "window_length": 36
+  },
+  "sample_policy": {
+    "silently_drop_infeasible_samples": false,
+    "training_sample_count_preserved": true
+  },
+  "selected_summary": {
+    "feasible_recordings": 7400,
+    "infeasible_recordings": 0,
+    "maximum_ctc_margin": 41,
+    "maximum_output_windows": 45,
+    "minimum_ctc_margin": 2,
+    "minimum_output_windows": 3,
+    "recordings": 7400,
+    "stride": 18,
+    "subject1_infeasible": 0,
+    "subject2_infeasible": 0,
+    "subject3_infeasible": 0,
+    "window_length": 36
+  },
+  "stage": 20,
+  "targets": {
+    "maximum_adjacent_repeat_pairs": 0,
+    "maximum_minimum_ctc_timesteps": 8,
+    "maximum_target_length": 8,
+    "sentence_templates": 300
+  },
+  "windowing": {
+    "applies_to": [
+      "G1 near-Gu window adapter",
+      "C4 Tiny-Swin temporal-feature window adapter"
+    ],
+    "formula": "1 + floor((T - W) / S) for T >= W; otherwise 0",
+    "reference_infeasible_recordings": 0,
+    "reference_stride": 18,
+    "selected_infeasible_recordings": 0,
+    "selected_stride": 18,
+    "selection_reason": "reference_stride_is_safe",
+    "selection_rule": "largest integer stride <= 18 with zero infeasible recordings across all 7,400 samples",
+    "window_definition": "full_non_padded_sliding_windows",
+    "window_length": 36
+  }
+}

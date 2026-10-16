@@ -1,0 +1,53 @@
+﻿{
+    "copy_verification":  {
+                              "representative_csv_hash_match":  true,
+                              "csv_count_matches":  true,
+                              "relative_paths_and_sizes_match":  true,
+                              "total_file_count_matches":  true,
+                              "both_label_hashes_match":  true,
+                              "total_bytes_match":  true
+                          },
+    "project_generation":  "fresh_start_2026_v1",
+    "master_source":  {
+                          "role":  "External untouched master/reference source",
+                          "location":  "[external private dataset directory]"
+                      },
+    "source_policy":  {
+                          "rename_raw_files_allowed":  false,
+                          "overwrite_raw_files_allowed":  false,
+                          "external_master_is_reference_only":  true,
+                          "normalize_raw_files_in_place_allowed":  false,
+                          "project_raw_copy_is_input_only":  true,
+                          "augment_raw_files_in_place_allowed":  false,
+                          "master_used_by_project_code":  false,
+                          "filter_raw_files_in_place_allowed":  false
+                      },
+    "project_raw_source":  {
+                               "total_bytes":  700952400,
+                               "txt_files":  2,
+                               "total_files":  7402,
+                               "csv_root":  "data/raw/gu_author_dataset/csv",
+                               "csv_files":  7400,
+                               "role":  "Fresh verified raw copy; read-only project input",
+                               "relative_path":  "data/raw/gu_author_dataset"
+                           },
+    "labels":  {
+                   "english":  {
+                                   "sha256":  "6DD89215C32C2FE238268B0295EFE4B47E5A663C76F9DCC8C1D0B23D431863B0",
+                                   "file":  "label_order.txt"
+                               },
+                   "recognition":  {
+                                       "sha256":  "C656D585E5C524964241E62B4B92332C3E744BDC46243FFBBB6F8DF7DCBF3A85",
+                                       "file":  "label_no_order.txt"
+                                   }
+               },
+    "next_stage":  {
+                       "stage":  4,
+                       "action":  "Build a fresh per-recording manifest and SHA-256 every CSV."
+                   },
+    "stage":  3,
+    "representative_csv":  {
+                               "sha256":  "44A73EECF55776B455C852F8BF08D6877C0C9D2A90DC0D27C5A2CC981209E4F7",
+                               "relative_path":  "csv/subject1/1_1.csv"
+                           }
+}

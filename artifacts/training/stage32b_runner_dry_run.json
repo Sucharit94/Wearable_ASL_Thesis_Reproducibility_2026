@@ -1,0 +1,110 @@
+{
+  "created_at_utc": "2026-09-09T13:40:55.491530+00:00",
+  "frozen_hashes": {
+    "stage10_gloss_vocabulary": "58093d312909962344203fbf4700c7b32095255015771289d08e262c93e7b2ca",
+    "stage13_outer_split": "7b9943145ffd9658fe20fedc37e4bd4515496a7cd59b893f95e99f95ea6c95e9",
+    "stage17_cache_index": "094050ed305b4e8093a1463aeea30db0a508ebac9131d28214619f9b6b5cd822",
+    "stage31_config_manifest": "bc98ef1dbd897ed1ed396f6c9700bd71385a0a911fd13121c19975e792fccf18",
+    "stage31_smoke_contract": "5a026ab54a2ff33640fd9de814097c39ec99dcef9660a5bf1ad0a563e4de357f",
+    "stage32_assignment": "66f3fbd97fb9b92010dd7bb1d742341d500e87e17e4045138724b8058e038ccc",
+    "stage32_initial_registry": "4f28d8ab796b6ec3d69781fce150664c6fa4e0e36e38ff766901e987de29a2da",
+    "stage32_run_plan": "f921345cf35c1e9b0f406605641b87347e55cbe58d917cc3189f0e1aa89c02cb"
+  },
+  "leakage_barrier": {
+    "checkpoints_created": false,
+    "outer_test_constructed_during_dry_run": false,
+    "premature_repository_artifacts": 0,
+    "scores_computed": false,
+    "training_started": false
+  },
+  "matrix": {
+    "first": "g1_known_fold01_seed20260826_v1",
+    "fold_major": true,
+    "last": "c4_known_fold05_seed20260826_v1",
+    "outer_evaluations": 25,
+    "phase_counts": {
+      "full_refit": 25,
+      "inner_selection": 25,
+      "outer_evaluation": 25
+    },
+    "registry_rows": 75,
+    "validated_identities": 75
+  },
+  "mode": "static_dry_run_no_training_no_scoring",
+  "model_config_hashes": {
+    "c1": "ca43e0c2a93623e0e39684f5ba7c735a528583867346887199e80b7b7326e252",
+    "c2": "b2f28092dbd04f084214cce9c022c844da531928ea005db16cce2a9da778ec3c",
+    "c3": "b5187ae685060e3fc3b1ba0279db9eb64a78374a21b1eeaccbd898ea36880ed7",
+    "c4": "3e7b81b34048466b081b7b825ae2b7a7d9bc69e15a7e602376359d87b3100fdb",
+    "g1": "29c11de9acf52384e41026a0e20dfc61f3ed2f14245bb2224cd5d38ee273f99f"
+  },
+  "partitions": [
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 1,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 2,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 3,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 4,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    },
+    {
+      "all_unique": true,
+      "inner_train": 5328,
+      "inner_validation": 592,
+      "outer_fold": 5,
+      "outer_test": 1480,
+      "outer_training_pool": 5920
+    }
+  ],
+  "passed": true,
+  "project_generation": "fresh_start_2026_v1",
+  "refit": {
+    "exact_selected_epochs": true,
+    "fresh_reset_required": true,
+    "training_pool": "all_non_test_outer_training_samples",
+    "validation_used": false
+  },
+  "runner_config_sha256": "ca706c26747b86175a0cc508bca94bc5f2463222f77b5e69bdba4922b2948be1",
+  "runtime_gate": {
+    "automatic_mixed_precision": false,
+    "clean_worktree_required": true,
+    "execution_precision": "float32",
+    "external_artifact_root_required": true,
+    "required_gpu_name_contains": "T4",
+    "required_tag": "stage32-known-runner-v1",
+    "tag_commit_must_equal_head": true,
+    "tag_must_be_annotated": true
+  },
+  "selection": {
+    "compact_minimum_epoch": 15,
+    "g1_full_epoch_cap": true,
+    "scheduler_monitor": "validation_ctc_loss",
+    "tie_break_mock_selected_epoch": 3
+  },
+  "stage": 32,
+  "substage": "B"
+}

@@ -1,0 +1,64 @@
+{
+  "frozen_decision": {
+    "accuracy_reference": "g1",
+    "c2_c4_wer_difference_resolved_at_95_percent": false,
+    "recommended_lightweight": "c2",
+    "recommended_lightweight_parameter_reduction_vs_g1_percent": 86.30612009796965,
+    "recommended_lightweight_parameters": 656168
+  },
+  "generated_sha256": {
+    "artifacts/analysis/stage35/stage35_aggregate_error_profile.csv": "02962188b4af80e2e47d21fc830c1f3d666e551412fa8ada574b29556c58340c",
+    "artifacts/analysis/stage35/stage35_claim_register.csv": "4de841e880696bb20a83e38287a87ad62a64caee81984a02afd43932467e95ef",
+    "artifacts/analysis/stage35/stage35_key_comparisons.csv": "4b756d2b6df6edf86e51389e3afeb8fdf5d932d00ac98bbb1b622f4bee0d9cdd",
+    "artifacts/analysis/stage35/stage35_publication_model_table.csv": "23f29475d59610455e197f8c9d5097f92ac4fc757d4a37243d96bd180984a07a",
+    "docs/STAGE_35_FINAL_EVIDENCE_FREEZE.md": "524301fb9c69a3496a850967b6e01c858632a3e7c610e05221e07e2ce622e9cd"
+  },
+  "implementation_portable_sha256": {
+    "scripts/build_stage35_evidence_freeze.py": "7edb0decafbf9531b97b34a858f47800abb2156139dfc769f371610b4f4c78b4",
+    "scripts/verify_stage35_evidence_freeze.py": "b9c91c03bb65e67faddbeda4261684d4e242f18610384e5a97b0c29ecf37357a",
+    "src/evaluation/stage35_evidence.py": "b5af358fc2696c1e6a9ca7fe1808cd51327f4d79439660b39ec2e90d89e4b415",
+    "tests/test_stage35_evidence_freeze.py": "b458bc5bd8cfcd46ca9274c84fe8b366a385c7ea2ebf9b34652545c1c9c8ddb2"
+  },
+  "input_stage34_contract_sha256": {
+    "B": "ed9f676e430ba19d0f4f7b50da139f4b9ad4bd176e1503b76b1fb57b0a73f6dc",
+    "C": "9bac5fc0a4ab97e5e477a8b46724402cd315b4122e08e2be3bebfdefc9e456af",
+    "D": "b6bee28918f045c2b95a1a0c353898db1e636c3afbc8a7c479e20736b77fa75d",
+    "E": "b1740c5ec4ad002b0ba399a5d3fde2137ceb75de132ad7bc7231630cd6862ae1"
+  },
+  "method": {
+    "accuracy_used_alone": false,
+    "decision_support": [
+      "quality_threshold",
+      "pareto_frontier",
+      "weight_sensitivity"
+    ],
+    "efficiency_metrics": [
+      "trainable_parameters",
+      "serialized_state_dict_mib",
+      "batch1_latency_median_ms",
+      "batch16_throughput_samples_per_second",
+      "incremental_peak_rss_mib"
+    ],
+    "paired_inference": "paired_bootstrap_and_exact_mcnemar_with_holm_correction",
+    "recognition_metrics": [
+      "pooled_wer",
+      "exact_sentence_accuracy",
+      "ser"
+    ],
+    "scope": "mixed_subject_duplicate_safe_five_fold",
+    "uncertainty": "subject_sentence_clustered_bootstrap_95_percent_ci"
+  },
+  "name": "final_known_signer_evidence_freeze",
+  "predictions_regenerated": false,
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 35,
+  "status": "passed",
+  "training_started": false,
+  "validation": {
+    "claim_register_rows": 6,
+    "key_comparisons": 2,
+    "models": 5,
+    "thesis_safe_claims_frozen": true,
+    "unresolved_results_not_overclaimed": true
+  }
+}

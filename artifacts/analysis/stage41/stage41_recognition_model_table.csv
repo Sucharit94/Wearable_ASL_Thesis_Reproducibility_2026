@@ -1,0 +1,6 @@
+model_id,role,mean_pooled_wer,wer_standard_deviation,wer_range,exact_sentence_accuracy,ser,parameter_count,parameter_reduction_vs_g1_percent,model_size_mb,latency_ms,throughput_samples_per_second,peak_memory_mb,dominant_error_type
+g1,recognition_quality_reference,0.001073729420186113,,,0.9964864864864865,0.0035135135135135136,4791688,0.0,,,,,deletion
+c1,comparator,0.06721546170365068,,,0.7995945945945946,0.2004054054054054,392488,91.8089825547907,,,,,deletion
+c2,recommended_lightweight_recognizer,0.04005010737294202,,,0.8647297297297297,0.13527027027027028,656168,86.30612009796965,,,,,deletion
+c3,comparator,0.44466714387974227,,,0.13648648648648654,0.8635135135135135,237352,95.04658900996893,,,,,deletion
+c4,comparator,0.04090909090909091,,,0.8766216216216216,0.12337837837837838,348604,92.7248184773299,,,,,deletion

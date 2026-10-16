@@ -1,0 +1,163 @@
+{
+  "architecture": {
+    "attention_heads": 4,
+    "conv_activation": "ReLU",
+    "conv_channels": [
+      38,
+      64,
+      96
+    ],
+    "conv_dropout": 0.1,
+    "conv_kernel_size": 5,
+    "conv_normalization": "length_masked_batch_norm_1d",
+    "conv_padding": 2,
+    "conv_stride": 2,
+    "d_model": 96,
+    "encoder_layers": 2,
+    "feature_width": 38,
+    "feedforward_size": 192,
+    "final_normalization": "LayerNorm(96)",
+    "norm_first": true,
+    "output_classes": 456,
+    "position_max_length": 1000,
+    "positional_encoding": "fixed_sinusoidal",
+    "transformer_activation": "GELU",
+    "transformer_dropout": 0.1,
+    "true_key_padding_mask": true
+  },
+  "created_at_utc": "2026-09-05T18:20:43.727412+00:00",
+  "ctc_backward": {
+    "gradient_global_norm": 16.467841577818184,
+    "gradient_tensors": 36,
+    "loss": 15.875375747680664,
+    "loss_finite": true,
+    "missing_gradients": 0,
+    "nonfinite_gradients": 0,
+    "passed": true
+  },
+  "dependencies": {
+    "stage21_ctc_loss_wrapper_used": true,
+    "stage22_conv_formula_match": true,
+    "stage25_c3_spec_passed": true,
+    "stage25_catalog_hash_match": true,
+    "stage28_predecessor_passed": true
+  },
+  "design_resolution": {
+    "final_layernorm_parameter_reconciliation": 192,
+    "resolved_before_training": [
+      "conv_padding_2",
+      "masked_batchnorm_relu_dropout",
+      "fixed_sinusoidal_max_length_1000",
+      "gelu_activation",
+      "pre_norm_layers",
+      "final_layernorm_96"
+    ],
+    "status": "prospective_before_training"
+  },
+  "hashes": {
+    "model": "bfbf626b06e80dc6860ed34af5205d8e61588af8d07a59a73e906eb09139e729",
+    "shared_c1_components": "d1f4adb8077f09364155091688c6aa4d0fe9514ffc9481fcc8ffa3dee217cc1b",
+    "stage25_catalog": "d1fd4fb04294a1e13272f7700e62fed8eaeae6f72a6141cf5d75134ed2856155",
+    "stage28_contract": "fa278e082ea00b0bb9fb1af3f974549b7a24be273ef19b7aa8ae9a0897e1ceae",
+    "tests": "5f6024d2a059aec8fa1536f78f764ddf7548b133212a9a96d591b0acb3602875",
+    "verifier": "47fbc2808c8269ab599cfc26b76551c66876b3480de973f64852d5772696ae81"
+  },
+  "identity": {
+    "architecture_family": "conv1d_transformer_encoder_ctc",
+    "input_adapter": "direct_sequence",
+    "model_id": "c3",
+    "scientific_role": "compact_transformer_comparison"
+  },
+  "length_and_mask_safety": {
+    "exact_key_padding_mask_passed": true,
+    "output_lengths": [
+      8,
+      9,
+      10
+    ],
+    "output_shape": [
+      3,
+      10,
+      456
+    ],
+    "padded_logits_zero": true,
+    "padded_transformer_outputs_zero": true,
+    "probe_after_conv1": [
+      1,
+      1,
+      3,
+      16,
+      18,
+      20,
+      36,
+      45,
+      54
+    ],
+    "probe_after_conv2": [
+      1,
+      1,
+      2,
+      8,
+      9,
+      10,
+      18,
+      23,
+      27
+    ],
+    "probe_raw": [
+      1,
+      2,
+      5,
+      32,
+      36,
+      40,
+      72,
+      90,
+      108
+    ],
+    "raw_padding_invariance_passed": true,
+    "raw_padding_max_absolute_difference": 0.0,
+    "stage22_formula_match": true,
+    "transformer_mask_passed": true,
+    "transformer_valid_max_difference": 0.0
+  },
+  "parameter_counts": {
+    "classifier": 44232,
+    "expected_total": 237352,
+    "passed": true,
+    "temporal_encoder": 43360,
+    "trainable_total": 237352,
+    "transformer_final_norm": 192,
+    "transformer_layers": 149568
+  },
+  "positional_encoding_safety": {
+    "buffer_shape": [
+      1,
+      1000,
+      96
+    ],
+    "passed": true,
+    "position_one_cos_error": 3.034783313538014e-08,
+    "position_one_sin_error": 2.8005528340813157e-08,
+    "position_zero_even_max_abs": 0.0,
+    "position_zero_odd_max_error": 0.0,
+    "trainable_parameters": 0
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "runtime": {
+    "cuda_available_locally": false,
+    "pytorch_version": "2.14.0+cpu",
+    "verification_device": "cpu"
+  },
+  "stage": 29,
+  "training_defaults": {
+    "early_stopping_patience": 8,
+    "epoch_cap": 80,
+    "gradient_clip_norm": 5.0,
+    "learning_rate": 5e-05,
+    "optimizer": "AdamW",
+    "physical_batch_size": 32,
+    "scheduler": "ReduceLROnPlateau",
+    "weight_decay": 0.0001
+  }
+}

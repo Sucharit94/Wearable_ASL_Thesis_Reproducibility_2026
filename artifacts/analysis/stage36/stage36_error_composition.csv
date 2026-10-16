@@ -1,0 +1,6 @@
+model_id,substitutions,deletions,insertions,total_edits,substitution_share,deletion_share,insertion_share,dominant_error_type,fold_error_counts_available,error_count_source
+g1,1,27,2,30,0.03333333333333333,0.9,0.06666666666666667,deletion,True,stage34b_fold_metrics
+c1,81,1649,148,1878,0.04313099041533546,0.8780617678381256,0.07880724174653887,deletion,True,stage34b_fold_metrics
+c2,66,721,332,1119,0.058981233243967826,0.644325290437891,0.2966934763181412,deletion,True,stage34b_fold_metrics
+c3,595,11801,28,12424,0.04789117836445589,0.9498551191242756,0.0022537025112685126,deletion,True,stage34b_fold_metrics
+c4,104,932,107,1143,0.09098862642169729,0.8153980752405949,0.09361329833770779,deletion,True,stage34b_fold_metrics

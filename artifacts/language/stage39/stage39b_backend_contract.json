@@ -1,0 +1,74 @@
+{
+  "backend_specification": {
+    "backend": "huggingface_transformers_local",
+    "decoding": {
+      "do_sample": false,
+      "max_input_tokens": 512,
+      "max_new_tokens": 48,
+      "num_beams": 1,
+      "responses_per_request": 1,
+      "seed": 20260826,
+      "strategy": "greedy",
+      "temperature": 0.0
+    },
+    "dependencies": {
+      "sentencepiece": "0.2.1",
+      "transformers": "4.57.1"
+    },
+    "device": "cuda",
+    "execution": {
+      "api_key_required": false,
+      "completed_responses_immutable": true,
+      "outer_reference_available_to_generator": false,
+      "output_root_is_external_and_durable": true,
+      "parsed_response_saved": true,
+      "queue": "artifacts/language/stage39/stage39a_generation_queue.jsonl",
+      "raw_response_saved": true,
+      "resume_key": "request_id"
+    },
+    "license": "Apache-2.0",
+    "model_identifier": "google/flan-t5-base",
+    "model_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+    "precision": "float32",
+    "schema_version": 1,
+    "stage": "39B",
+    "status": "FROZEN_AND_AUTHORIZED",
+    "task": "constrained_gloss_to_english_text2text_generation",
+    "training": false
+  },
+  "generated_portable_sha256": {
+    "docs/STAGE_39B_GENERATOR_BACKEND.md": "01b04776e9972e8d29fcdabee527619ec7ac52d95b7124d5d34756d44654e931"
+  },
+  "generator_called_during_freeze": false,
+  "implementation_portable_sha256": {
+    "requirements-stage39b.txt": "cf69968e424da304523e7cac7b914c168d1f96a5740c5cb995dac8b91365bad0",
+    "scripts/build_stage39b_backend_freeze.py": "be78a7bc7bcee2c14571fbc5923f43dd7a8f8a8b6710804ce61d3c2a1964eaec",
+    "scripts/run_stage39b_generation.py": "fb782348c6a8a3abbc44e0ac70a1c134595a88746f8ffc927aa456cdbe16bb96",
+    "scripts/verify_stage39b_backend_freeze.py": "096fb7ad216515d62a47a37b32ea7c9d2116ee11a42ba58772ccfc5522e4faae",
+    "src/evaluation/stage39b_runner.py": "9b471f3ae99b9f525c6a5f1ae150a04432045dcd88c1cdcbc795fe793803c687",
+    "tests/test_stage39b_backend.py": "421f29d009f701412f41aa497a53c4345ab3ef6284feb19c70fa73686554032b"
+  },
+  "input_queue_portable_sha256": "4d270050123fe4ced1a386119aadd2acd34db1957f009c998c44c2014f2c4dcf",
+  "input_stage39a_contract_portable_sha256": "1225aea037cb00a2e84ac6f078a1a576be03a616e14de19b38aa8dcbe4847f1b",
+  "name": "frozen_resumable_constrained_generator_backend",
+  "outer_references_exposed": false,
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 39,
+  "status": "passed",
+  "substage": "B",
+  "training_started": false,
+  "validation": {
+    "folds": 5,
+    "mapped_outer_samples": 37000,
+    "models": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "reference_firewall_passed": true,
+    "resumable": true,
+    "unique_generation_requests": 11720
+  }
+}

@@ -1,0 +1,6 @@
+outer_fold,selection_retrieval_bank_samples,selection_validation_samples,final_retrieval_bank_samples,outer_evaluation_samples,selection_bank_templates,final_bank_templates,outer_templates,outer_samples_in_retrieval_bank,outer_references_visible_during_correction
+1,5328,592,5920,1480,300,300,300,0,False
+2,5328,592,5920,1480,300,300,300,0,False
+3,5328,592,5920,1480,300,300,300,0,False
+4,5328,592,5920,1480,300,300,300,0,False
+5,5328,592,5920,1480,300,300,300,0,False

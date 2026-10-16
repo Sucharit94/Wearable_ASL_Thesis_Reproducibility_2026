@@ -1,0 +1,9 @@
+metric,direction,primary,reason
+english_word_error_rate,lower,True,word-level content errors
+exact_sentence_accuracy,higher,True,fully correct sentences
+corpus_bleu_4,higher,False,n-gram generation quality
+chrf_plus_plus,higher,False,character and word overlap robust to morphology
+content_token_f1,higher,True,preservation of reference content
+unsupported_content_rate,lower,True,hallucination safety proxy
+correction_gain_rate,higher,False,fraction of L0 errors corrected
+correction_harm_rate,lower,True,fraction of correct L0 outputs made wrong

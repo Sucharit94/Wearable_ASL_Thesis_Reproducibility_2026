@@ -1,0 +1,87 @@
+{
+  "frozen_hashes": {
+    "stage10_vocabulary": "58093d312909962344203fbf4700c7b32095255015771289d08e262c93e7b2ca",
+    "stage14_loso": "28fef677789f652c0939fb4550a78ef928dfdbc58615ebea773c5ff8a9c86de9",
+    "stage15_support": "6e827b9ff0ee9dec2ff991c26d01c0e52c96b739a084509c4fe6091f8c4e9e6f",
+    "stage17_cache_index": "094050ed305b4e8093a1463aeea30db0a508ebac9131d28214619f9b6b5cd822",
+    "stage32_results": "d3bfb2cec9f86d1d36c4c1e0de2cbefda750b6e59a8e610f37dccbd96bdbfd9c",
+    "stage33_assignment": "4aedbe18d05ffed3516e6080e1901e95d9596a76860ebf40a18895bf43872ac6",
+    "stage33_initial_registry": "33b1b37cd9481e5548b697fa0cbb6ec685d88b842a23e8a43c3a9ab675fec7e0",
+    "stage33_run_plan": "7ccf3bedbbc8d9898072ccdca9e568754662672b345fbd7c0e23867eb0fee51a"
+  },
+  "leakage_barrier": {
+    "checkpoints_created": false,
+    "held_out_subject_used_for_training": false,
+    "outer_test_constructed_during_dry_run": false,
+    "premature_repository_artifacts": 0,
+    "scores_computed": false,
+    "training_started": false
+  },
+  "matrix": {
+    "first": "g1_loso_subject1_seed20260826_v1",
+    "last": "c4_loso_subject3_seed20260826_v1",
+    "loso_major": true,
+    "outer_evaluations": 15,
+    "registry_rows": 45,
+    "validated_identities": 45
+  },
+  "mode": "static_dry_run_no_training_no_scoring",
+  "partitions": [
+    {
+      "all_unique": true,
+      "held_out_subject": "subject1",
+      "held_out_training_leaks": 0,
+      "inner_train": 1260,
+      "inner_validation": 140,
+      "loso_id": "loso_subject1",
+      "loso_index": 1,
+      "outer_test": 6000,
+      "outer_training_pool": 1400
+    },
+    {
+      "all_unique": true,
+      "held_out_subject": "subject2",
+      "held_out_training_leaks": 0,
+      "inner_train": 5760,
+      "inner_validation": 640,
+      "loso_id": "loso_subject2",
+      "loso_index": 2,
+      "outer_test": 1000,
+      "outer_training_pool": 6400
+    },
+    {
+      "all_unique": true,
+      "held_out_subject": "subject3",
+      "held_out_training_leaks": 0,
+      "inner_train": 6300,
+      "inner_validation": 700,
+      "loso_id": "loso_subject3",
+      "loso_index": 3,
+      "outer_test": 400,
+      "outer_training_pool": 7000
+    }
+  ],
+  "passed": true,
+  "project_generation": "fresh_start_2026_v1",
+  "runner_config_sha256": "001e69d82e8b29cc9a28f139510811ad57a25874c64ba6a16e0758cbfcf61965",
+  "runtime_gate": {
+    "automatic_mixed_precision": false,
+    "execution_precision": "float32",
+    "external_artifact_root_required": true,
+    "required_gpu_name_contains": "T4",
+    "required_tag": "stage33-loso-runner-v1"
+  },
+  "stage": 33,
+  "substage": "B",
+  "support_reporting": {
+    "same_predictions_for_all_views": true,
+    "separate_models_trained": false,
+    "views": [
+      "loso_all",
+      "template_supported",
+      "token_supported",
+      "token_unsupported",
+      "support_statistics"
+    ]
+  }
+}

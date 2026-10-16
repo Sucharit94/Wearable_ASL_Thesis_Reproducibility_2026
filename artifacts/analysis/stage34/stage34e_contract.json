@@ -1,0 +1,105 @@
+{
+  "decision": {
+    "accuracy_reference": "g1",
+    "c2_c4_wer_difference_resolved": false,
+    "pareto_frontier": [
+      "g1",
+      "c1",
+      "c2",
+      "c4"
+    ],
+    "recommended_lightweight": "c2",
+    "statistical_wer_tie_groups": [
+      [
+        "c2",
+        "c4"
+      ]
+    ]
+  },
+  "generated_sha256": {
+    "artifacts/analysis/stage34/stage34e_decision_matrix.csv": "b445e151910452a4df12eb2a884d1e7aad7aa251a49c7ede43705103096a83f6",
+    "artifacts/analysis/stage34/stage34e_sensitivity_ranking.csv": "ecdf16c0884ea217750423f6dbf2d7f7c1ae7d675359f1d4bd3c3774c4b90307",
+    "docs/STAGE_34E_FINAL_MODEL_SELECTION.md": "1b478f4b1c14a84a78995331646e282abda2a8376a88b381297a60c914248dca"
+  },
+  "implementation_sha256": {
+    "scripts/build_stage34_multicriteria_ranking.py": "a17d3d539e2eb0c0b6d603a7cfa224aa19f791e3dde968d1ec95357a1cba8393",
+    "scripts/verify_stage34_multicriteria_ranking.py": "d68fada3a12e0d263b6d48ab008472ca0e405f0c845a5b6415f0515d6ac5811b",
+    "src/evaluation/stage34_ranking.py": "68ac2e6b4983605529530741f7195af6aad92ba9657f2941d04ae5573d9ff57a",
+    "tests/test_stage34_multicriteria_ranking.py": "ee5ec314e75eaec66b063bf01f5291ac5254e87b56cf3102d561ad77b79e2896"
+  },
+  "input_contract_sha256": {
+    "B": "ed9f676e430ba19d0f4f7b50da139f4b9ad4bd176e1503b76b1fb57b0a73f6dc",
+    "C": "9bac5fc0a4ab97e5e477a8b46724402cd315b4122e08e2be3bebfdefc9e456af",
+    "D": "b6bee28918f045c2b95a1a0c353898db1e636c3afbc8a7c479e20736b77fa75d"
+  },
+  "method": {
+    "active_criteria": [
+      "pooled_wer",
+      "exact_sentence_accuracy",
+      "trainable_parameters",
+      "batch1_latency_median_ms",
+      "batch16_throughput_samples_per_second",
+      "incremental_peak_rss_mib"
+    ],
+    "criteria_directions": {
+      "batch16_throughput_samples_per_second": "maximize",
+      "batch1_latency_median_ms": "minimize",
+      "exact_sentence_accuracy": "maximize",
+      "incremental_peak_rss_mib": "minimize",
+      "pooled_wer": "minimize",
+      "trainable_parameters": "minimize"
+    },
+    "lightweight_parameter_limit": 1000000,
+    "memory_criterion_used": true,
+    "missing_criterion_policy": "omit_and_proportionally_redistribute_weight",
+    "normalization": "eligible_set_min_max_utility",
+    "pareto_analysis": true,
+    "quality_thresholds": {
+      "maximum_pooled_wer": 0.1,
+      "minimum_exact_sentence_accuracy": 0.75
+    },
+    "recommendation_rule": "quality_eligible_and_under_1m_parameters_then_highest_mean_score_across_three_weight_scenarios",
+    "sensitivity_scenarios": 3,
+    "unresolved_wer_handling": "common_group_mean_wer_for_scoring",
+    "weight_scenarios": {
+      "balanced": {
+        "batch16_throughput_samples_per_second": 0.1,
+        "batch1_latency_median_ms": 0.15,
+        "exact_sentence_accuracy": 0.25,
+        "incremental_peak_rss_mib": 0.05,
+        "pooled_wer": 0.25,
+        "trainable_parameters": 0.2
+      },
+      "efficiency_priority": {
+        "batch16_throughput_samples_per_second": 0.15,
+        "batch1_latency_median_ms": 0.2,
+        "exact_sentence_accuracy": 0.15,
+        "incremental_peak_rss_mib": 0.1,
+        "pooled_wer": 0.15,
+        "trainable_parameters": 0.25
+      },
+      "quality_priority": {
+        "batch16_throughput_samples_per_second": 0.05,
+        "batch1_latency_median_ms": 0.1,
+        "exact_sentence_accuracy": 0.3,
+        "incremental_peak_rss_mib": 0.05,
+        "pooled_wer": 0.4,
+        "trainable_parameters": 0.1
+      }
+    }
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 34,
+  "status": "passed",
+  "substage": "E",
+  "training_started": false,
+  "validation": {
+    "accuracy_not_used_alone": true,
+    "efficiency_used": true,
+    "memory_used_when_available": true,
+    "models_reported": 5,
+    "scenario_rows": 12,
+    "uncertainty_used": true,
+    "weight_sensitivity_reported": true
+  }
+}

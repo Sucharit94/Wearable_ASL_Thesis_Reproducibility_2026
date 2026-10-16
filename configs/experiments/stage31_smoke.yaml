@@ -1,0 +1,81 @@
+{
+  "code_freeze": {
+    "required_git_tag": "stage31-freeze-v1",
+    "tag_must_point_to_stage31_commit": true,
+    "working_tree_must_be_clean_before_outer_run": true
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "protocol": {
+    "checkpoint_saved": false,
+    "device": "cpu",
+    "failure_policy": "fail_on_nonfinite_loss_or_gradient_or_no_loss_decrease",
+    "fixture_selection": "shortest_input_length_then_sample_id",
+    "fixture_size": 20,
+    "gradient_clip_norm": "stage25_catalog_value",
+    "initial_overfit_microbatch": 4,
+    "maximum_epochs": 8,
+    "minimum_epochs": 2,
+    "minimum_relative_loss_decrease": 0.0001,
+    "normalization_fit_on": "entire_known_signer_fold01_training_partition",
+    "optimizer_lr_weight_decay": "stage25_catalog_values",
+    "overfit_microbatch_candidates_on_verified_oom": [
+      4,
+      2,
+      1
+    ],
+    "protocol_id": "stage31_common_smoke_overfit_v1",
+    "reported_outer_score": false,
+    "same_sample_ids_for_all_models": true,
+    "sample_order": "fixed_no_shuffle",
+    "scheduler": "none_for_technical_smoke",
+    "scientific_use": "technical_diagnostic_only",
+    "seed": 20260826,
+    "smoke_batch_size": 2,
+    "source_split": "known_signer_fold01_training_only",
+    "trained_weights_reusable": false
+  },
+  "schema_version": 1,
+  "shared_recognition_policy": {
+    "augmentation": "none",
+    "ctc_decoder": "greedy_valid_length_truncated_v1",
+    "memory_fallback": {
+      "allowed_cause": "verified_out_of_memory_only",
+      "must_log_change": true,
+      "other_hyperparameter_fallback_allowed": false,
+      "physical_batch_candidates": "halve_until_one",
+      "preserve_effective_batch_with_gradient_accumulation": true,
+      "restart_run_from_seed_after_change": true
+    },
+    "model_ids": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "normalization": "feature_zscore_fit_on_current_training_partition_only",
+    "refit": {
+      "compact_minimum_learning_rate_ratio": 0.01,
+      "compact_schedule": "deterministic_linear_warmup_cosine_v1",
+      "compact_warmup_epochs_formula": "min(5,max(1,ceil(0.10*selected_epochs)))",
+      "epochs": "selected_epoch_count",
+      "g1_schedule": "constant_catalog_learning_rate",
+      "training_pool": "all_non_test_training_samples",
+      "validation_used": false
+    },
+    "seed": 20260826,
+    "selection": {
+      "inner_validation_only": true,
+      "metric": "word_error_rate",
+      "reset_before_refit": true,
+      "tie_break_order": [
+        "lower_validation_wer",
+        "higher_validation_sentence_accuracy",
+        "lower_validation_ctc_loss",
+        "earlier_epoch"
+      ]
+    },
+    "test_controls_training": false
+  },
+  "status": "frozen_before_outer_evaluation"
+}

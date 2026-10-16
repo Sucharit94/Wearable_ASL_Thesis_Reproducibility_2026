@@ -1,0 +1,42 @@
+{
+  "byte_duplicates": {
+    "groups": 3,
+    "recordings_in_groups": 6
+  },
+  "created_at_utc": "2026-08-29T09:47:29.525835+00:00",
+  "manifest": {
+    "rows": 7400,
+    "sha256": "34ee6ef501fa038b8db79bd67a0bb8ea24edb6ed438e6d3dec32a5af697403f3",
+    "sha256_match": true
+  },
+  "numeric_duplicates": {
+    "cross_sentence_id_groups": 0,
+    "cross_subject_groups": 0,
+    "groups": 3,
+    "groups_all_members_byte_identical": 3,
+    "maximum_group_size": 2,
+    "numeric_duplicate_groups_not_all_byte_identical": 0,
+    "recordings_in_groups": 6,
+    "same_target_different_sentence_id_groups": 0
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "scope": {
+    "approximate_near_duplicates": false,
+    "exact_byte_duplicates": true,
+    "exact_parsed_numeric_duplicates": true,
+    "raw_files_modified": false,
+    "splits_created": false
+  },
+  "split_policy": {
+    "cross_subject_duplicates": "If present, LOSO handling must be decided explicitly after this audit; subject boundaries must not be silently overridden.",
+    "known_signer": "Every exact numeric duplicate group is indivisible and must remain wholly within one partition.",
+    "singleton_samples": "Each nonduplicate recording receives its own singleton split_group_id.",
+    "target_conflicts": "If present, conflicting duplicate groups require explicit review before any split generation."
+  },
+  "stage": 12,
+  "target_conflicts": {
+    "conflict_table_rows": 0,
+    "english_conflict_groups": 0,
+    "gloss_conflict_groups": 0
+  }
+}

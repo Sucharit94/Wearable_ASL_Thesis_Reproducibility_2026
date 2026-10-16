@@ -1,0 +1,107 @@
+{
+  "by_subject": {
+    "subject1": {
+      "count": 6000,
+      "max": 521,
+      "mean": 239.74166666666667,
+      "median": 231.0,
+      "min": 81,
+      "p01": 101.0,
+      "p05": 141.0,
+      "p10": 161.0,
+      "p25": 191.0,
+      "p50": 231.0,
+      "p75": 281.0,
+      "p90": 331.0,
+      "p95": 361.0,
+      "p99": 411.0,
+      "std_population": 65.83869123766729,
+      "std_sample": 65.84417848118541
+    },
+    "subject2": {
+      "count": 1000,
+      "max": 831,
+      "mean": 251.65,
+      "median": 241.0,
+      "min": 141,
+      "p01": 141.0,
+      "p05": 181.0,
+      "p10": 191.0,
+      "p25": 211.0,
+      "p50": 241.0,
+      "p75": 281.0,
+      "p90": 321.0,
+      "p95": 341.0,
+      "p99": 451.0,
+      "std_population": 60.4406940727851,
+      "std_sample": 60.470937103986024
+    },
+    "subject3": {
+      "count": 400,
+      "max": 491,
+      "mean": 348.05,
+      "median": 361.0,
+      "min": 171,
+      "p01": 181.0,
+      "p05": 200.50000000000003,
+      "p10": 240.00000000000006,
+      "p25": 318.5,
+      "p50": 361.0,
+      "p75": 391.0,
+      "p90": 421.0,
+      "p95": 441.0,
+      "p99": 461.0,
+      "std_population": 66.64306040391602,
+      "std_sample": 66.72652075021274
+    }
+  },
+  "created_at_utc": "2026-08-29T04:54:44.119399+00:00",
+  "decisions_deferred": {
+    "ctc_feasibility": "Stage 20",
+    "gu_window_schedule": "Evaluated later after label targets are available.",
+    "truncation": "No truncation performed."
+  },
+  "feature_width": 38,
+  "longest_recording": {
+    "relative_path": "data/raw/gu_author_dataset/csv/subject2/29_80.csv",
+    "repetition_id": 80,
+    "rows": 831,
+    "sample_id": "gu_s02_sent029_rep080",
+    "sentence_id": 29,
+    "subject": "subject2"
+  },
+  "overall": {
+    "count": 7400,
+    "max": 831,
+    "mean": 247.2054054054054,
+    "median": 241.0,
+    "min": 81,
+    "p01": 111.0,
+    "p05": 151.0,
+    "p10": 171.0,
+    "p25": 201.0,
+    "p50": 241.0,
+    "p75": 291.0,
+    "p90": 341.0,
+    "p95": 381.0,
+    "p99": 431.0,
+    "std_population": 69.61268114493937,
+    "std_sample": 69.617385181242
+  },
+  "paper_context": {
+    "purpose": "Observed source-data lengths will be reported independently of approximate ranges described in the Gu paper.",
+    "raw_data_modified_to_match_paper": false
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "recordings": 7400,
+  "shortest_recording": {
+    "relative_path": "data/raw/gu_author_dataset/csv/subject1/165_12.csv",
+    "repetition_id": 12,
+    "rows": 81,
+    "sample_id": "gu_s01_sent165_rep012",
+    "sentence_id": 165,
+    "subject": "subject1"
+  },
+  "source": "artifacts/audits/stage5_recording_integrity.csv",
+  "stage": 6
+}

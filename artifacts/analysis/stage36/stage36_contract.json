@@ -1,0 +1,69 @@
+{
+  "findings": {
+    "accuracy_reference": "g1",
+    "c2_c4_statistical_conclusion": "not_resolved_at_95_percent",
+    "c2_lower_wer_folds_than_c4": 3,
+    "c3_dominant_error_type": "deletion",
+    "c4_lower_wer_folds_than_c2": 2,
+    "g1_fold_wins": 5,
+    "recommended_lightweight": "c2"
+  },
+  "generated_sha256": {
+    "artifacts/analysis/stage36/stage36_error_composition.csv": "2872826b82acbeb38051ca8306ec8a6aff669009984570432a8a0f4f7d16759b",
+    "artifacts/analysis/stage36/stage36_fold_diagnostics.csv": "115dc304234b890de9eb285956f7b8ae18935fde0117aaf5959a5217abab226b",
+    "artifacts/analysis/stage36/stage36_fold_wer.svg": "56b949e74d7a2b01c8171d9dddc0f93a720145a10ba52aa4c7c2c046f58cd930",
+    "artifacts/analysis/stage36/stage36_model_stability.csv": "8dbb6468ac9b473daafd82af5c13a6dbc2c298c82774d0340b6919cc182b33a4",
+    "artifacts/analysis/stage36/stage36_quality_efficiency.svg": "e27ac8a18482a1eb80efcfb032dc1f2c08b1e1c4bdb80c3854b3a428214c2394",
+    "docs/STAGE_36_ERROR_ANALYSIS_AND_FIGURES.md": "dd829a392d8ab5957d190d6f142726ac2c5a147b5f2f2544c3fe04a55e27e85f"
+  },
+  "implementation_portable_sha256": {
+    "scripts/build_stage36_error_analysis.py": "1f57d9bbe7d879975459c508af104be21c9635029126d3a8a87bac42e2adcbca",
+    "scripts/verify_stage36_error_analysis.py": "c8a9ad5570b2cf8694bbdf47c1ed24e676d89daaffa2fb1f1cf9ed4e8194d7fa",
+    "src/evaluation/stage36_diagnostics.py": "62aae3b8acac449d6c501f836b03313ea9ef6efb912a96ccd9285c61064a98ae",
+    "tests/test_stage36_error_analysis.py": "e6974a570ba57b71a9debefc81964f28e4b39c3467f1216d99f736983e83fe4d"
+  },
+  "input_contract_sha256": {
+    "stage34": {
+      "B": "ed9f676e430ba19d0f4f7b50da139f4b9ad4bd176e1503b76b1fb57b0a73f6dc",
+      "C": "9bac5fc0a4ab97e5e477a8b46724402cd315b4122e08e2be3bebfdefc9e456af",
+      "D": "b6bee28918f045c2b95a1a0c353898db1e636c3afbc8a7c479e20736b77fa75d",
+      "E": "b1740c5ec4ad002b0ba399a5d3fde2137ceb75de132ad7bc7231630cd6862ae1"
+    },
+    "stage35": "badb66935fca5ddb0315e4de87771ac0b7dd89a4cd7c9e5724537a0ce89e3ce8"
+  },
+  "method": {
+    "accuracy_used_alone": false,
+    "error_decomposition": [
+      "substitutions",
+      "deletions",
+      "insertions"
+    ],
+    "figures": "dependency_free_vector_svg",
+    "fold_variation": [
+      "sample_standard_deviation",
+      "range",
+      "coefficient_of_variation",
+      "best_and_worst_fold",
+      "within_fold_wer_rank"
+    ],
+    "folds": 5,
+    "models": 5,
+    "outer_evaluations": 25,
+    "statistical_inference_reused_not_recomputed": true
+  },
+  "name": "fold_error_analysis_and_thesis_figures",
+  "predictions_regenerated": false,
+  "project_generation": "fresh_start_2026_v1",
+  "scope": "mixed_subject_duplicate_safe_five_fold",
+  "stage": 36,
+  "status": "passed",
+  "training_started": false,
+  "validation": {
+    "error_rows": 5,
+    "figures": 2,
+    "fold_rows": 25,
+    "stability_rows": 5,
+    "thesis_report_created": true,
+    "unresolved_c2_c4_result_preserved": true
+  }
+}

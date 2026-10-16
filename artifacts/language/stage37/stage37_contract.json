@@ -1,0 +1,82 @@
+{
+  "evaluation_arms": [
+    "c2_predicted_gloss_primary",
+    "g1_predicted_gloss_reference",
+    "c1_predicted_gloss_comparison",
+    "c3_predicted_gloss_comparison",
+    "c4_predicted_gloss_comparison",
+    "oracle_gloss_ceiling"
+  ],
+  "frozen_input_hashes": {
+    "language_config": "32a322115e2b1ff71643bf2f6ace2f0fccab011fadac31072b0458bd71642627",
+    "sentence_targets_recorded": "2f87dab3a80e1d49029d809fc45f6cc885a521b750e7d8448e08a68484ac1de8",
+    "stage32_inner_assignment_recorded": "66f3fbd97fb9b92010dd7bb1d742341d500e87e17e4045138724b8058e038ccc"
+  },
+  "generated_portable_sha256": {
+    "artifacts/language/stage37/stage37_constrained_prompt_contract.json": "fd428a34b67654500ccb0fcf18e87eb4cca16b4a364368c6c925092bca27360b",
+    "artifacts/language/stage37/stage37_evaluation_arms.csv": "90dc5fce478b670e2a3e33e3a3ad88984599d9cd50468906a2519d4daf1e04ad",
+    "artifacts/language/stage37/stage37_fold_language_plan.csv": "0409bf8fb0a31a4f7ae4ddb68cb81858a4fc7113c4fa68ee809c3119ce2c5d6d",
+    "artifacts/language/stage37/stage37_leakage_firewall.csv": "00b3b7b556cfa02e87bdd304682cae1182e527cbc980c0eb39e1f14f0ecbfda4",
+    "artifacts/language/stage37/stage37_metric_matrix.csv": "7e91a48a53a9a143f9857adbb88b9a6990f814d9422cc02e1b65a99a99466dcb",
+    "artifacts/language/stage37/stage37_system_matrix.csv": "803fa4835bfa8d35b63eb551e7a4d15336eb1f5aba222e64b4c57a34b4cec5da",
+    "docs/STAGE_37_LANGUAGE_CORRECTION_PROTOCOL.md": "6c2d8ec46f08d6c0620b89c15ce8546b6ad0ed5e1e0a9e8cc190241fd6b0b4f3"
+  },
+  "implementation_portable_sha256": {
+    "scripts/build_stage37_language_protocol.py": "fc9fe023236e31cc4c3a9e2a4f905641d279c91d850699a3f94df67e81a7d1b5",
+    "scripts/verify_stage37_language_protocol.py": "da344c85e3527a4fee3bd9374dbb3478327ef975096d2bdd0bf4efabe101cade",
+    "src/evaluation/stage37_language_protocol.py": "ef1d1b6e718f1637c94b6d7ed19b0ea4a66156e207c4a850b8f8ee97c48c4879",
+    "tests/test_stage37_language_protocol.py": "e7df912f9681f191e58ec0b05628c79e52d5cb600f689a114faeac1ded1c5334"
+  },
+  "input_contract_portable_sha256": {
+    "stage35": "badb66935fca5ddb0315e4de87771ac0b7dd89a4cd7c9e5724537a0ce89e3ce8",
+    "stage36": "4dae5c4514f4314c4567752566da714b23d78f240a7e8244e38fe638481d5fb7"
+  },
+  "language_inference_started": false,
+  "model_roles": {
+    "comparative_recognizers": [
+      "c1",
+      "c3",
+      "c4"
+    ],
+    "oracle_gloss": "language_ceiling_only",
+    "primary_lightweight": "c2",
+    "recognition_quality_reference": "g1"
+  },
+  "name": "language_correction_protocol_and_leakage_firewall",
+  "primary_metrics": [
+    "english_word_error_rate",
+    "exact_sentence_accuracy",
+    "content_token_f1",
+    "unsupported_content_rate",
+    "correction_harm_rate"
+  ],
+  "project_generation": "fresh_start_2026_v1",
+  "recognition_predictions_modified": false,
+  "rules": {
+    "accuracy_used_alone": false,
+    "generator_must_be_frozen_before_execution": true,
+    "human_post_editing": false,
+    "outer_reference_visible_during_correction": false,
+    "predicted_and_oracle_results_separate": true,
+    "retrieval_and_prompt_examples": "current_fold_training_partition_only"
+  },
+  "scope": "mixed_subject_duplicate_safe_five_fold",
+  "stage": 37,
+  "status": "passed",
+  "systems": [
+    "L0_raw_gloss",
+    "L1_training_only_retrieval",
+    "L2_constrained_generator",
+    "L3_template_holdout"
+  ],
+  "training_started": false,
+  "validation": {
+    "assignment_rows": 37000,
+    "evaluation_arms": 6,
+    "folds": 5,
+    "leakage_checks": 7,
+    "metrics": 8,
+    "sentence_targets": 300,
+    "systems": 4
+  }
+}

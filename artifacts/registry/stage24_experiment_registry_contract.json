@@ -1,0 +1,65 @@
+{
+  "checkpoint": {
+    "atomic_last_checkpoint_rule": true,
+    "metadata_epoch": 7,
+    "model_state_required": true,
+    "optimizer_state_required": true,
+    "rng_states_required": [
+      "python",
+      "numpy",
+      "torch_cpu"
+    ],
+    "schema_version": 1,
+    "verified_epoch": 7
+  },
+  "completion": {
+    "all_required_present": true,
+    "completion_only_after_metrics": true,
+    "completion_written": true,
+    "missing_artifact_guard_passed": true,
+    "required_artifact_count": 13
+  },
+  "created_at_utc": "2026-08-31T11:27:21.830592+00:00",
+  "dependencies": {
+    "stage21_padding_safe": true,
+    "stage22_length_safe": true,
+    "stage23_passed": true,
+    "stage23_perfect_control_edits": 0
+  },
+  "hashes": {
+    "checkpoint": "a9c9c60fe5dd892e90488017e42f5eae27e4c1fdf64c8452b7aa0fce98740d1c",
+    "registry": "693a173bc711ee404f9b2aeb5f3fea5d3a206e0424a9f7489c3b0a33079566d2",
+    "tests": "a89cefe8abb7e557cbc8412e9230b34f8b84faadce6a85754b558770d67ae4a3",
+    "verifier": "9dc246f3e3a9e5e57d14f64ae57099aaa04002df0e6072e8600e25785ac79659"
+  },
+  "identity": {
+    "canonical_config_hash_stable": true,
+    "changed_config_rejected": true,
+    "experiment_id": "c3_known_fold02_seed20260826_v1",
+    "fingerprint": "bad2e201fdb1d91ad2a88d741ff99e61603c4ca304ccd6337b5f57ea1f5736cd",
+    "model_id": "c3",
+    "phase": "outer_evaluation",
+    "split_id": "known_fold02_v1"
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "registry": {
+    "allowed_statuses": [
+      "PLANNED",
+      "RUNNING",
+      "INTERRUPTED",
+      "COMPLETE",
+      "FAILED_SAFE",
+      "INVALID"
+    ],
+    "append_only_events": true,
+    "event_count": 6,
+    "terminal_resume_rejected": true
+  },
+  "resume": {
+    "checkpoint_run_decision": "RESUME",
+    "complete_run_decision": "SKIP_COMPLETE",
+    "identity_match_required": true,
+    "new_run_decision": "START"
+  },
+  "stage": 24
+}

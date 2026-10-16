@@ -1,0 +1,67 @@
+{
+  "stage": 43,
+  "title": "All Five Model Statistical Validation",
+  "models": [
+    "G1",
+    "C1",
+    "C2",
+    "C3",
+    "C4"
+  ],
+  "samples": 7400,
+  "subject_sentence_clusters": 368,
+  "alpha": 0.05,
+  "bootstrap_replicates": 10000,
+  "seed": 20260912,
+  "training_started": false,
+  "predictions_regenerated": false,
+  "output_hashes": {
+    "summary": "b7e334147646b98497fa908a9cebd9e1ee3200736bd6d6536466fb8a4f71d5e4",
+    "omnibus": "8a99e6fd3b191a82ae3f0f60fdbe40245e513a362950a4bac9460d2ba1c7c442",
+    "ttests": "9b784c021d5ae0d4bbc063c03da82678b0ff7dab8482fca64aec88c23820ddd4",
+    "mcnemar": "db20ae43e161184e32be8b9c2e1edec8f7510a52e9747eba29a9924e2907b4e5",
+    "bootstrap": "1c19004f364b883b6af0a5999134ac6341f9fc3f14cbd505401fb8723bf7e8ed",
+    "thesis": "7934008e685fdca179c567414c01a302f4225fb22eaa81ecdf8963f27f573723"
+  },
+  "omnibus_results": [
+    {
+      "test": "Repeated-measures ANOVA F-test",
+      "statistic": 1381.425058614204,
+      "df1": 4.0,
+      "df2": 1468.0,
+      "p_value": 0.0,
+      "effect_name": "partial_eta_squared",
+      "effect_value": 0.7900968084437757,
+      "greenhouse_geisser_epsilon": 0.5294101468913339,
+      "corrected_df1": 2.1176405875653357,
+      "corrected_df2": 777.1740956364782,
+      "corrected_p_value": 5.0730910547570735e-264
+    },
+    {
+      "test": "Friedman repeated-measures test",
+      "statistic": 1033.1566343042068,
+      "df1": 4.0,
+      "df2": "",
+      "p_value": 2.3273594548667637e-222,
+      "effect_name": "kendalls_w",
+      "effect_value": 0.7018727135218796,
+      "greenhouse_geisser_epsilon": "",
+      "corrected_df1": "",
+      "corrected_df2": "",
+      "corrected_p_value": ""
+    },
+    {
+      "test": "Cochran Q test",
+      "statistic": 16940.29317986373,
+      "df1": 4.0,
+      "df2": "",
+      "p_value": 0.0,
+      "effect_name": "",
+      "effect_value": "",
+      "greenhouse_geisser_epsilon": "",
+      "corrected_df1": "",
+      "corrected_df2": "",
+      "corrected_p_value": ""
+    }
+  ]
+}

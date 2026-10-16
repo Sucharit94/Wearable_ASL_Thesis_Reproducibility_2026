@@ -1,0 +1,61 @@
+{
+  "config_freeze": {
+    "config_count": 11,
+    "manifest_path": "artifacts/config/stage31_config_hashes.json",
+    "manifest_sha256": "bc98ef1dbd897ed1ed396f6c9700bd71385a0a911fd13121c19975e792fccf18",
+    "required_git_tag": "stage31-freeze-v1",
+    "tag_state_at_build": "pending_post_commit"
+  },
+  "created_at_utc": "2026-09-06T15:46:05.704162+00:00",
+  "fixture": {
+    "all_samples_in_fold01_train": true,
+    "fixture_id": "known_fold01_train_shortest20_v1",
+    "fixture_sha256": "f6922573a815f29336e454207058cb8c89c3da09945bfe6691c5b526f26d48ce",
+    "normalization_fit_recordings": 5920,
+    "normalization_statistics_saved_for_reuse": false,
+    "same_ordered_samples_for_all_models": true,
+    "sample_count": 20,
+    "sample_ids_sha256": "c54855a2b919109e4cffd2b86fdf3be76cfa3569bebc34a7b60ae2711bf75efa",
+    "samples_in_fold01_test": 0
+  },
+  "identity": {
+    "model_ids": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "name": "five_model_smoke_tiny_overfit_and_freeze",
+    "scientific_use": "technical_diagnostic_only",
+    "seed": 20260826
+  },
+  "outer_evaluation": {
+    "allowed_only_after_commit_and_tag": true,
+    "scores_produced": false
+  },
+  "outputs": {
+    "environment_sha256": "5e51b175e31e46d4977058e53657895044ca90e0a15157d2a8f929f251347e7e",
+    "log_sha256": "540212c71aeaf473af3917fd5ecc33780572f264f741ef7dedac8d3ba6ef3bd2",
+    "results_sha256": "799ef4a7c92b956c90660a78d98f72c68f7a477ae00dff7a45badf9036855c80"
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "schema_version": 1,
+  "smoke": {
+    "finite_loss_all_models": true,
+    "missing_gradients_total": 0,
+    "models_attempted": 5,
+    "models_passed": 5,
+    "nonfinite_gradients_total": 0
+  },
+  "stage": 31,
+  "stage31_passed": true,
+  "tiny_overfit": {
+    "checkpoint_saved": false,
+    "loss_decreased_all_models": true,
+    "minimum_relative_decrease": 0.0001,
+    "models_passed": 5,
+    "oom_fallback_models": [],
+    "trained_weights_reusable": false
+  }
+}

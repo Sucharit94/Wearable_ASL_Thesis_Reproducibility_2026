@@ -1,0 +1,301 @@
+sentence_id,gloss_raw,english_raw,subject1_recordings,subject1_supported,subject2_recordings,subject2_supported,subject3_recordings,subject3_supported,supported_subject_count,supported_by_all_subjects
+1,hello,hello,20,True,0,False,0,False,1,False
+2,hey,hey,20,True,0,False,0,False,1,False
+3,whats_up,what's up,20,True,0,False,0,False,1,False
+4,nice meet you,nice to meet you,20,True,0,False,0,False,1,False
+5,i learn sign i,I learn sign,20,True,20,True,0,False,2,False
+6,your name what,what's your name,20,True,0,False,0,False,1,False
+7,you from where,where are you from,20,True,0,False,0,False,1,False
+8,how you,how are you,20,True,0,False,0,False,1,False
+9,i fine i,I am fine,20,True,20,True,0,False,2,False
+10,please,please,20,True,0,False,0,False,1,False
+11,thank_you,thank you,20,True,0,False,0,False,1,False
+12,excuse_me,excuse me,20,True,0,False,0,False,1,False
+13,your favorite movie what,what's your favorite movie,20,True,0,False,0,False,1,False
+14,you like what_do,what do you like to do,20,True,0,False,0,False,1,False
+15,you work where,where do you work,20,True,0,False,0,False,1,False
+16,time what,what time,20,True,0,False,0,False,1,False
+17,bathroom where,where is bathroom,20,True,0,False,0,False,1,False
+18,goodbye,goodbye,20,True,0,False,0,False,1,False
+19,see latter,see you latter,20,True,0,False,0,False,1,False
+20,take_care,take care,20,True,0,False,0,False,1,False
+21,i busy i,I am busy,20,True,20,True,0,False,2,False
+22,not a_lot,not a lot,20,True,0,False,0,False,1,False
+23,you deaf you,are you deaf,20,True,20,True,0,False,2,False
+24,yes i deaf,yes I am deaf,20,True,0,False,0,False,1,False
+25,no i hearing,no I am hearing,20,True,0,False,0,False,1,False
+26,i want learn sign language,I want to learn sign language,20,True,0,False,0,False,1,False
+27,yes i understand,yes I understand,20,True,0,False,0,False,1,False
+28,please sign again slower,please sign again slower,20,True,0,False,0,False,1,False
+29,now i feel sad,today I feel sad,20,True,40,True,0,False,2,False
+30,help_you how,how to help you,20,True,0,False,0,False,1,False
+31,three_oclock fifteen,3 : 15,20,True,0,False,0,False,1,False
+32,home arrive when,when did you arrive home,20,True,0,False,0,False,1,False
+33,my birthday AUG nineteen,my birthday is August 19,20,True,0,False,0,False,1,False
+34,friday test,the test is on Friday,20,True,0,False,0,False,1,False
+35,i have two dog one cat,I have 2 dogs and 1 cat,20,True,0,False,0,False,1,False
+36,my grandma age eight seven,my grandma is 87,20,True,0,False,0,False,1,False
+37,i love your purse,I love your purse,20,True,0,False,0,False,1,False
+38,your teacher who,who is your teacher,20,True,0,False,0,False,1,False
+39,my book where,where is my book,20,True,0,False,0,False,1,False
+40,my favorite sport basketball,my favorite sport is basketball,20,True,0,False,0,False,1,False
+41,i want pancake sausage,I want pancakes and sausages,20,True,0,False,0,False,1,False
+42,you want hot cold which,you want hot or cold,20,True,0,False,0,False,1,False
+43,small medium large which,small medium large which,20,True,0,False,0,False,1,False
+44,other,others,20,True,0,False,0,False,1,False
+45,come again,come again,20,True,0,False,0,False,1,False
+46,i happy i,I am happy,20,True,20,True,0,False,2,False
+47,i need help i,I need help,20,True,20,True,0,False,2,False
+48,yes same,yes same here,20,True,0,False,0,False,1,False
+49,you finish you,you finish,20,True,20,True,0,False,2,False
+50,i mother sister get_together talkative,when my mom sister and I get together we are talkative,20,True,0,False,0,False,1,False
+51,meet new people my son become shy,when meeting new people my son becomes shy,20,True,0,False,0,False,1,False
+52,you look worry you,you look worried,20,True,0,False,0,False,1,False
+53,you alright you,are you alright,20,True,20,True,0,False,2,False
+54,test tomorrow i nervous i,I am nervous for the test tomorrow,20,True,0,False,0,False,1,False
+55,house cleaning finish,house cleaning is finished,20,True,20,True,0,False,2,False
+56,you want milk cookies you,do you want milk and cookies,20,True,20,True,0,False,2,False
+57,i like soda,I like soda,20,True,0,False,0,False,1,False
+58,hamburger finish icecream want,hamburgers finished and I want ice-cream,20,True,0,False,0,False,1,False
+59,my favorite animal monkey,my favorite animal is monkey,20,True,0,False,0,False,1,False
+60,lion where,where is the lion,20,True,0,False,0,False,1,False
+61,elephant huge,elephant is huge,20,True,0,False,0,False,1,False
+62,you favorite animal what you,what's your favorite animal,20,True,0,False,0,False,1,False
+63,i dislike cat,I dislike cat,20,True,20,True,0,False,2,False
+64,i good_at sign but bad_at chemistry i,I am good at sign but bad at chemistry,20,True,0,False,0,False,1,False
+65,tomorrow english test,the English test is tomorrow,20,True,20,True,0,False,2,False
+66,college i major engineering i,in college I major in engineering,20,True,0,False,0,False,1,False
+67,you good_at physics you,are you good at physics,20,True,0,False,0,False,1,False
+68,history class my favorite,my favorite class is history,20,True,0,False,0,False,1,False
+69,my favorite color rainbow,my favorite color is rainbow,20,True,0,False,0,False,1,False
+70,red mix white become pink,red mix white becomes pink,20,True,0,False,0,False,1,False
+71,i want introduce my friend,I want to introduce my friend,20,True,0,False,0,False,1,False
+72,love_all,love to all,20,True,0,False,0,False,1,False
+73,book red give_me please,give me the red book please,20,True,0,False,0,False,1,False
+74,my family altogether husband son,my family altogether husband and son,20,True,0,False,0,False,1,False
+75,your uncle name what,what's your uncle's name,20,True,0,False,0,False,1,False
+76,see next_week,see you next week,20,True,0,False,0,False,1,False
+77,time need how_many,how much time do you need,20,True,20,True,0,False,2,False
+78,i arrive home nine_oclock i,I arrive home at 9,20,True,0,False,0,False,1,False
+79,i my daughter look strong same,my daughter and I look strongly the same,20,True,0,False,0,False,1,False
+80,my husband hair brown,my husband has brown hair,20,True,0,False,0,False,1,False
+81,my son hair blonde,my son has blonde hair,20,True,0,False,0,False,1,False
+82,growing_up since my dad mustache always,growing up since my dad always had mustache,20,True,0,False,0,False,1,False
+83,my book where,where is my book,20,True,0,False,0,False,1,False
+84,you like icecream you,do you like ice-cream,20,True,40,True,0,False,2,False
+85,you like he,you like him,20,True,20,True,0,False,2,False
+86,you favorite football basketball which,your favorite is football or basketball,20,True,0,False,0,False,1,False
+87,you happy study history you,are you happy with studying history,20,True,0,False,20,True,2,False
+88,sunday i go church i,I go to church on Sunday,20,True,20,True,0,False,2,False
+89,tomorrow meet coffee shop,meet at coffee shop tomorrow,20,True,0,False,0,False,1,False
+90,clinic across_street,the clinic is across the street,20,True,20,True,0,False,2,False
+91,hotel next_to museum,the hotel is next to the museum,20,True,0,False,0,False,1,False
+92,friday night i go_out restaurant,I go out for restaurant Friday night,20,True,0,False,0,False,1,False
+93,next_week saturday two_of_us meet,I will meet you next Saturday,20,True,0,False,0,False,1,False
+94,sunday you come church you,do you come to church on Sunday,20,True,0,False,20,True,2,False
+95,my favorite food spaghetti,my favorite food is spaghetti,20,True,0,False,0,False,1,False
+96,ketchup give_me,give me ketchup,20,True,20,True,0,False,2,False
+97,more soup please,more soup please,20,True,20,True,0,False,2,False
+98,you want fries also,do you also want fries,20,True,20,True,20,True,3,True
+99,every_morning i eat_breakfast brush_teeth i,every morning I eat breakfast and brush teeth,20,True,0,False,0,False,1,False
+100,every_saturday i car wash i,every Saturday I wash car,20,True,0,False,0,False,1,False
+101,every_monday every_thursday i trash take_out i,every Monday and every Thursday I take out trash,20,True,0,False,0,False,1,False
+102,i love_it pineapple,I love pineapple,20,True,0,False,0,False,1,False
+103,you eat finish vegetable you,have you finished eating vegetable,20,True,0,False,20,True,2,False
+104,this food strawberry have,this food has strawberry,20,True,0,False,20,True,2,False
+105,wow steak delicious,wow the steak is delicious,20,True,20,True,0,False,2,False
+106,shrimp eat how_many,how many shrimps did you eat,20,True,0,False,0,False,1,False
+107,christmas want hamburger turkey which,you want hamburgers or turkey for Christmas,20,True,0,False,0,False,1,False
+108,happy new year,happy new year,20,True,20,True,0,False,2,False
+109,christmas you want what you,what do you want for Christmas,20,True,0,False,0,False,1,False
+110,christmas light we go look_around we,we go to look at Christmas light,20,True,0,False,0,False,1,False
+111,lets bake cookies,let's bake cookies,20,True,0,False,0,False,1,False
+112,christmas_day snow hope,I hope Christmas day would snow,20,True,0,False,0,False,1,False
+113,i watch christmas movie love_it,I love watching Christmas movies,20,True,0,False,0,False,1,False
+114,i drink hot chocolate love_it,I love drinking hot chocolate,20,True,0,False,0,False,1,False
+115,jingle_bells,jingle bells,20,True,0,False,0,False,1,False
+116,happy christmas,merry Christmas,20,True,20,True,0,False,2,False
+117,during summer i enjoy olympics i,during summer I enjoy the olympics,20,True,0,False,0,False,1,False
+118,you like boxing karate which,you like boxing or karate,20,True,0,False,0,False,1,False
+119,good morning,good morning,20,True,0,False,0,False,1,False
+120,good afternoon,good afternoon,20,True,0,False,0,False,1,False
+121,good night,good night,20,True,0,False,0,False,1,False
+122,tomorrow weather what,what's the weather tomorrow,20,True,0,False,0,False,1,False
+123,now morning rain but afternoon sunny,today morning is rainy but afternoon is sunny,20,True,0,False,0,False,1,False
+124,spring here tornado season,spring here is tornado season,20,True,0,False,0,False,1,False
+125,now dry rain need,it is dry now and the rain is needed,20,True,0,False,0,False,1,False
+126,cloud dark maybe hail,clouds are dark it may hail,20,True,0,False,0,False,1,False
+127,what_year,what year are you in,20,True,0,False,0,False,1,False
+128,principal office where,where is the principal office,20,True,0,False,0,False,1,False
+129,senior year i take calculus i,I take calculus in senior year,20,True,0,False,0,False,1,False
+130,you_all paper bring class you_all,bring your paper to class,20,True,0,False,0,False,1,False
+131,shirt cost twenty_six dollars,the shirt costs 26 dollars,20,True,0,False,0,False,1,False
+132,i student college broke i,I am a broke college student,20,True,0,False,20,True,2,False
+133,your baby due when,when is your baby due,20,True,0,False,0,False,1,False
+134,i age three five i,my age is 35,20,True,0,False,0,False,1,False
+135,my sister age three one,my sister is 31,20,True,0,False,0,False,1,False
+136,our dog nine,our dog is 9,20,True,0,False,0,False,1,False
+137,how_old you,how old are you,20,True,0,False,0,False,1,False
+138,you go vacation where,where do you go on vacation,20,True,0,False,0,False,1,False
+139,summer beach i go i,I go to beach on summer,20,True,0,False,20,True,2,False
+140,picnic i bring hotdog i,I bring hotdogs for picnic,20,True,0,False,0,False,1,False
+141,you go lake you,do you go to the lake,20,True,20,True,0,False,2,False
+142,love,I love you,20,True,0,False,0,False,1,False
+143,flower thank_you,thank you for flowers,20,True,0,False,0,False,1,False
+144,wow dessert delicious,wow the dessert is delicious,20,True,20,True,0,False,2,False
+145,two_of_us go fancy restaurant,we both go to the fancy restaurant,20,True,0,False,0,False,1,False
+146,happy valentine day,happy Valentine's day,20,True,0,False,0,False,1,False
+147,graduate finish i become optometrist i,I become an optometrist when I graduate,20,True,0,False,0,False,1,False
+148,i think future maybe become biologist,I think I may become a biologist in future,20,True,0,False,0,False,1,False
+149,growing_up i work waitress i,I work as a waitress when growing up,20,True,0,False,0,False,1,False
+150,future my son want become police_officer,my son wants to become police officer in future,20,True,0,False,0,False,1,False
+151,my daughter seven,my daughter is 7,20,True,20,True,0,False,2,False
+152,my son five,my son is 5,20,True,20,True,0,False,2,False
+153,two_of_us meeting five_oclock thirty,we meet at 5 : 30,20,True,0,False,0,False,1,False
+154,hamburger cost seven_dollars,hamburgers cost 7 dollars,20,True,0,False,0,False,1,False
+155,hawaii vacation stay two_week,I stay two weeks for Hawaii vacation,20,True,0,False,0,False,1,False
+156,friday six_oclock meeting restaurant you,meet you at the restaurant at 6 on Friday,20,True,0,False,0,False,1,False
+157,weekend i enjoy rest i,I enjoy resting on weekends,20,True,0,False,0,False,1,False
+158,i workout sometimes i,I workout sometimes,20,True,0,False,0,False,1,False
+159,monday morning nine_oclock sign class,the sign class is Monday morning at 9,20,True,0,False,0,False,1,False
+160,team support which you,which team do you support,20,True,0,False,0,False,1,False
+161,close but we win,close game but we win,20,True,0,False,0,False,1,False
+162,laughing commercial funny,haha the commercial is funny,20,True,0,False,20,True,2,False
+163,sunday you want watch super_bowl you,do you want to watch super bowl on Sunday,20,True,0,False,0,False,1,False
+164,come_on half_time show start,come on the half time show starts,20,True,0,False,0,False,1,False
+165,welcome,welcome,20,True,0,False,0,False,1,False
+166,i know a_little i,I know a little,20,True,0,False,0,False,1,False
+167,i want paper write i,I want paper to write,20,True,0,False,0,False,1,False
+168,ready order,ready to order,20,True,0,False,0,False,1,False
+169,your food ready,your food is ready,20,True,0,False,0,False,1,False
+170,ready pay,ready to pay,20,True,0,False,0,False,1,False
+171,cash credit which,pay with cash or credit,20,True,0,False,0,False,1,False
+172,thank_you come,thank you for coming,20,True,0,False,0,False,1,False
+173,i want write i,I want to write,20,True,20,True,0,False,2,False
+174,please finger_spell,please finger spell,20,True,0,False,0,False,1,False
+175,medicine you use what you,what medicine do you use,20,True,0,False,0,False,1,False
+176,you allergic what you,what are you allergic to,20,True,0,False,0,False,1,False
+177,you feel pain you,do you feel pain,20,True,0,False,0,False,1,False
+178,you nauseous you,are you nauseous,20,True,0,False,0,False,1,False
+179,you experience heart problem you,do you experience heart problem,20,True,0,False,0,False,1,False
+180,blood pressure tend high you,your blood pressure tends to be high,20,True,0,False,0,False,1,False
+181,seizures you experience you,do you experience seizures,20,True,0,False,0,False,1,False
+182,you pregnant you,are you pregnant,20,True,0,False,0,False,1,False
+183,drug alcohol you use you,do you use drugs or alcohol,20,True,0,False,0,False,1,False
+184,seatbelt you use you,do you use seatbelt,20,True,0,False,0,False,1,False
+185,you pass_out you,did you pass out,20,True,0,False,0,False,1,False
+186,problem start when,when did the problem start,20,True,0,False,0,False,1,False
+187,hey who that,hey who is that,20,True,0,False,0,False,1,False
+188,your party when,when is your party,20,True,0,False,0,False,1,False
+189,you sad why you,why you are sad,20,True,20,True,0,False,2,False
+190,your birthday dinner where,where is your birthday dinner,20,True,0,False,0,False,1,False
+191,every_morning i eat egg i,every morning I eat eggs,20,True,0,False,0,False,1,False
+192,every_day twelve_oclock i go_out lunch i,everyday I go out for lunch on 12,20,True,0,False,0,False,1,False
+193,lunch finish back work,lunch finished back to work,20,True,0,False,0,False,1,False
+194,lunch you ready you,are you ready for lunch,20,True,0,False,0,False,1,False
+195,i growing_up my mother she cook dinner she,when I growing up my mother cooked dinner,20,True,0,False,0,False,1,False
+196,you want cookies cake which,you want cookies or cakes,20,True,0,False,0,False,1,False
+197,during travel cake pack bring important,during travel packing and bringing cakes are important,20,True,0,False,0,False,1,False
+198,two_of_us like read,we both like to read,20,True,20,True,0,False,2,False
+199,your teacher nice,your teacher is nice,20,True,0,False,0,False,1,False
+200,chair comfortable,the chair is comfortable,20,True,0,False,0,False,1,False
+201,your book borrow_me,I borrow your book,20,True,20,True,0,False,2,False
+202,we hungry,we are hungry,20,True,0,False,20,True,2,False
+203,three_of_you want eat,three of you want to eat,20,True,0,False,0,False,1,False
+204,you play football you,do you play football,20,True,0,False,0,False,1,False
+205,thanksgiving_day finish black friday,Thanksgiving finished there is black Friday,20,True,0,False,0,False,1,False
+206,people shop because cost reduce,people shop because of cost reduction,20,True,0,False,0,False,1,False
+207,halloween when,when is Halloween,20,True,0,False,0,False,1,False
+208,pumpkin orange,pumpkin is orange,20,True,0,False,0,False,1,False
+209,spider i afraid i,I am afraid of spider,20,True,20,True,0,False,2,False
+210,trick treat,trick or treat,20,True,0,False,0,False,1,False
+211,you live house apartment which,you live in house or apartment,20,True,0,False,0,False,1,False
+212,i have apartment i,I have an apartment,20,True,0,False,0,False,1,False
+213,congratulations good game,congratulations good game,20,True,0,False,0,False,1,False
+214,my family i love i,I love my family,20,True,0,False,0,False,1,False
+215,you love i do_you,do you love me,20,True,0,False,0,False,1,False
+216,mountain hiking i love_it,I love mountain hiking,20,True,0,False,0,False,1,False
+217,movie start what_time,what time does the movie start,20,True,0,False,0,False,1,False
+218,i join,I join,20,True,0,False,0,False,1,False
+219,you subscribe finish you,have you finished subscribe,20,True,0,False,0,False,1,False
+220,i have pumpkin sweet potato apple i,I have pumpkin sweet potato and apple,20,True,0,False,0,False,1,False
+221,good weather walk,good weather for walking,20,True,0,False,0,False,1,False
+222,easter celebrate why,why celebrating Easter,20,True,0,False,0,False,1,False
+223,happy easter sunday,happy Easter Sunday,20,True,0,False,0,False,1,False
+224,i enjoy go_out run i,I enjoy going out running,20,True,0,False,0,False,1,False
+225,run growing_up i hate i,I hate running and growing up,20,True,20,True,0,False,2,False
+226,my department i manage i,I manage my department,20,True,0,False,0,False,1,False
+227,that machine still working,that machine is still working,20,True,0,False,0,False,1,False
+228,my friend compete president,my friend is competing for president,20,True,0,False,0,False,1,False
+229,important stay home take_care yourself,it is important to stay at home and take care of yourself,20,True,0,False,0,False,1,False
+230,take_care other people,take care of other people,20,True,20,True,0,False,2,False
+231,halloween your costume what,what is your Halloween costume,20,True,0,False,0,False,1,False
+232,now year i plan host party i,this year I plan to host a party,20,True,0,False,0,False,1,False
+233,not forget vote,do not forget to vote,20,True,20,True,0,False,2,False
+234,your local vote important also,your local vote is important too,20,True,0,False,0,False,1,False
+235,my home always nice,my home is always nice,20,True,0,False,0,False,1,False
+236,i plan go_out run but rain,I plan to go out running but it rains,20,True,0,False,0,False,1,False
+237,with you i happy i,with you I am happy,20,True,0,False,20,True,2,False
+238,you marry i,you marry me,20,True,20,True,0,False,2,False
+239,you make i feel whole,you make me feel whole,20,True,0,False,0,False,1,False
+240,i thankful for my family,I am thankful for my family,20,True,0,False,0,False,1,False
+241,happy thanksgiving,happy Thanksgiving,20,True,0,False,20,True,2,False
+242,now you shop where,now where do you shop,20,True,0,False,0,False,1,False
+243,now year you plan shop how,this year how do you plan to shop,20,True,0,False,0,False,1,False
+244,nice learn new skill,nice to learn new skills,20,True,0,False,0,False,1,False
+245,you like bake you,do you like to bake,20,True,0,False,0,False,1,False
+246,season favorite my fall,my favorite season is fall,20,True,0,False,0,False,1,False
+247,my costume witch my brother ghost,my costume is witch and my brother is ghost,20,True,0,False,0,False,1,False
+248,winter clothes i have coat i,I have a coat for winter clothes,20,True,0,False,0,False,1,False
+249,last year my hat i lost i,last year I lost my hat,20,True,0,False,0,False,1,False
+250,i not_know where sad,I do not know where it is sad,20,True,0,False,20,True,2,False
+251,now year i have scarf i,this year I have a scarf,20,True,0,False,0,False,1,False
+252,i knit hat i,I knit a hat,20,True,0,False,0,False,1,False
+253,your new year resolution what,what's your new year resolution,20,True,0,False,0,False,1,False
+254,back school you excited you,are you excited for back to school,20,True,0,False,0,False,1,False
+255,i back home i,I go back home,20,True,0,False,20,True,2,False
+256,summer i excited i,I am excited for summer,20,True,0,False,0,False,1,False
+257,i wear costume black i,I wear black costume,20,True,0,False,0,False,1,False
+258,time run_out,running out of time,20,True,20,True,0,False,2,False
+259,i need leave i,I need to leave,20,True,20,True,0,False,2,False
+260,easter egg hunt i enjoy i,I enjoy hunting Easter eggs,20,True,0,False,0,False,1,False
+261,next_week holiday two,next week has 2 holidays,20,True,0,False,0,False,1,False
+262,summer my favorite season,summer is my favorite season,20,True,20,True,0,False,2,False
+263,i enjoy hiking swimming i,I enjoy hiking and swimming,20,True,0,False,0,False,1,False
+264,area hot,the area is hot,20,True,0,False,0,False,1,False
+265,you_mind AC turn_on,do you mind turning on the AC,20,True,0,False,0,False,1,False
+266,during spring baseball season start,during spring baseball season starts,20,True,0,False,0,False,1,False
+267,i have many friend birthday spring,I have many friends whose birthdays are in spring,20,True,0,False,0,False,1,False
+268,spring holiday what,what are spring holidays,20,True,20,True,0,False,2,False
+269,my family move different state,my family moved to a different state,20,True,0,False,0,False,1,False
+270,country US have state altogether how_many,how many states does country US have altogether,20,True,0,False,0,False,1,False
+271,football watch my husband enjoy,my husband enjoys watching football,20,True,0,False,0,False,1,False
+272,my friend dislike wrestling,my friend dislikes wrestling,20,True,0,False,20,True,2,False
+273,wrestling football you favorite which,you prefer wrestling or football,20,True,0,False,0,False,1,False
+274,happy mother day,happy mother's day,20,True,0,False,20,True,2,False
+275,i plan visit my mother,I plan to visit my mother,20,True,0,False,0,False,1,False
+276,i bring flower i,I bring flowers,20,True,20,True,0,False,2,False
+277,go_ahead,go ahead,20,True,0,False,0,False,1,False
+278,prayer before eat,prayer before eating,20,True,20,True,0,False,2,False
+279,thanksgiving_day parade,Thanksgiving day parade,20,True,0,False,0,False,1,False
+280,not_yet christmas,not yet Christmas,20,True,0,False,0,False,1,False
+281,need remember thankful now,need to remember to be thankful today,20,True,0,False,0,False,1,False
+282,now weather warm cloud,today the weather is warm and cloudy,20,True,0,False,0,False,1,False
+283,you graduate when,when do you graduate,20,True,0,False,0,False,1,False
+284,thursday night i host graduate party i,Thursday night I host graduation party,20,True,0,False,0,False,1,False
+285,graduate finish i plan travel i,graduation finished I plan to travel,20,True,0,False,0,False,1,False
+286,you love spread how,how do you spread love,20,True,0,False,0,False,1,False
+287,we future learn a_lot,we will learn a lot,20,True,0,False,0,False,1,False
+288,you know my friend you,you know my friend,20,True,20,True,0,False,2,False
+289,now year we happy,this year we are happy,20,True,0,False,20,True,2,False
+290,try use again,try to use again,20,True,20,True,0,False,2,False
+291,we have money,we have money,20,True,20,True,0,False,2,False
+292,they enjoy eat hamburger,they enjoy eating hamburgers,20,True,0,False,20,True,2,False
+293,he wife dislike cook,his wife dislikes cooking,20,True,0,False,20,True,2,False
+294,tomorrow i future need more milk i,tomorrow I will need more milk,20,True,0,False,0,False,1,False
+295,you scared why,why are you scared,20,True,0,False,0,False,1,False
+296,i worry they angry,I am worried they are angry,20,True,0,False,20,True,2,False
+297,we see cute rabbit,we see cute rabbits,20,True,20,True,0,False,2,False
+298,you use hearing_aid you,do you use hearing-aid,20,True,20,True,0,False,2,False
+299,our cousin live canada,our cousin lives in Canada,20,True,0,False,0,False,1,False
+300,i feel annoy i,I feel annoyed,20,True,0,False,20,True,2,False

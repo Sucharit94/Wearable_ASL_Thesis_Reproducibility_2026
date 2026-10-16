@@ -1,0 +1,24 @@
+{
+  "backend": null,
+  "decoding": {
+    "max_new_tokens": 48,
+    "responses_per_request": 1,
+    "seed": 20260826,
+    "temperature": 0.0,
+    "top_p": 1.0
+  },
+  "execution": {
+    "api_key_saved_in_repository": false,
+    "overwrite_completed_response": false,
+    "parsed_response_saved": true,
+    "raw_response_saved": true,
+    "reference_english_available_to_generator": false,
+    "resume_by_request_id": true
+  },
+  "license_or_terms_recorded": false,
+  "model_identifier": null,
+  "model_revision": null,
+  "schema_version": 1,
+  "stage": "39B",
+  "status": "BLOCKED_UNTIL_BACKEND_FROZEN"
+}

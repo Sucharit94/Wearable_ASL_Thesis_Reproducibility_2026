@@ -1,0 +1,166 @@
+{
+  "created_at_utc": "2026-09-06T17:36:29.228909+00:00",
+  "hashes": {
+    "assignment": "66f3fbd97fb9b92010dd7bb1d742341d500e87e17e4045138724b8058e038ccc",
+    "initial_run_registry": "4f28d8ab796b6ec3d69781fce150664c6fa4e0e36e38ff766901e987de29a2da",
+    "run_plan": "f921345cf35c1e9b0f406605641b87347e55cbe58d917cc3189f0e1aa89c02cb"
+  },
+  "identity_sources": {
+    "data_manifest_path": "artifacts\\cache\\stage17_raw_cache_index.csv",
+    "data_manifest_sha256": "094050ed305b4e8093a1463aeea30db0a508ebac9131d28214619f9b6b5cd822",
+    "label_vocab_path": "artifacts\\labels\\stage10_gloss_vocabulary.json",
+    "label_vocab_sha256": "58093d312909962344203fbf4700c7b32095255015771289d08e262c93e7b2ca",
+    "stage13_split_sha256": "7b9943145ffd9658fe20fedc37e4bd4515496a7cd59b893f95e99f95ea6c95e9",
+    "stage32_inner_split_sha256": "66f3fbd97fb9b92010dd7bb1d742341d500e87e17e4045138724b8058e038ccc"
+  },
+  "inner_splits": {
+    "all_duplicate_crossings_zero": true,
+    "all_outer_assignment_mismatches_zero": true,
+    "all_outer_test_counts_1480": true,
+    "all_strata_present_in_train_and_validation": true,
+    "assignment_rows": 37000,
+    "assignment_sha256": "66f3fbd97fb9b92010dd7bb1d742341d500e87e17e4045138724b8058e038ccc",
+    "folds": [
+      {
+        "absolute_target_difference": 0,
+        "duplicate_groups_crossing_partitions": 0,
+        "inner_train_recordings": 5328,
+        "inner_validation_recordings": 592,
+        "maximum_atomic_group_size": 2,
+        "observed_validation_fraction": 0.1,
+        "observed_validation_recordings": 592,
+        "outer_fold": 1,
+        "outer_test_assignment_mismatches": 0,
+        "outer_test_recordings": 1480,
+        "outer_training_pool_recordings": 5920,
+        "recordings": 7400,
+        "strata_missing_inner_partition": 0,
+        "subjects_missing_inner_partition": 0,
+        "target_validation_recordings": 592,
+        "validation_fraction": 0.1
+      },
+      {
+        "absolute_target_difference": 0,
+        "duplicate_groups_crossing_partitions": 0,
+        "inner_train_recordings": 5328,
+        "inner_validation_recordings": 592,
+        "maximum_atomic_group_size": 2,
+        "observed_validation_fraction": 0.1,
+        "observed_validation_recordings": 592,
+        "outer_fold": 2,
+        "outer_test_assignment_mismatches": 0,
+        "outer_test_recordings": 1480,
+        "outer_training_pool_recordings": 5920,
+        "recordings": 7400,
+        "strata_missing_inner_partition": 0,
+        "subjects_missing_inner_partition": 0,
+        "target_validation_recordings": 592,
+        "validation_fraction": 0.1
+      },
+      {
+        "absolute_target_difference": 0,
+        "duplicate_groups_crossing_partitions": 0,
+        "inner_train_recordings": 5328,
+        "inner_validation_recordings": 592,
+        "maximum_atomic_group_size": 2,
+        "observed_validation_fraction": 0.1,
+        "observed_validation_recordings": 592,
+        "outer_fold": 3,
+        "outer_test_assignment_mismatches": 0,
+        "outer_test_recordings": 1480,
+        "outer_training_pool_recordings": 5920,
+        "recordings": 7400,
+        "strata_missing_inner_partition": 0,
+        "subjects_missing_inner_partition": 0,
+        "target_validation_recordings": 592,
+        "validation_fraction": 0.1
+      },
+      {
+        "absolute_target_difference": 0,
+        "duplicate_groups_crossing_partitions": 0,
+        "inner_train_recordings": 5328,
+        "inner_validation_recordings": 592,
+        "maximum_atomic_group_size": 2,
+        "observed_validation_fraction": 0.1,
+        "observed_validation_recordings": 592,
+        "outer_fold": 4,
+        "outer_test_assignment_mismatches": 0,
+        "outer_test_recordings": 1480,
+        "outer_training_pool_recordings": 5920,
+        "recordings": 7400,
+        "strata_missing_inner_partition": 0,
+        "subjects_missing_inner_partition": 0,
+        "target_validation_recordings": 592,
+        "validation_fraction": 0.1
+      },
+      {
+        "absolute_target_difference": 0,
+        "duplicate_groups_crossing_partitions": 0,
+        "inner_train_recordings": 5328,
+        "inner_validation_recordings": 592,
+        "maximum_atomic_group_size": 2,
+        "observed_validation_fraction": 0.1,
+        "observed_validation_recordings": 592,
+        "outer_fold": 5,
+        "outer_test_assignment_mismatches": 0,
+        "outer_test_recordings": 1480,
+        "outer_training_pool_recordings": 5920,
+        "recordings": 7400,
+        "strata_missing_inner_partition": 0,
+        "subjects_missing_inner_partition": 0,
+        "target_validation_recordings": 592,
+        "validation_fraction": 0.1
+      }
+    ]
+  },
+  "leakage_barrier": {
+    "checkpoints_present": false,
+    "outer_scores_present": false,
+    "outer_test_controls_training": false,
+    "training_started": false
+  },
+  "matrix": {
+    "fold_major_order": true,
+    "models_per_fold": 5,
+    "outer_folds": 5,
+    "outer_scores_present": 0,
+    "runs": 25,
+    "unique_experiment_ids": 25
+  },
+  "outputs": {
+    "assignment": "artifacts\\splits\\stage32_known_inner_assignment.csv",
+    "run_plan": "artifacts\\experiments\\stage32_known_run_plan.json",
+    "run_registry": "artifacts\\registry\\run_registry.csv",
+    "summary": "artifacts\\splits\\stage32_known_inner_summary.csv"
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "registry": {
+    "all_status_planned": true,
+    "full_refit_rows": 25,
+    "inner_selection_rows": 25,
+    "outer_evaluation_rows": 25,
+    "registry_rows": 75,
+    "unique_registry_ids": 75
+  },
+  "stage": 32,
+  "stage13": {
+    "assignment_sha256": "7b9943145ffd9658fe20fedc37e4bd4515496a7cd59b893f95e99f95ea6c95e9",
+    "duplicate_groups_crossing_outer_folds": 0,
+    "expected_assignment_sha256": "7b9943145ffd9658fe20fedc37e4bd4515496a7cd59b893f95e99f95ea6c95e9",
+    "recordings": 7400,
+    "sentences": 300,
+    "split_groups": 7397,
+    "subject_sentence_strata": 368,
+    "subjects": 3
+  },
+  "stage31": {
+    "commit": "62fc7ca0f14611bf0fbc305f1960af4cff441978",
+    "config_manifest_sha256": "bc98ef1dbd897ed1ed396f6c9700bd71385a0a911fd13121c19975e792fccf18",
+    "head_when_built": "62fc7ca0f14611bf0fbc305f1960af4cff441978",
+    "passed": true,
+    "smoke_contract_sha256": "5a026ab54a2ff33640fd9de814097c39ec99dcef9660a5bf1ad0a563e4de357f",
+    "tag": "stage31-freeze-v1"
+  },
+  "stage32a_passed": true,
+  "substage": "A_plan_freeze"
+}

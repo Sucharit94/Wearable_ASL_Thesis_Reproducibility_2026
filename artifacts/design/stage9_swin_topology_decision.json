@@ -1,0 +1,71 @@
+{
+  "allowed_claims": [
+    "The input is a temporal-feature map.",
+    "The feature axis preserves native CSV source order.",
+    "Swin windows model local interactions over time and source-ordered features."
+  ],
+  "architecture_parameters_deferred": {
+    "dropout": true,
+    "embedding_dimension": true,
+    "number_of_heads": true,
+    "number_of_swin_blocks": true,
+    "patch_size": true,
+    "shift_size": true,
+    "window_size": true
+  },
+  "circular_ablation": {
+    "declared": true,
+    "primary": false,
+    "shape_if_used": "T x 76",
+    "topology_rule": "Must be separately specified before use; does not alter the primary T x 38 C4 design."
+  },
+  "created_at_utc": "2026-08-29T07:04:50.667721+00:00",
+  "ctc_constraint": {
+    "exact_output_length_formula_deferred": "Stages 20, 22 and 29",
+    "global_spatial_pooling_over_time_allowed": false,
+    "output_must_support_temporal_ctc_logits": true,
+    "time_information_must_survive_swin": true
+  },
+  "decision_status": "FROZEN",
+  "forbidden_claims": [
+    "Neighboring feature columns are verified anatomical neighbors.",
+    "The T x 38 representation is an anatomical body map.",
+    "The representation is a natural image."
+  ],
+  "forbidden_primary_transforms": {
+    "anatomical_feature_permutation": true,
+    "arbitrary_square_resize": true,
+    "global_time_pooling_before_ctc": true,
+    "interpolation_for_visual_appearance": true,
+    "resize_to_224x224": true,
+    "rgb_conversion": true
+  },
+  "future_padding_policy": {
+    "exact_rules_deferred": "Stages 19, 22 and 29",
+    "padding_is_real_data": false,
+    "padding_may_be_used_for_batching": true,
+    "padding_may_be_used_for_patch_divisibility": true,
+    "padding_must_be_length_or_mask_aware": true,
+    "padding_must_not_change_true_sequence_length": true
+  },
+  "primary_c4_input": {
+    "anatomical_reordering": false,
+    "feature_axis": 1,
+    "feature_reordering": false,
+    "feature_width": 38,
+    "representation_name": "native_temporal_feature_map",
+    "source_feature_order": "native_csv_order",
+    "source_values": "raw_rotation_38d",
+    "tensor_shape_before_batching": "T x 38",
+    "time_axis": 0
+  },
+  "primary_stage9_decision": "Use the raw T x 38 sequence directly as a source-order temporal-feature map for C4. Do not infer anatomical topology.",
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 9,
+  "topology_evidence": {
+    "anatomical_adjacency_verified": false,
+    "exact_csv_semantic_order_known": false,
+    "native_source_order_verified": true,
+    "semantic_feature_set_known": true
+  }
+}

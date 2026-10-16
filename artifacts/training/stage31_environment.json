@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-09-06T15:46:05.688918+00:00",
+  "cuda_available": false,
+  "numpy": "2.4.6",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "pytorch": "2.14.0+cpu",
+  "torch_threads": 4,
+  "verification_device": "cpu"
+}

@@ -1,0 +1,80 @@
+{
+  "backend_specification": {
+    "backend": "huggingface_transformers_local",
+    "decoding": {
+      "do_sample": false,
+      "max_input_tokens": 512,
+      "max_new_tokens": 48,
+      "num_beams": 1,
+      "responses_per_request": 1,
+      "seed": 20260826,
+      "strategy": "greedy",
+      "temperature": 0.0
+    },
+    "device": "cuda",
+    "execution": {
+      "api_key_required": false,
+      "completed_responses_immutable": true,
+      "outer_reference_available_to_generator": false,
+      "queue": "artifacts/language/stage39/stage39a_generation_queue.jsonl",
+      "reject_v1_schema_fragments": true,
+      "response_file": "stage39b_v2_responses.jsonl",
+      "resume_key": "request_id"
+    },
+    "license": "Apache-2.0",
+    "model_identifier": "google/flan-t5-base",
+    "model_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+    "output_contract": "one_plain_english_sentence",
+    "precision": "float32",
+    "prompt_version": 2,
+    "reason_for_amendment": "V1_generator_echoed_json_schema_placeholder",
+    "schema_version": 2,
+    "stage": "39B-V2",
+    "status": "FROZEN_AND_AUTHORIZED",
+    "training": false
+  },
+  "generated_portable_sha256": {
+    "docs/STAGE_39B_V2_PROMPT_AMENDMENT.md": "e5edefdfb602c62dc59c1e0a77db1e893359ad3ca3a64e670b8e6b1fe3d92ed3"
+  },
+  "generator_called_during_freeze": false,
+  "implementation_portable_sha256": {
+    "scripts/build_stage39b_v2_prompt_freeze.py": "a771aa303768d364e839934b5a34ad0280cb3f96ac71e6377f06b915a8d6c668",
+    "scripts/run_stage39b_v2_generation.py": "faaa42fd62e9d0d982e3e3635ae7202b617b5704e2512b398cabeafc3e4cadb2",
+    "scripts/verify_stage39b_v2_prompt_freeze.py": "31908b993006dd5480ea91e88bb8284bc89c42a4048a753a634cbded55d3fa21",
+    "src/evaluation/stage39b_v2_runner.py": "ac5722cede969823a0c5af20f0103a26cf9ace5ecafdaefb572197c38b2f606e",
+    "tests/test_stage39b_v2.py": "aeddc04f99e4a146490d7f30ec69210bdf79017e6a5e0db3d1df40bf73abb1d6"
+  },
+  "input_queue_portable_sha256": "4d270050123fe4ced1a386119aadd2acd34db1957f009c998c44c2014f2c4dcf",
+  "input_stage39a_contract_portable_sha256": "1225aea037cb00a2e84ac6f078a1a576be03a616e14de19b38aa8dcbe4847f1b",
+  "input_stage39b_v1_contract_portable_sha256": "2030fbaba3fafd5978e145e833b74a06cd99429925169187333cd337a4ecf10d",
+  "name": "plain_english_prompt_amendment_after_failed_json_output",
+  "outer_references_exposed": false,
+  "pilot": {
+    "outer_references_exposed": false,
+    "requests": 20,
+    "saved_as_final_evidence": false,
+    "structurally_usable": 20
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 39,
+  "status": "passed",
+  "substage": "B-V2",
+  "training_started": false,
+  "v1_failure": "11720_of_11720_outputs_repeated_schema_fragments",
+  "v1_results_eligible_for_scoring": false,
+  "validation": {
+    "folds": 5,
+    "mapped_outer_samples": 37000,
+    "models": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "reference_firewall_passed": true,
+    "resumable": true,
+    "separate_v2_output": true,
+    "unique_generation_requests": 11720
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "created_at_utc": "2026-09-11T15:37:38.225495+00:00",
+  "dry_run": {
+    "passed": true,
+    "path": "artifacts/training/stage33b_runner_dry_run.json",
+    "sha256": "67008559f95aaf73f33860d39fbf1c88435cf27eb96ad36e1016ff25feef04f4"
+  },
+  "implementation_hashes": {
+    "configs/experiments/stage33_runner.json": "001e69d82e8b29cc9a28f139510811ad57a25874c64ba6a16e0758cbfcf61965",
+    "scripts/build_stage33_runner_contract.py": "d7935d5df5fc7702ba547b5b767df778b9f14ab0a8cfc4ce9ac1c29b65a40fb5",
+    "scripts/run_stage33_loso.py": "4e55991fde3c6cb65d5cdccc0001d93fcaf10263d56c6ad2561a2e0117c69b99",
+    "scripts/verify_stage33_runner.py": "1f0be0a23551ce26986f8d8fa99f65f840a3679a0a4a801c50f569e1a7a646ca",
+    "src/training/checkpoint.py": "c66f7183cecacef9b614c656ae4d84ed6eccb86f8cd90033b1aa7c226204c67d",
+    "src/training/known_signer_runner.py": "8fec882792ded773f743f95ea591e8a83d02f8189b328d8d2860e94478b4fac1",
+    "src/training/loso_runner.py": "94340f478aec02080fe73c4ad30cecd34192f357efaf258e6a3c4818b1b734bb",
+    "tests/test_loso_runner.py": "f6fe2dd2809db19f69a67f93a7fb44b34e163029db571fc5c8a687f539d6d9f9"
+  },
+  "matrix": {
+    "first": "g1_loso_subject1_seed20260826_v1",
+    "last": "c4_loso_subject3_seed20260826_v1",
+    "loso_major": true,
+    "outer_evaluations": 15,
+    "registry_rows": 45,
+    "validated_identities": 45
+  },
+  "partitions": [
+    {
+      "all_unique": true,
+      "held_out_subject": "subject1",
+      "held_out_training_leaks": 0,
+      "inner_train": 1260,
+      "inner_validation": 140,
+      "loso_id": "loso_subject1",
+      "loso_index": 1,
+      "outer_test": 6000,
+      "outer_training_pool": 1400
+    },
+    {
+      "all_unique": true,
+      "held_out_subject": "subject2",
+      "held_out_training_leaks": 0,
+      "inner_train": 5760,
+      "inner_validation": 640,
+      "loso_id": "loso_subject2",
+      "loso_index": 2,
+      "outer_test": 1000,
+      "outer_training_pool": 6400
+    },
+    {
+      "all_unique": true,
+      "held_out_subject": "subject3",
+      "held_out_training_leaks": 0,
+      "inner_train": 6300,
+      "inner_validation": 700,
+      "loso_id": "loso_subject3",
+      "loso_index": 3,
+      "outer_test": 400,
+      "outer_training_pool": 7000
+    }
+  ],
+  "project_generation": "fresh_start_2026_v1",
+  "protocol": {
+    "automatic_mixed_precision": false,
+    "execution_precision": "float32",
+    "outer_test_controls_training": false,
+    "outer_test_evaluations_per_model_direction": 1,
+    "primary_metric": "loso_all_pooled_wer",
+    "refit_exact_selected_epochs": true,
+    "reset_before_refit": true,
+    "selection_uses_inner_validation_only": true,
+    "support_views_train_separate_models": false,
+    "support_views_use_same_predictions": true
+  },
+  "runner_tag": {
+    "must_be_annotated": true,
+    "must_equal_head_before_training": true,
+    "name": "stage33-loso-runner-v1"
+  },
+  "safety": {
+    "atomic_epoch_checkpoints": true,
+    "clean_tagged_git_checkout": true,
+    "effective_batch_preserved": true,
+    "epoch_boundary_resume": true,
+    "explicit_trusted_checkpoint_load": true,
+    "external_durable_artifact_root": true,
+    "mixed_phase_csv_schema_safe": true,
+    "oom_only_batch_fallback": true,
+    "required_gpu": "NVIDIA T4",
+    "test_dataset_constructed_only_after_refit": true
+  },
+  "stage": 33,
+  "status": "runner_frozen_before_loso_outer_evaluation",
+  "substage": "B"
+}

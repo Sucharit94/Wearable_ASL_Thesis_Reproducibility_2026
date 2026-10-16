@@ -1,0 +1,47 @@
+{
+  "architecture_family": "conv1d_bilstm_ctc",
+  "constructor": "C1Compact",
+  "implementation_contract": {
+    "parameter_counts": {
+      "bilstm": 231424,
+      "classifier": 117192,
+      "expected_total": 392488,
+      "passed": true,
+      "post_lstm_norm": 512,
+      "temporal_encoder": 43360,
+      "trainable_total": 392488
+    },
+    "path": "artifacts/models/stage27_c1_model_contract.json",
+    "sha256": "6999d78430471531bec1b9c26b36f7edd90f467f078cc434fe427ab87dac496a",
+    "stage": 27
+  },
+  "input_adapter": "direct_sequence",
+  "interface": {
+    "blank_id": 0,
+    "input": "B_x_T_x_38_padded_float",
+    "input_lengths": "B_exact_raw_valid_lengths",
+    "output_lengths": "B_exact_valid_output_lengths",
+    "output_logits": "B_x_Tout_x_456_raw_logits",
+    "target_padding_value": -1
+  },
+  "model_id": "c1",
+  "project_generation": "fresh_start_2026_v1",
+  "schema_version": 1,
+  "scientific_role": "lightweight_recurrent_baseline",
+  "source": {
+    "path": "src/models/c1_compact.py",
+    "sha256": "d1f4adb8077f09364155091688c6aa4d0fe9514ffc9481fcc8ffa3dee217cc1b"
+  },
+  "status": "frozen_before_outer_evaluation",
+  "training": {
+    "early_stopping_patience": 8,
+    "epoch_cap": 80,
+    "fixed_epoch_reference": false,
+    "gradient_clip_norm": 5.0,
+    "learning_rate": 5e-05,
+    "optimizer": "AdamW",
+    "physical_batch_size": 32,
+    "selection_scheduler": "ReduceLROnPlateau",
+    "weight_decay": 0.0001
+  }
+}

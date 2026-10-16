@@ -1,0 +1,67 @@
+{
+  "claim_boundaries": {
+    "accuracy_used_alone": false,
+    "l3_executed": false,
+    "open_vocabulary_claim_allowed": false,
+    "unseen_template_claim_allowed": false
+  },
+  "coverage": {
+    "claim_rows": 8,
+    "language_rows": 15,
+    "language_systems": [
+      "L0",
+      "L1",
+      "L2"
+    ],
+    "models": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "recognition_rows": 5,
+    "selection_rows": 5
+  },
+  "decisions": {
+    "best_constrained_generation_quality": "g1+l2",
+    "recognition_quality_reference": "g1",
+    "recommended_lightweight_end_to_end_system": "c2+l1",
+    "recommended_lightweight_recognizer": "c2"
+  },
+  "execution": {
+    "language_generation_started": false,
+    "predictions_regenerated": false,
+    "recognizer_training_started": false,
+    "statistical_tests_regenerated": false
+  },
+  "input_rows": {
+    "stage35_claims": 6,
+    "stage35_publication": 5,
+    "stage40_l2_tests": 10,
+    "stage40_summary": 15,
+    "stage40_system_tests": 15
+  },
+  "inputs": {
+    "artifacts/analysis/stage34/stage34c_pairwise_tests.csv": "298ed38bdc2fb408df6ad83254c20ea1c7346685185ddb2660599d505c14c472",
+    "artifacts/analysis/stage34/stage34d_efficiency_metrics.csv": "c3cc3aa46ed080fe53d3518e1e4cfd5cbce59f41006cb8a292ba81694f3bd58d",
+    "artifacts/analysis/stage35/stage35_claim_register.csv": "4de841e880696bb20a83e38287a87ad62a64caee81984a02afd43932467e95ef",
+    "artifacts/analysis/stage35/stage35_publication_model_table.csv": "23f29475d59610455e197f8c9d5097f92ac4fc757d4a37243d96bd180984a07a",
+    "artifacts/analysis/stage36/stage36_error_composition.csv": "2872826b82acbeb38051ca8306ec8a6aff669009984570432a8a0f4f7d16759b",
+    "artifacts/analysis/stage36/stage36_model_stability.csv": "8dbb6468ac9b473daafd82af5c13a6dbc2c298c82774d0340b6919cc182b33a4",
+    "artifacts/language/stage40/stage40_l2_model_tests.csv": "3ce353fa94a410b9439b846bb50eb19e29c7852e184ba78f869ade7cfe85d0fd",
+    "artifacts/language/stage40/stage40_paired_system_tests.csv": "dfd50bef1f910913591b5bacc1a168380d2ada376cb9ba242faa3e77a7db6f3a",
+    "artifacts/language/stage40/stage40_system_summary.csv": "d976e42a9a126ae7d9b2ba894e9b65a5dc6f897e6d21a708260947daad337a5c"
+  },
+  "outputs": {
+    "artifacts/analysis/stage41/stage41_claim_register.csv": "e442f9b982c961df1d56e5be67118c45be47a5fb463b7a86b742b23929f10852",
+    "artifacts/analysis/stage41/stage41_final_selection.csv": "a3d651384dc3d3241ff684d6b28446a7b89f4bf2e6b46a7a0be0e9d42c87dfe0",
+    "artifacts/analysis/stage41/stage41_language_system_table.csv": "e12ae6f13491812b81ab807d77f1e7ecc0e894188181d5a0b7935bacaebbcebb",
+    "artifacts/analysis/stage41/stage41_recognition_model_table.csv": "bc5faf2ae1caa15de35d7800d0010a45b68c72b7de794a8b7a855b5719b8ed4c",
+    "docs/STAGE_41_FINAL_THESIS_EVIDENCE.md": "478792fc007c54dd9254c3f8dd03d65f27e842ffa20369017def713d9235cf3f"
+  },
+  "protocol": "known_signer_mixed_subject_stratified_five_fold",
+  "stage": "41",
+  "status": "COMPLETE",
+  "title": "Final thesis evidence package"
+}

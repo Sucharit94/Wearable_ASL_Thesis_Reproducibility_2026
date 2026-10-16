@@ -1,0 +1,128 @@
+{
+  "architecture": {
+    "bilstm_hidden_per_direction": 128,
+    "bilstm_layers": 1,
+    "bilstm_output_width": 256,
+    "conv_channels": [
+      38,
+      64,
+      96
+    ],
+    "conv_dropout": 0.1,
+    "conv_kernel_size": 5,
+    "conv_normalization": "length_masked_batch_norm_1d",
+    "conv_padding": 2,
+    "conv_stride": 2,
+    "feature_width": 38,
+    "output_classes": 456,
+    "packed_bilstm": true,
+    "post_lstm_dropout": 0.15,
+    "post_lstm_normalization": "LayerNorm(256)"
+  },
+  "created_at_utc": "2026-09-05T17:12:07.037749+00:00",
+  "ctc_backward": {
+    "gradient_global_norm": 32.347937686276985,
+    "gradient_tensors": 20,
+    "loss": 15.27669620513916,
+    "loss_finite": true,
+    "missing_gradients": 0,
+    "nonfinite_gradients": 0,
+    "passed": true
+  },
+  "dependencies": {
+    "stage21_ctc_loss_wrapper_used": true,
+    "stage22_conv_formula_match": true,
+    "stage25_c1_spec_passed": true,
+    "stage25_catalog_hash_match": true,
+    "stage26_predecessor_passed": true
+  },
+  "hashes": {
+    "model": "d1f4adb8077f09364155091688c6aa4d0fe9514ffc9481fcc8ffa3dee217cc1b",
+    "stage25_catalog": "d1fd4fb04294a1e13272f7700e62fed8eaeae6f72a6141cf5d75134ed2856155",
+    "stage26_contract": "db462476907a791d9ce4b6a15e3ab7916476160b543c61dd4f29281583bbdcca",
+    "tests": "bd762e6f2b6bc2761cb8aef81b4a6594268ecee4803c01e15209a1d05d590a14",
+    "verifier": "7841f33c9b2132523af0aa4119ec59c7bcb6af0e20e5f53266d2294bf4145edc"
+  },
+  "identity": {
+    "architecture_family": "conv1d_bilstm_ctc",
+    "input_adapter": "direct_sequence",
+    "model_id": "c1",
+    "scientific_role": "lightweight_recurrent_baseline"
+  },
+  "length_safety": {
+    "masked_batch_normalization": true,
+    "output_lengths": [
+      8,
+      9,
+      10
+    ],
+    "output_shape": [
+      3,
+      10,
+      456
+    ],
+    "padded_logits_zero": true,
+    "padding_invariance_passed": true,
+    "padding_max_absolute_difference": 0.0,
+    "probe_after_conv1": [
+      1,
+      1,
+      3,
+      16,
+      18,
+      20,
+      36,
+      45,
+      54
+    ],
+    "probe_after_conv2": [
+      1,
+      1,
+      2,
+      8,
+      9,
+      10,
+      18,
+      23,
+      27
+    ],
+    "probe_raw": [
+      1,
+      2,
+      5,
+      32,
+      36,
+      40,
+      72,
+      90,
+      108
+    ],
+    "stage22_formula_match": true
+  },
+  "parameter_counts": {
+    "bilstm": 231424,
+    "classifier": 117192,
+    "expected_total": 392488,
+    "passed": true,
+    "post_lstm_norm": 512,
+    "temporal_encoder": 43360,
+    "trainable_total": 392488
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "runtime": {
+    "cuda_available_locally": false,
+    "pytorch_version": "2.14.0+cpu",
+    "verification_device": "cpu"
+  },
+  "stage": 27,
+  "training_defaults": {
+    "early_stopping_patience": 8,
+    "epoch_cap": 80,
+    "gradient_clip_norm": 5.0,
+    "learning_rate": 5e-05,
+    "optimizer": "AdamW",
+    "physical_batch_size": 32,
+    "scheduler": "ReduceLROnPlateau",
+    "weight_decay": 0.0001
+  }
+}

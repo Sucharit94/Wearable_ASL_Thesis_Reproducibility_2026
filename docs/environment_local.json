@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-08-26T14:02:58.610673+00:00",
+  "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "[project]\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "PyYAML": "6.0.3",
+    "tqdm": "4.70.0",
+    "matplotlib": "3.11.1",
+    "jiwer": "4.0.0",
+    "pytest": "9.1.1"
+  },
+  "torch": {
+    "installed": false,
+    "reason": "No module named 'torch'"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-08-29T07:14:23.461831+00:00",
+  "generated_contracts": {
+    "sentence_catalog": "artifacts/labels/stage10_sentence_targets.csv",
+    "sentence_catalog_sha256": "2f87dab3a80e1d49029d809fc45f6cc885a521b750e7d8448e08a68484ac1de8",
+    "vocabulary": "artifacts/labels/stage10_gloss_vocabulary.json",
+    "vocabulary_sha256": "58093d312909962344203fbf4700c7b32095255015771289d08e262c93e7b2ca"
+  },
+  "important_evaluation_rule": "The global vocabulary defines the dataset output schema only. Whether a token or template is actually supported by a particular training split must be determined from that training split, not from the existence of the global vocabulary entry.",
+  "mapping_contract": {
+    "evidence_status": "POSITIONAL_DATASET_CONVENTION",
+    "explicit_mapping_file_present": false,
+    "mapping": "sentence_id_n_maps_to_physical_line_n",
+    "physical_label_lines": "1..300",
+    "sentence_ids": "1..300"
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "source_integrity": {
+    "label_no_order_sha256": "c656d585e5c524964241e62b4b92332c3e744bdc46243ffbbb6f8df7dcbf3a85",
+    "label_order_sha256": "6dd89215c32c2fe238268b0295efe4b47e5a663c76f9dcc8c1d0b23d431863b0",
+    "stage3_hashes_match": true
+  },
+  "stage": 10,
+  "templates": {
+    "count": 300,
+    "duplicate_english_string_count": 1,
+    "duplicate_gloss_string_count": 1,
+    "maximum_gloss_tokens": 8,
+    "mean_gloss_tokens": 3.8233333333333333,
+    "minimum_gloss_tokens": 1
+  },
+  "tokenization": {
+    "case_preserved": true,
+    "irregular_whitespace_lines": [],
+    "punctuation_preserved": true,
+    "rule": "split_on_whitespace",
+    "underscores_preserved": true
+  },
+  "vocabulary": {
+    "blank_id": 0,
+    "blank_token": "<blank>",
+    "bos_token": null,
+    "ctc_output_classes": 456,
+    "eos_token": null,
+    "nonblank_tokens": 455,
+    "pad_token": null,
+    "unk_token": null
+  }
+}

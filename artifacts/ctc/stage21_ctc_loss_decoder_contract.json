@@ -1,0 +1,51 @@
+{
+  "created_at_utc": "2026-08-31T05:45:22.431886+00:00",
+  "ctc_schema": {
+    "blank_id": 0,
+    "classes": 456,
+    "target_padding_value": -1,
+    "zero_infinity": false
+  },
+  "decoder": {
+    "order": [
+      "slice_to_valid_output_length",
+      "argmax_over_classes",
+      "collapse_consecutive_repeats",
+      "remove_ctc_blank"
+    ],
+    "padded_timesteps_decoded": false,
+    "synthetic_length_safe_test": true
+  },
+  "hashes": {
+    "ctc_decode": "044ffa290714654642ae13603066ca75b9b2f79728a291535a0e15ea3b41deb0",
+    "ctc_loss": "1d59e2fd432249e28f842550c97c862223745806004c90c730530ac27bd44478",
+    "tests": "50372b1a9404b2ae8334c8f648bfe1622de446f4b6b713d8297e2f81429d8d55"
+  },
+  "local_runtime": {
+    "note": "Local PyTorch is optional. The loss wrapper imports PyTorch lazily; GPU runtime is validated during Colab model smoke tests.",
+    "pytorch_available": false,
+    "pytorch_version": null
+  },
+  "loss": {
+    "feasibility_checked_before_loss": true,
+    "input_logit_layout": "B_T_C",
+    "log_softmax_before_loss": true,
+    "pytorch_ctc_layout": "T_B_C",
+    "targets_flattened_using": "target_lengths",
+    "zero_infinity": false
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 21,
+  "stage20": {
+    "sample_audit_hash_match": true,
+    "selected_infeasible_recordings": 0,
+    "selected_stride": 18
+  },
+  "targets": {
+    "pack_unpack_roundtrip_failures": 0,
+    "packed_blank_count": 0,
+    "packed_padding_count": 0,
+    "packed_tokens": 1147,
+    "sentence_templates": 300
+  }
+}

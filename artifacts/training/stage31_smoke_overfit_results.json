@@ -1,0 +1,391 @@
+{
+  "all_models_passed": true,
+  "checkpoints_produced": false,
+  "created_at_utc": "2026-09-06T15:46:05.666607+00:00",
+  "fixture_path": "artifacts/training/stage31_tiny_overfit_samples.json",
+  "fixture_sha256": "f6922573a815f29336e454207058cb8c89c3da09945bfe6691c5b526f26d48ce",
+  "model_order": [
+    "g1",
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "models": {
+    "c1": {
+      "checkpoint_saved": false,
+      "device": "cpu",
+      "elapsed_seconds": 0.562382299976889,
+      "expected_parameter_count": 392488,
+      "fixture_id": "known_fold01_train_shortest20_v1",
+      "gradient_clip_norm": 5.0,
+      "learning_rate": 5e-05,
+      "microbatch_size": 4,
+      "model_id": "c1",
+      "one_batch_smoke": {
+        "batch_size": 2,
+        "gradient_global_norm": 256.2301053962685,
+        "gradient_tensors": 20,
+        "logit_shape": [
+          2,
+          21,
+          456
+        ],
+        "loss": 131.45420837402344,
+        "loss_finite": true,
+        "missing_gradients": 0,
+        "nonfinite_gradients": 0,
+        "output_lengths": [
+          21,
+          21
+        ],
+        "passed": true
+      },
+      "oom_fallback_events": [],
+      "oom_fallback_used": false,
+      "optimizer": "AdamW",
+      "parameter_count": 392488,
+      "passed": true,
+      "sample_ids_sha256": "c54855a2b919109e4cffd2b86fdf3be76cfa3569bebc34a7b60ae2711bf75efa",
+      "seed": 20260826,
+      "tiny_overfit": {
+        "absolute_decrease": 10.737556457519531,
+        "best_evaluation_loss": 109.38392639160156,
+        "epochs_completed": 2,
+        "final_evaluation_loss": 109.38392639160156,
+        "history": [
+          {
+            "epoch": 0,
+            "evaluation_loss": 120.1214828491211,
+            "maximum_preclip_gradient_norm": null,
+            "relative_decrease_from_initial": 0.0,
+            "training_loss": null
+          },
+          {
+            "epoch": 1,
+            "evaluation_loss": 113.97820281982422,
+            "maximum_preclip_gradient_norm": 289.3545227050781,
+            "relative_decrease_from_initial": 0.051142226049716334,
+            "training_loss": 134.17139892578126
+          },
+          {
+            "epoch": 2,
+            "evaluation_loss": 109.38392639160156,
+            "maximum_preclip_gradient_norm": 289.324951171875,
+            "relative_decrease_from_initial": 0.08938914341414239,
+            "training_loss": 125.81695556640625
+          }
+        ],
+        "initial_evaluation_loss": 120.1214828491211,
+        "maximum_epochs": 8,
+        "minimum_epochs": 2,
+        "minimum_relative_decrease_required": 0.0001,
+        "passed": true,
+        "relative_decrease": 0.08938914341414239
+      },
+      "trained_weights_reusable": false,
+      "weight_decay": 0.0001
+    },
+    "c2": {
+      "checkpoint_saved": false,
+      "device": "cpu",
+      "elapsed_seconds": 0.6097417999990284,
+      "expected_parameter_count": 656168,
+      "fixture_id": "known_fold01_train_shortest20_v1",
+      "gradient_clip_norm": 5.0,
+      "learning_rate": 5e-05,
+      "microbatch_size": 4,
+      "model_id": "c2",
+      "one_batch_smoke": {
+        "batch_size": 2,
+        "gradient_global_norm": 548.9821712763899,
+        "gradient_tensors": 26,
+        "logit_shape": [
+          2,
+          21,
+          456
+        ],
+        "loss": 125.34796142578125,
+        "loss_finite": true,
+        "missing_gradients": 0,
+        "nonfinite_gradients": 0,
+        "output_lengths": [
+          21,
+          21
+        ],
+        "passed": true
+      },
+      "oom_fallback_events": [],
+      "oom_fallback_used": false,
+      "optimizer": "AdamW",
+      "parameter_count": 656168,
+      "passed": true,
+      "sample_ids_sha256": "c54855a2b919109e4cffd2b86fdf3be76cfa3569bebc34a7b60ae2711bf75efa",
+      "seed": 20260826,
+      "tiny_overfit": {
+        "absolute_decrease": 54.127661132812506,
+        "best_evaluation_loss": 77.08239135742187,
+        "epochs_completed": 2,
+        "final_evaluation_loss": 77.08239135742187,
+        "history": [
+          {
+            "epoch": 0,
+            "evaluation_loss": 131.21005249023438,
+            "maximum_preclip_gradient_norm": null,
+            "relative_decrease_from_initial": 0.0,
+            "training_loss": null
+          },
+          {
+            "epoch": 1,
+            "evaluation_loss": 108.81692962646484,
+            "maximum_preclip_gradient_norm": 597.6002807617188,
+            "relative_decrease_from_initial": 0.17066621374483634,
+            "training_loss": 119.57714385986328
+          },
+          {
+            "epoch": 2,
+            "evaluation_loss": 77.08239135742187,
+            "maximum_preclip_gradient_norm": 576.6065063476562,
+            "relative_decrease_from_initial": 0.4125267851473582,
+            "training_loss": 83.35534210205078
+          }
+        ],
+        "initial_evaluation_loss": 131.21005249023438,
+        "maximum_epochs": 8,
+        "minimum_epochs": 2,
+        "minimum_relative_decrease_required": 0.0001,
+        "passed": true,
+        "relative_decrease": 0.4125267851473582
+      },
+      "trained_weights_reusable": false,
+      "weight_decay": 0.0001
+    },
+    "c3": {
+      "checkpoint_saved": false,
+      "device": "cpu",
+      "elapsed_seconds": 0.47750929999165237,
+      "expected_parameter_count": 237352,
+      "fixture_id": "known_fold01_train_shortest20_v1",
+      "gradient_clip_norm": 5.0,
+      "learning_rate": 5e-05,
+      "microbatch_size": 4,
+      "model_id": "c3",
+      "one_batch_smoke": {
+        "batch_size": 2,
+        "gradient_global_norm": 164.15089830723718,
+        "gradient_tensors": 36,
+        "logit_shape": [
+          2,
+          21,
+          456
+        ],
+        "loss": 118.36848449707031,
+        "loss_finite": true,
+        "missing_gradients": 0,
+        "nonfinite_gradients": 0,
+        "output_lengths": [
+          21,
+          21
+        ],
+        "passed": true
+      },
+      "oom_fallback_events": [],
+      "oom_fallback_used": false,
+      "optimizer": "AdamW",
+      "parameter_count": 237352,
+      "passed": true,
+      "sample_ids_sha256": "c54855a2b919109e4cffd2b86fdf3be76cfa3569bebc34a7b60ae2711bf75efa",
+      "seed": 20260826,
+      "tiny_overfit": {
+        "absolute_decrease": 15.959675598144528,
+        "best_evaluation_loss": 112.75574798583985,
+        "epochs_completed": 2,
+        "final_evaluation_loss": 112.75574798583985,
+        "history": [
+          {
+            "epoch": 0,
+            "evaluation_loss": 128.71542358398438,
+            "maximum_preclip_gradient_norm": null,
+            "relative_decrease_from_initial": 0.0,
+            "training_loss": null
+          },
+          {
+            "epoch": 1,
+            "evaluation_loss": 120.1694107055664,
+            "maximum_preclip_gradient_norm": 197.60487365722656,
+            "relative_decrease_from_initial": 0.06639462964468945,
+            "training_loss": 126.71845245361328
+          },
+          {
+            "epoch": 2,
+            "evaluation_loss": 112.75574798583985,
+            "maximum_preclip_gradient_norm": 201.7853546142578,
+            "relative_decrease_from_initial": 0.12399194404026602,
+            "training_loss": 118.32469635009765
+          }
+        ],
+        "initial_evaluation_loss": 128.71542358398438,
+        "maximum_epochs": 8,
+        "minimum_epochs": 2,
+        "minimum_relative_decrease_required": 0.0001,
+        "passed": true,
+        "relative_decrease": 0.12399194404026602
+      },
+      "trained_weights_reusable": false,
+      "weight_decay": 0.0001
+    },
+    "c4": {
+      "checkpoint_saved": false,
+      "device": "cpu",
+      "elapsed_seconds": 3.411249600001611,
+      "expected_parameter_count": 348604,
+      "fixture_id": "known_fold01_train_shortest20_v1",
+      "gradient_clip_norm": 5.0,
+      "learning_rate": 5e-05,
+      "microbatch_size": 4,
+      "model_id": "c4",
+      "one_batch_smoke": {
+        "batch_size": 2,
+        "gradient_global_norm": 143.2754262811675,
+        "gradient_tensors": 73,
+        "logit_shape": [
+          2,
+          3,
+          456
+        ],
+        "loss": 16.294921875,
+        "loss_finite": true,
+        "missing_gradients": 0,
+        "nonfinite_gradients": 0,
+        "output_lengths": [
+          3,
+          3
+        ],
+        "passed": true
+      },
+      "oom_fallback_events": [],
+      "oom_fallback_used": false,
+      "optimizer": "AdamW",
+      "parameter_count": 348604,
+      "passed": true,
+      "sample_ids_sha256": "c54855a2b919109e4cffd2b86fdf3be76cfa3569bebc34a7b60ae2711bf75efa",
+      "seed": 20260826,
+      "tiny_overfit": {
+        "absolute_decrease": 5.906730461120606,
+        "best_evaluation_loss": 15.742580223083497,
+        "epochs_completed": 2,
+        "final_evaluation_loss": 15.742580223083497,
+        "history": [
+          {
+            "epoch": 0,
+            "evaluation_loss": 21.649310684204103,
+            "maximum_preclip_gradient_norm": null,
+            "relative_decrease_from_initial": 0.0,
+            "training_loss": null
+          },
+          {
+            "epoch": 1,
+            "evaluation_loss": 18.521678733825684,
+            "maximum_preclip_gradient_norm": 208.58470153808594,
+            "relative_decrease_from_initial": 0.14446796925781197,
+            "training_loss": 20.76427459716797
+          },
+          {
+            "epoch": 2,
+            "evaluation_loss": 15.742580223083497,
+            "maximum_preclip_gradient_norm": 182.95245361328125,
+            "relative_decrease_from_initial": 0.272836883690265,
+            "training_loss": 17.61968421936035
+          }
+        ],
+        "initial_evaluation_loss": 21.649310684204103,
+        "maximum_epochs": 8,
+        "minimum_epochs": 2,
+        "minimum_relative_decrease_required": 0.0001,
+        "passed": true,
+        "relative_decrease": 0.272836883690265
+      },
+      "trained_weights_reusable": false,
+      "weight_decay": 0.0001
+    },
+    "g1": {
+      "checkpoint_saved": false,
+      "device": "cpu",
+      "elapsed_seconds": 3.6002639000071213,
+      "expected_parameter_count": 4791688,
+      "fixture_id": "known_fold01_train_shortest20_v1",
+      "gradient_clip_norm": 5.0,
+      "learning_rate": 0.0001,
+      "microbatch_size": 4,
+      "model_id": "g1",
+      "one_batch_smoke": {
+        "batch_size": 2,
+        "gradient_global_norm": 9.040764599957242,
+        "gradient_tensors": 30,
+        "logit_shape": [
+          2,
+          3,
+          456
+        ],
+        "loss": 16.5369873046875,
+        "loss_finite": true,
+        "missing_gradients": 0,
+        "nonfinite_gradients": 0,
+        "output_lengths": [
+          3,
+          3
+        ],
+        "passed": true
+      },
+      "oom_fallback_events": [],
+      "oom_fallback_used": false,
+      "optimizer": "Adam",
+      "parameter_count": 4791688,
+      "passed": true,
+      "sample_ids_sha256": "c54855a2b919109e4cffd2b86fdf3be76cfa3569bebc34a7b60ae2711bf75efa",
+      "seed": 20260826,
+      "tiny_overfit": {
+        "absolute_decrease": 3.9119140624999993,
+        "best_evaluation_loss": 17.78658447265625,
+        "epochs_completed": 2,
+        "final_evaluation_loss": 17.78658447265625,
+        "history": [
+          {
+            "epoch": 0,
+            "evaluation_loss": 21.69849853515625,
+            "maximum_preclip_gradient_norm": null,
+            "relative_decrease_from_initial": 0.0,
+            "training_loss": null
+          },
+          {
+            "epoch": 1,
+            "evaluation_loss": 20.4060417175293,
+            "maximum_preclip_gradient_norm": 14.12716293334961,
+            "relative_decrease_from_initial": 0.05956434338223419,
+            "training_loss": 20.405533218383788
+          },
+          {
+            "epoch": 2,
+            "evaluation_loss": 17.78658447265625,
+            "maximum_preclip_gradient_norm": 16.466293334960938,
+            "relative_decrease_from_initial": 0.18028501170999708,
+            "training_loss": 16.6900203704834
+          }
+        ],
+        "initial_evaluation_loss": 21.69849853515625,
+        "maximum_epochs": 8,
+        "minimum_epochs": 2,
+        "minimum_relative_decrease_required": 0.0001,
+        "passed": true,
+        "relative_decrease": 0.18028501170999708
+      },
+      "trained_weights_reusable": false,
+      "weight_decay": 0.0
+    }
+  },
+  "outer_scores_produced": false,
+  "project_generation": "fresh_start_2026_v1",
+  "schema_version": 1,
+  "scientific_use": "technical_diagnostic_only_not_reportable",
+  "stage": 31
+}

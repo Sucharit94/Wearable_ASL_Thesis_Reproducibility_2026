@@ -1,0 +1,99 @@
+{
+  "architectures": {
+    "bilstm_models": [
+      "c1",
+      "c2",
+      "c4",
+      "g1"
+    ],
+    "c4_bilstm_backend": true,
+    "families": {
+      "c1": "conv1d_bilstm_ctc",
+      "c2": "conv1d_bilstm_self_attention_ctc",
+      "c3": "conv1d_transformer_encoder_ctc",
+      "c4": "tiny_swin_bilstm_ctc",
+      "g1": "window_conv2d_two_bilstm_ctc"
+    },
+    "self_attention_models": [
+      "c2"
+    ],
+    "tiny_swin_models": [
+      "c4"
+    ],
+    "transformer_models": [
+      "c3"
+    ]
+  },
+  "catalog": {
+    "canonical_json_sha256": "33282d27e9ff204a209b5992df15f9dbc8ba47338a6cd52bcf64eed7a1748e81",
+    "file_sha256": "d1fd4fb04294a1e13272f7700e62fed8eaeae6f72a6141cf5d75134ed2856155",
+    "model_count": 5,
+    "model_ids": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "g1"
+    ]
+  },
+  "created_at_utc": "2026-09-05T10:23:01.855441+00:00",
+  "dependencies": {
+    "stage22_window_length_safe": true,
+    "stage24_identity_required": true,
+    "stage24_registry_passed": true
+  },
+  "hashes": {
+    "catalog": "d1fd4fb04294a1e13272f7700e62fed8eaeae6f72a6141cf5d75134ed2856155",
+    "contracts": "6c21c3ed789a70abf55d57495c380913e3831aa144176c497e0066df2033f920",
+    "tests": "f579961ce84a699e54eed24f519c184a865368c41c81e1084a65508191f7149d",
+    "verifier": "3ee95a3ae4e96b7075c4341324c507f863439293ecd4f1e69e318c7eed6c900e"
+  },
+  "input_adapters": {
+    "direct_sequence": [
+      "c1",
+      "c2",
+      "c3"
+    ],
+    "probe_raw_lengths": [
+      72,
+      234,
+      828
+    ],
+    "probe_window_lengths": [
+      3,
+      12,
+      45
+    ],
+    "window_length": 36,
+    "window_stride": 18,
+    "windowed_2d": [
+      "c4",
+      "g1"
+    ]
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "shared_output": {
+    "blank_id": 0,
+    "classes": 456,
+    "layout": "B_T_C",
+    "nonfinite_logits_allowed": false,
+    "raw_logits_required": true,
+    "target_padding_value": -1,
+    "valid_output_lengths_required": true
+  },
+  "stage": 25,
+  "training_defaults": {
+    "adam_models": [
+      "g1"
+    ],
+    "adamw_models": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "compact_epoch_cap": 80,
+    "g1_epoch_cap": 20,
+    "gradient_clip_norm": 5.0
+  }
+}

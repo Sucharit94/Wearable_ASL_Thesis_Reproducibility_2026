@@ -1,0 +1,8 @@
+check_id,rule,required
+F1,outer sample absent from retrieval and prompt library,True
+F2,outer English reference unavailable until scoring,True
+F3,recognition predictions remain immutable,True
+F4,generator identity and decoding parameters frozen before scoring,True
+F5,predicted-gloss and oracle-gloss results reported separately,True
+F6,L2 prompt examples drawn from the same fold training bank as L1,True
+F7,no candidate English list constructed from outer test labels,True

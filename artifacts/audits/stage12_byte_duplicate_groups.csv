@@ -1,0 +1,4 @@
+byte_duplicate_group_id,byte_sha256,group_size,subjects_json,sentence_ids_json,sample_ids_json,cross_subject,cross_sentence_id,gloss_target_conflict,english_target_conflict
+bytedup_0001,51ece44a52477c83dd25b1b326b40d1e5b38bd4a0ca67491c4f8a19e3ac0c6b6,2,"[""subject2""]",[258],"[""gu_s02_sent258_rep056"", ""gu_s02_sent258_rep057""]",False,False,False,False
+bytedup_0002,72b3f250cb17e63534dcb7995eca054b6de2bd04d6530f569b99d28481be709f,2,"[""subject3""]",[274],"[""gu_s03_sent274_rep058"", ""gu_s03_sent274_rep059""]",False,False,False,False
+bytedup_0003,c2807087229640b1df34cb3159cd04c2bfa202da169aa60be799da6ce83b6022,2,"[""subject1""]",[236],"[""gu_s01_sent236_rep008"", ""gu_s01_sent236_rep009""]",False,False,False,False

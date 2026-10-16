@@ -1,0 +1,53 @@
+{
+  "config_count": 11,
+  "configs": [
+    {
+      "path": "configs/data.yaml",
+      "sha256": "12cda2d6bce6928d67990d4f87adfb9f9f741b4ecc9619c7f661cae10525a080"
+    },
+    {
+      "path": "configs/experiments/known_5fold.yaml",
+      "sha256": "af46120b41d2644cff683cd3ed81becc02d971b6d01dc1379a256ba68a58e83f"
+    },
+    {
+      "path": "configs/experiments/language.yaml",
+      "sha256": "32a322115e2b1ff71643bf2f6ace2f0fccab011fadac31072b0458bd71642627"
+    },
+    {
+      "path": "configs/experiments/loso.yaml",
+      "sha256": "b758986ebd4b055216154a8fb9d6afaa2fd2115ac91ef97eb4cb3bf490065dcf"
+    },
+    {
+      "path": "configs/experiments/stage31_smoke.yaml",
+      "sha256": "932365f2215866be2db7cf56dc5fd17e8ccb575a21efe1fe133e2f9993a078fd"
+    },
+    {
+      "path": "configs/experiments/template_holdout.yaml",
+      "sha256": "44f8ebf209087315d9e50efbd2d9e5e8290260244f1ea3d8a81869d425315992"
+    },
+    {
+      "path": "configs/models/c1.yaml",
+      "sha256": "ca43e0c2a93623e0e39684f5ba7c735a528583867346887199e80b7b7326e252"
+    },
+    {
+      "path": "configs/models/c2.yaml",
+      "sha256": "b2f28092dbd04f084214cce9c022c844da531928ea005db16cce2a9da778ec3c"
+    },
+    {
+      "path": "configs/models/c3.yaml",
+      "sha256": "b5187ae685060e3fc3b1ba0279db9eb64a78374a21b1eeaccbd898ea36880ed7"
+    },
+    {
+      "path": "configs/models/c4.yaml",
+      "sha256": "3e7b81b34048466b081b7b825ae2b7a7d9bc69e15a7e602376359d87b3100fdb"
+    },
+    {
+      "path": "configs/models/g1.yaml",
+      "sha256": "29c11de9acf52384e41026a0e20dfc61f3ed2f14245bb2224cd5d38ee273f99f"
+    }
+  ],
+  "format": "json_compatible_yaml_1_2",
+  "project_generation": "fresh_start_2026_v1",
+  "schema_version": 1,
+  "stage": 31
+}

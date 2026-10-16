@@ -1,0 +1,50 @@
+{
+  "generated_portable_sha256": {
+    "artifacts/language/stage39/stage39a_generation_queue.jsonl": "4d270050123fe4ced1a386119aadd2acd34db1957f009c998c44c2014f2c4dcf",
+    "artifacts/language/stage39/stage39a_generator_execution_template.json": "f4d031210b3fe98b109dadd6b0b82040dd5a4ff4112858ba87a59a31c20b675c",
+    "artifacts/language/stage39/stage39a_queue_statistics.csv": "6e60fcb2ad9399cd2c1591f2c40d28aedc19ab03e35ff89a6e859df5e55b8563",
+    "artifacts/language/stage39/stage39a_sample_request_map.csv": "7961d9a8acb0c2fb33705823875462a01f1930695a18fc80579e4004507c03d2",
+    "docs/STAGE_39A_GENERATION_INPUT_FREEZE.md": "3476420d84ae1ac0fa64243281e2b1f452c6838853c951941ae93edabda8fcbf"
+  },
+  "generator_called": false,
+  "implementation_portable_sha256": {
+    "scripts/build_stage39_generation_freeze.py": "f07875324a07a2aa5cb9237d1cac38ae149d9f1e57b93b31e45f92a0d1edaa8c",
+    "scripts/verify_stage39_generation_freeze.py": "12c8f363b36fe00876861cc39c64b73cfdc8e219cd46de56f2ad1affb5e94d17",
+    "src/evaluation/stage39_generation.py": "6c04ca36da4828d47529fa4d18cdbe20905728f8caeccda09dd2b1811ee9736f",
+    "tests/test_stage39_generation_freeze.py": "a2b0ecd7e171c6ceeb264ad4edeea8f7e1e48d4f29974cf9c3bf0f3059d67ffc"
+  },
+  "input_stage38_contract_portable_sha256": "affc82320851e0991296dd8559753f502c1038a8af6c4e197bc6a84c03d458e8",
+  "name": "constrained_generation_input_and_execution_freeze",
+  "outer_references_exposed": false,
+  "project_generation": "fresh_start_2026_v1",
+  "protocol": {
+    "backend_frozen": false,
+    "completed_responses_immutable": true,
+    "folds": 5,
+    "models": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "resume_key": "request_id",
+    "stage39b_authorized": false,
+    "systems": [
+      "L2_constrained_generator"
+    ],
+    "temperature": 0.0,
+    "top_k_training_examples": 3
+  },
+  "stage": 39,
+  "status": "passed",
+  "substage": "A",
+  "training_started": false,
+  "validation": {
+    "queue_statistics_rows": 25,
+    "reference_firewall_passed": true,
+    "sample_request_rows": 37000,
+    "stage38_l1_rows": 37000,
+    "unique_generation_requests": 11720
+  }
+}

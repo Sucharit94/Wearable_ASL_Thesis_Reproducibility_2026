@@ -1,0 +1,22 @@
+selection_rank,template_group_id,sentence_ids_json,gloss_targets_json,english_targets_json,subject_support_signature,subject1_recordings,subject2_recordings,subject3_recordings,total_recordings,minimum_token_template_group_frequency,joint_holdout_safe
+1,tplgrp_087,[88],"[""sunday i go church i""]","[""I go to church on Sunday""]",S1+S2,20,20,0,40,2,True
+2,tplgrp_011,[11],"[""thank_you""]","[""thank you""]",S1,20,0,0,20,3,True
+3,tplgrp_076,[76],"[""see next_week""]","[""see you next week""]",S1,20,0,0,20,3,True
+4,tplgrp_008,[8],"[""how you""]","[""how are you""]",S1,20,0,0,20,4,True
+5,tplgrp_120,[121],"[""good night""]","[""good night""]",S1,20,0,0,20,3,True
+6,tplgrp_189,[190],"[""your birthday dinner where""]","[""where is your birthday dinner""]",S1,20,0,0,20,2,True
+7,tplgrp_213,[214],"[""my family i love i""]","[""I love my family""]",S1,20,0,0,20,4,True
+8,tplgrp_013,[13],"[""your favorite movie what""]","[""what's your favorite movie""]",S1,20,0,0,20,3,True
+9,tplgrp_074,[74],"[""my family altogether husband son""]","[""my family altogether husband and son""]",S1,20,0,0,20,2,True
+10,tplgrp_254,[255],"[""i back home i""]","[""I go back home""]",S1+S3,20,0,20,40,3,True
+11,tplgrp_091,[92],"[""friday night i go_out restaurant""]","[""I go out for restaurant Friday night""]",S1,20,0,0,20,3,True
+12,tplgrp_287,[288],"[""you know my friend you""]","[""you know my friend""]",S1+S2,20,20,0,40,2,True
+13,tplgrp_206,[207],"[""halloween when""]","[""when is Halloween""]",S1,20,0,0,20,2,True
+14,tplgrp_035,[35],"[""i have two dog one cat""]","[""I have 2 dogs and 1 cat""]",S1,20,0,0,20,2,True
+15,tplgrp_186,[187],"[""hey who that""]","[""hey who is that""]",S1,20,0,0,20,2,True
+16,tplgrp_058,[58],"[""hamburger finish icecream want""]","[""hamburgers finished and I want ice-cream""]",S1,20,0,0,20,2,True
+17,tplgrp_284,[285],"[""graduate finish i plan travel i""]","[""graduation finished I plan to travel""]",S1,20,0,0,20,2,True
+18,tplgrp_112,[113],"[""i watch christmas movie love_it""]","[""I love watching Christmas movies""]",S1,20,0,0,20,3,True
+19,tplgrp_271,[272],"[""my friend dislike wrestling""]","[""my friend dislikes wrestling""]",S1+S3,20,0,20,40,2,True
+20,tplgrp_049,[49],"[""you finish you""]","[""you finish""]",S1+S2,20,20,0,40,9,True
+21,tplgrp_023,[23],"[""you deaf you""]","[""are you deaf""]",S1+S2,20,20,0,40,2,True

@@ -1,0 +1,295 @@
+{
+  "architecture": {
+    "activation": "GELU",
+    "bilstm_hidden_per_direction": 96,
+    "bilstm_layers": 1,
+    "bilstm_output_width": 192,
+    "blank_id": 0,
+    "blocks_per_stage": [
+      "regular",
+      "shifted"
+    ],
+    "external_swin_library_required": false,
+    "mlp_ratio": 4,
+    "output_classes": 456,
+    "packed_bilstm": true,
+    "patch_grid": [
+      18,
+      19
+    ],
+    "patch_merge": "2x2_32_to_64",
+    "patch_projection": "Conv2d(1,32,kernel=2,stride=2)",
+    "post_lstm_dropout": 0.15,
+    "post_lstm_normalization": "LayerNorm(192)",
+    "post_merge_grid": [
+      9,
+      10
+    ],
+    "regular_shift": [
+      0,
+      0
+    ],
+    "relative_position_bias": true,
+    "shifted_shift": [
+      4,
+      2
+    ],
+    "stage_depths": [
+      2,
+      2
+    ],
+    "stage_dimensions": [
+      32,
+      64
+    ],
+    "stage_heads": [
+      2,
+      4
+    ],
+    "stochastic_depth": 0.0,
+    "swin_dropout": 0.1,
+    "swin_window_size": [
+      8,
+      5
+    ],
+    "window_embedding_width": 64,
+    "window_pooling": "masked_mean_over_2d_grid"
+  },
+  "created_at_utc": "2026-09-06T15:01:20.903917+00:00",
+  "ctc_backward": {
+    "gradient_global_norm": 60.017212649684296,
+    "gradient_tensors": 73,
+    "loss": 8.43664836883545,
+    "loss_finite": true,
+    "missing_gradients": 0,
+    "nonfinite_gradients": 0,
+    "passed": true
+  },
+  "dependencies": {
+    "stage21_ctc_loss_wrapper_used": true,
+    "stage22_window_formula_match": true,
+    "stage25_c4_spec_passed": true,
+    "stage25_catalog_hash_match": true,
+    "stage26_window_predecessor_passed": true,
+    "stage29_immediate_predecessor_passed": true
+  },
+  "design_resolution": {
+    "pure_swin_without_bilstm_selected": false,
+    "resolved_before_training": [
+      "embedding_width_32",
+      "patch_projection_2x2",
+      "rectangular_window_8x5_shift_4x2",
+      "mlp_ratio_4_gelu_pre_norm",
+      "relative_position_bias",
+      "bilstm_hidden_96_per_direction",
+      "post_lstm_layernorm_dropout_0_15",
+      "no_stochastic_depth"
+    ],
+    "roadmap_explicit": [
+      "36x38_windows_stride_18",
+      "tiny_swin_depths_2_2",
+      "heads_2_4",
+      "embedding_width_24_or_32",
+      "one_embedding_per_window",
+      "one_layer_bilstm_hidden_96_or_128_per_direction",
+      "linear_ctc_head",
+      "parameter_budget_below_1_5m"
+    ],
+    "stage25_hybrid_contract_authoritative": true,
+    "status": "prospective_before_training"
+  },
+  "hashes": {
+    "c3_model": "bfbf626b06e80dc6860ed34af5205d8e61588af8d07a59a73e906eb09139e729",
+    "g1_model": "3812694dfb3a0559e1c54bdf40d36f8bfaa03d415dd79b506907c5b5cdee3e4a",
+    "model": "73d03fac31517de36306227bbf122fbbe01db0258bb49697af356a937c5ca779",
+    "stage25_catalog": "d1fd4fb04294a1e13272f7700e62fed8eaeae6f72a6141cf5d75134ed2856155",
+    "stage26_contract": "db462476907a791d9ce4b6a15e3ab7916476160b543c61dd4f29281583bbdcca",
+    "stage29_contract": "8ce81e2cbc9695d2a1f78872a1d2f0a8006d4d2936574379457d7a93d8eaf7f8",
+    "tests": "7effe2638f50cf2cb6ac9c47e2ab5065b21641bedbbbbe8eaba7cbcb6420dbc6",
+    "verifier": "cb1a8f057bb0d14bdd86678c5e30a398e1457e72cdc7d8f0f713935ef3b5ac80"
+  },
+  "identity": {
+    "architecture_family": "tiny_swin_bilstm_ctc",
+    "exact_standard_swin_reproduction_claimed": false,
+    "input_adapter": "windowed_2d",
+    "model_id": "c4",
+    "scientific_role": "tiny_swin_window_attention_comparison"
+  },
+  "input_adapter": {
+    "complete_valid_windows_only": true,
+    "feature_axis_permuted": false,
+    "input_layout": "B_T_38",
+    "padded_windows_enter_swin": false,
+    "resize_to_224": false,
+    "temporal_and_feature_order_preserved": true,
+    "window_count_formula": "1 + floor((T - 36) / 18)",
+    "window_layout": "N_1_36_38",
+    "window_length": 36,
+    "window_stride": 18
+  },
+  "length_and_padding_safety": {
+    "feature_order_passed": true,
+    "observed_windows": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      5,
+      45
+    ],
+    "output_lengths": [
+      3,
+      4,
+      5
+    ],
+    "output_shape": [
+      3,
+      5,
+      456
+    ],
+    "padded_logits_zero": true,
+    "passed": true,
+    "probe_raw": [
+      36,
+      53,
+      54,
+      71,
+      72,
+      81,
+      90,
+      108,
+      831
+    ],
+    "raw_padding_invariance_passed": true,
+    "raw_padding_max_absolute_difference": 0.0,
+    "stage22_expected_windows": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      5,
+      45
+    ],
+    "stage22_formula_match": true
+  },
+  "parameter_counts": {
+    "bilstm": 124416,
+    "budget_passed": true,
+    "budget_upper_bound": 1500000,
+    "classifier": 88008,
+    "expected_total": 348604,
+    "passed": true,
+    "post_lstm_normalization": 384,
+    "trainable_total": 348604,
+    "window_encoder": 135796
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "runtime": {
+    "cuda_available_locally": false,
+    "pytorch_version": "2.14.0+cpu",
+    "verification_device": "cpu"
+  },
+  "stage": 30,
+  "swin_verification": {
+    "long_grid_padded": [
+      32,
+      25
+    ],
+    "long_grid_probe": [
+      25,
+      21
+    ],
+    "minimal_grid_padding_passed": true,
+    "padded_spatial_outputs_zero": true,
+    "passed": true,
+    "patch_merge_mask_match": true,
+    "patch_merge_max_absolute_difference": 0.0,
+    "patch_merge_padding_passed": true,
+    "relative_position_bias_passed": true,
+    "shape_trace": {
+      "after_patch_merge_nhwc": [
+        2,
+        9,
+        10,
+        64
+      ],
+      "after_patch_projection_nchw": [
+        2,
+        32,
+        18,
+        19
+      ],
+      "after_stage1_nhwc": [
+        2,
+        18,
+        19,
+        32
+      ],
+      "after_stage2_nhwc": [
+        2,
+        9,
+        10,
+        64
+      ],
+      "window_embedding": [
+        2,
+        64
+      ]
+    },
+    "shape_trace_passed": true,
+    "shifted_blocks_passed": true,
+    "shifted_stage1_calls": 1,
+    "shifted_stage2_calls": 1,
+    "short_grid_padded": [
+      8,
+      5
+    ],
+    "short_grid_probe": [
+      3,
+      2
+    ],
+    "spatial_padding_invariance_passed": true,
+    "spatial_padding_max_absolute_difference": 0.0,
+    "stage1_attention_grid": [
+      18,
+      19
+    ],
+    "stage1_minimally_padded_grid": [
+      24,
+      20
+    ],
+    "stage1_relative_bias_shape": [
+      135,
+      2
+    ],
+    "stage2_attention_grid": [
+      9,
+      10
+    ],
+    "stage2_minimally_padded_grid": [
+      16,
+      10
+    ],
+    "stage2_relative_bias_shape": [
+      135,
+      4
+    ]
+  },
+  "training_defaults": {
+    "early_stopping_patience": 8,
+    "epoch_cap": 80,
+    "gradient_clip_norm": 5.0,
+    "learning_rate": 5e-05,
+    "optimizer": "AdamW",
+    "physical_batch_size": 16,
+    "primary_augmentation": "none",
+    "scheduler": "ReduceLROnPlateau",
+    "weight_decay": 0.0001
+  }
+}

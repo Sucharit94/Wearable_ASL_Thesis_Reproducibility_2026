@@ -1,0 +1,77 @@
+{
+  "created_at_utc": "2026-08-30T11:35:43.221401+00:00",
+  "eligible_template_groups": 103,
+  "language_stage_rule": "When this split is used later for retrieval or generative English correction evaluation, the held-out template groups must also be excluded from retrieval references and language-stage training examples.",
+  "leakage_checks": {
+    "sentence_39_83_same_group": true,
+    "sentence_39_83_same_role": true,
+    "sentence_39_83_selected_for_test": false,
+    "stage12_split_group_role_violations": 0,
+    "train_test_template_group_overlap": 0
+  },
+  "not_claimed": [
+    "open-vocabulary recognition",
+    "unseen gloss-token recognition",
+    "unseen signer recognition"
+  ],
+  "output_hashes": {
+    "assignment_sha256": "b36096c0cb14cf137eb2a5bdbf206a5aad462326cdc490dbe5810705ac5e3376",
+    "selected_groups_sha256": "55782c6c4d2343c20dc278d462ccf68802186f533659f6cfef2f5d7e00359925"
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "recordings": {
+    "test": 540,
+    "total": 7400,
+    "train": 6860
+  },
+  "scientific_interpretation": "Complete held-out template-equivalence groups are absent from recognition training, while every target gloss token remains supported by the remaining training templates.",
+  "selected_sentence_ids": 21,
+  "selected_signature_counts": {
+    "S1": 15,
+    "S1+S2": 4,
+    "S1+S3": 2
+  },
+  "selected_template_groups": 21,
+  "selection_attempt": 0,
+  "selection_seed": 20260830,
+  "signature_quotas": {
+    "S1": 15,
+    "S1+S2": 4,
+    "S1+S3": 2
+  },
+  "source_hashes": {
+    "stage16a_candidate_groups_sha256": "aeb5f37b5aaecd037fc2f3098c70b440d5c3e3f1f4a2fbfa96b50721fcb1685c"
+  },
+  "split_name": "vocabulary_supported_template_holdout",
+  "stage": 16,
+  "subjects": [
+    {
+      "subject": "subject1",
+      "test_recordings": 420,
+      "test_sentence_ids": 21,
+      "test_template_groups": 21,
+      "train_recordings": 5580
+    },
+    {
+      "subject": "subject2",
+      "test_recordings": 80,
+      "test_sentence_ids": 4,
+      "test_template_groups": 4,
+      "train_recordings": 920
+    },
+    {
+      "subject": "subject3",
+      "test_recordings": 40,
+      "test_sentence_ids": 2,
+      "test_template_groups": 2,
+      "train_recordings": 360
+    }
+  ],
+  "vocabulary": {
+    "closed_vocabulary_supported": true,
+    "global_gloss_tokens": 455,
+    "test_target_gloss_tokens": 54,
+    "training_gloss_tokens": 455,
+    "unsupported_test_gloss_tokens": 0
+  }
+}

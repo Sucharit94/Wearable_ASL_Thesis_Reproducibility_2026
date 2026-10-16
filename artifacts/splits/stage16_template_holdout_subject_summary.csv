@@ -1,0 +1,4 @@
+subject,train_recordings,test_recordings,test_sentence_ids,test_template_groups
+subject1,5580,420,21,21
+subject2,920,80,4,4
+subject3,360,40,2,2

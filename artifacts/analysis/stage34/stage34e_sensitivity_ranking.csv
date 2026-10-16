@@ -1,0 +1,13 @@
+scenario,rank,model_id,score,scenario_winner
+quality_priority,1,g1,0.7749198396827688,True
+quality_priority,2,c2,0.514949659302538,False
+quality_priority,3,c4,0.37905275918316406,False
+quality_priority,4,c1,0.299012307667377,False
+balanced,1,g1,0.6038355196514068,True
+balanced,2,c2,0.6001698334434802,False
+balanced,3,c1,0.498024615334754,False
+balanced,4,c4,0.39885890105090516,False
+efficiency_priority,1,c1,0.6975307691684425,True
+efficiency_priority,2,c2,0.6892973901513695,False
+efficiency_priority,3,g1,0.45216421409704477,False
+efficiency_priority,4,c4,0.36931534063054305,False

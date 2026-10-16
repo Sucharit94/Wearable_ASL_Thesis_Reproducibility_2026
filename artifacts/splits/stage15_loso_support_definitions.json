@@ -1,0 +1,110 @@
+{
+  "created_at_utc": "2026-08-29T12:31:15.133681+00:00",
+  "definitions": {
+    "LOSO-All": {
+      "requires_all_target_tokens_in_training": false,
+      "requires_exact_template_in_training": false,
+      "rule": "Every recording belonging to the held-out subject."
+    },
+    "LOSO-Template-Supported": {
+      "requires_all_target_tokens_in_training": true,
+      "requires_exact_template_in_training": true,
+      "rule": "Held-out recordings whose exact sentence_id occurs at least once in the LOSO training partition."
+    },
+    "LOSO-Token-Supported": {
+      "requires_all_target_tokens_in_training": true,
+      "requires_exact_template_in_training": false,
+      "rule": "Held-out recordings for which every target gloss token occurs in at least one template in the LOSO training partition."
+    },
+    "Token-Supported-Novel-Template": {
+      "primary_report_subset": false,
+      "rule": "Diagnostic subset of LOSO-Token-Supported where the exact sentence_id is absent from training."
+    },
+    "Token-Unsupported": {
+      "primary_report_subset": false,
+      "rule": "Diagnostic subset containing at least one target gloss token with zero training support in that LOSO run."
+    }
+  },
+  "nesting_contract": "LOSO-Template-Supported is a subset of LOSO-Token-Supported, which is a subset of LOSO-All.",
+  "project_generation": "fresh_start_2026_v1",
+  "reporting_contract": "Report LOSO-All for every signer. Report support-aware subsets alongside it. Do not treat the three LOSO directions as equivalent label-support conditions.",
+  "source_stage14_sha256": "28fef677789f652c0939fb4550a78ef928dfdbc58615ebea773c5ff8a9c86de9",
+  "stage": 15,
+  "summary": [
+    {
+      "held_out_subject": "subject1",
+      "loso_all_recordings": 6000,
+      "loso_id": "loso_subject1",
+      "stage11_consistency": true,
+      "template_supported_recordings": 1340,
+      "template_supported_template_ids_json": "[5, 9, 21, 23, 29, 46, 47, 49, 53, 55, 56, 63, 65, 77, 84, 85, 87, 88, 90, 94, 96, 97, 98, 103, 104, 105, 108, 116, 132, 139, 141, 144, 151, 152, 162, 173, 189, 198, 201, 202, 209, 225, 230, 233, 237, 238, 241, 250, 255, 258, 259, 262, 268, 272, 274, 276, 278, 288, 289, 290, 291, 292, 293, 296, 297, 298, 300]",
+      "template_supported_test_templates": 67,
+      "template_unsupported_test_templates": 233,
+      "test_gloss_tokens": 455,
+      "test_recordings_loso_all": 6000,
+      "test_templates": 300,
+      "token_supported_novel_template_ids_json": "[10, 16, 20, 39, 44, 45, 58, 83, 109]",
+      "token_supported_novel_template_recordings": 180,
+      "token_supported_recordings": 1520,
+      "token_supported_template_ids_json": "[5, 9, 10, 16, 20, 21, 23, 29, 39, 44, 45, 46, 47, 49, 53, 55, 56, 58, 63, 65, 77, 83, 84, 85, 87, 88, 90, 94, 96, 97, 98, 103, 104, 105, 108, 109, 116, 132, 139, 141, 144, 151, 152, 162, 173, 189, 198, 201, 202, 209, 225, 230, 233, 237, 238, 241, 250, 255, 258, 259, 262, 268, 272, 274, 276, 278, 288, 289, 290, 291, 292, 293, 296, 297, 298, 300]",
+      "token_unsupported_recordings": 4480,
+      "token_unsupported_template_ids_json": "[1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 17, 18, 19, 22, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 48, 50, 51, 52, 54, 57, 59, 60, 61, 62, 64, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 86, 89, 91, 92, 93, 95, 99, 100, 101, 102, 106, 107, 110, 111, 112, 113, 114, 115, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 133, 134, 135, 136, 137, 138, 140, 142, 143, 145, 146, 147, 148, 149, 150, 153, 154, 155, 156, 157, 158, 159, 160, 161, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 190, 191, 192, 193, 194, 195, 196, 197, 199, 200, 203, 204, 205, 206, 207, 208, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 226, 227, 228, 229, 231, 232, 234, 235, 236, 239, 240, 242, 243, 244, 245, 246, 247, 248, 249, 251, 252, 253, 254, 256, 257, 260, 261, 263, 264, 265, 266, 267, 269, 270, 271, 273, 275, 277, 279, 280, 281, 282, 283, 284, 285, 286, 287, 294, 295, 299]",
+      "train_recordings": 1400,
+      "training_gloss_tokens": 131,
+      "training_templates": 67,
+      "unsupported_test_gloss_tokens": 324,
+      "unsupported_test_tokens_json": "[\"AC\", \"AUG\", \"US\", \"a_little\", \"a_lot\", \"afternoon\", \"age\", \"alcohol\", \"allergic\", \"altogether\", \"always\", \"animal\", \"apartment\", \"apple\", \"area\", \"arrive\", \"baby\", \"bad_at\", \"bake\", \"baseball\", \"basketball\", \"bathroom\", \"because\", \"become\", \"biologist\", \"birthday\", \"black\", \"blonde\", \"blood\", \"boxing\", \"brother\", \"brown\", \"brush_teeth\", \"but\", \"cake\", \"calculus\", \"canada\", \"car\", \"cash\", \"celebrate\", \"chair\", \"chemistry\", \"chocolate\", \"christmas_day\", \"class\", \"close\", \"clothes\", \"cloud\", \"coat\", \"coffee\", \"cold\", \"color\", \"come_on\", \"comfortable\", \"compete\", \"congratulations\", \"cost\", \"costume\", \"country\", \"cousin\", \"credit\", \"dad\", \"dark\", \"department\", \"different\", \"dinner\", \"do_you\", \"dog\", \"dollars\", \"drink\", \"drug\", \"dry\", \"due\", \"during\", \"easter\", \"eat_breakfast\", \"egg\", \"eight\", \"elephant\", \"engineering\", \"every_day\", \"every_monday\", \"every_morning\", \"every_saturday\", \"every_thursday\", \"excited\", \"excuse_me\", \"experience\", \"fall\", \"family\", \"fancy\", \"fifteen\", \"finger_spell\", \"five_oclock\", \"football\", \"for\", \"friday\", \"from\", \"future\", \"game\", \"get_together\", \"ghost\", \"go_ahead\", \"go_out\", \"good\", \"good_at\", \"goodbye\", \"graduate\", \"grandma\", \"hail\", \"hair\", \"half_time\", \"halloween\", \"hat\", \"hawaii\", \"hearing\", \"heart\", \"hello\", \"help_you\", \"here\", \"hey\", \"high\", \"hiking\", \"hope\", \"host\", \"hot\", \"hotdog\", \"hotel\", \"how\", \"how_old\", \"huge\", \"hunt\", \"husband\", \"important\", \"introduce\", \"jingle_bells\", \"join\", \"karate\", \"knit\", \"language\", \"large\", \"last\", \"latter\", \"lets\", \"light\", \"lion\", \"live\", \"local\", \"look\", \"look_around\", \"lost\", \"love\", \"love_all\", \"love_it\", \"lunch\", \"machine\", \"major\", \"make\", \"manage\", \"many\", \"maybe\", \"medicine\", \"medium\", \"meet\", \"meeting\", \"mix\", \"monday\", \"monkey\", \"morning\", \"mountain\", \"move\", \"movie\", \"museum\", \"mustache\", \"name\", \"nauseous\", \"nervous\", \"next_to\", \"next_week\", \"nice\", \"night\", \"nine\", \"nine_oclock\", \"nineteen\", \"no\", \"not_yet\", \"office\", \"olympics\", \"one\", \"optometrist\", \"orange\", \"order\", \"our\", \"pack\", \"pain\", \"pancake\", \"paper\", \"parade\", \"party\", \"pass_out\", \"pay\", \"physics\", \"picnic\", \"pineapple\", \"pink\", \"plan\", \"play\", \"police_officer\", \"potato\", \"pregnant\", \"president\", \"pressure\", \"principal\", \"problem\", \"pumpkin\", \"purse\", \"rain\", \"rainbow\", \"ready\", \"red\", \"reduce\", \"remember\", \"resolution\", \"rest\", \"restaurant\", \"same\", \"saturday\", \"sausage\", \"scared\", \"scarf\", \"school\", \"seatbelt\", \"seizures\", \"senior\", \"seven_dollars\", \"she\", \"shirt\", \"shop\", \"show\", \"shrimp\", \"shy\", \"since\", \"sister\", \"six_oclock\", \"skill\", \"slower\", \"small\", \"snow\", \"soda\", \"sometimes\", \"spaghetti\", \"sport\", \"spread\", \"start\", \"state\", \"stay\", \"still\", \"strong\", \"subscribe\", \"sunny\", \"super_bowl\", \"support\", \"sweet\", \"swimming\", \"take\", \"take_out\", \"talkative\", \"teacher\", \"team\", \"tend\", \"thank_you\", \"thankful\", \"thanksgiving_day\", \"that\", \"think\", \"thirty\", \"three\", \"three_oclock\", \"three_of_you\", \"thursday\", \"tornado\", \"trash\", \"travel\", \"treat\", \"trick\", \"turkey\", \"turn_on\", \"twelve_oclock\", \"twenty_six\", \"two\", \"two_week\", \"uncle\", \"understand\", \"vacation\", \"valentine\", \"visit\", \"waitress\", \"walk\", \"warm\", \"wash\", \"watch\", \"wear\", \"weather\", \"weekend\", \"welcome\", \"what_do\", \"what_time\", \"what_year\", \"whats_up\", \"when\", \"which\", \"white\", \"who\", \"whole\", \"win\", \"winter\", \"witch\", \"work\", \"working\", \"workout\", \"yes\", \"you_all\", \"you_mind\", \"yourself\"]"
+    },
+    {
+      "held_out_subject": "subject2",
+      "loso_all_recordings": 1000,
+      "loso_id": "loso_subject2",
+      "stage11_consistency": true,
+      "template_supported_recordings": 1000,
+      "template_supported_template_ids_json": "[5, 9, 21, 23, 29, 46, 47, 49, 53, 55, 56, 63, 65, 77, 84, 85, 88, 90, 96, 97, 98, 105, 108, 116, 141, 144, 151, 152, 173, 189, 198, 201, 209, 225, 230, 233, 238, 258, 259, 262, 268, 276, 278, 288, 290, 291, 297, 298]",
+      "template_supported_test_templates": 48,
+      "template_unsupported_test_templates": 0,
+      "test_gloss_tokens": 99,
+      "test_recordings_loso_all": 1000,
+      "test_templates": 48,
+      "token_supported_novel_template_ids_json": "[]",
+      "token_supported_novel_template_recordings": 0,
+      "token_supported_recordings": 1000,
+      "token_supported_template_ids_json": "[5, 9, 21, 23, 29, 46, 47, 49, 53, 55, 56, 63, 65, 77, 84, 85, 88, 90, 96, 97, 98, 105, 108, 116, 141, 144, 151, 152, 173, 189, 198, 201, 209, 225, 230, 233, 238, 258, 259, 262, 268, 276, 278, 288, 290, 291, 297, 298]",
+      "token_unsupported_recordings": 0,
+      "token_unsupported_template_ids_json": "[]",
+      "train_recordings": 6400,
+      "training_gloss_tokens": 455,
+      "training_templates": 300,
+      "unsupported_test_gloss_tokens": 0,
+      "unsupported_test_tokens_json": "[]"
+    },
+    {
+      "held_out_subject": "subject3",
+      "loso_all_recordings": 400,
+      "loso_id": "loso_subject3",
+      "stage11_consistency": true,
+      "template_supported_recordings": 400,
+      "template_supported_template_ids_json": "[87, 94, 98, 103, 104, 132, 139, 162, 202, 237, 241, 250, 255, 272, 274, 289, 292, 293, 296, 300]",
+      "template_supported_test_templates": 20,
+      "template_unsupported_test_templates": 0,
+      "test_gloss_tokens": 54,
+      "test_recordings_loso_all": 400,
+      "test_templates": 20,
+      "token_supported_novel_template_ids_json": "[]",
+      "token_supported_novel_template_recordings": 0,
+      "token_supported_recordings": 400,
+      "token_supported_template_ids_json": "[87, 94, 98, 103, 104, 132, 139, 162, 202, 237, 241, 250, 255, 272, 274, 289, 292, 293, 296, 300]",
+      "token_unsupported_recordings": 0,
+      "token_unsupported_template_ids_json": "[]",
+      "train_recordings": 7000,
+      "training_gloss_tokens": 455,
+      "training_templates": 300,
+      "unsupported_test_gloss_tokens": 0,
+      "unsupported_test_tokens_json": "[]"
+    }
+  ],
+  "support_assignment_sha256": "6e827b9ff0ee9dec2ff991c26d01c0e52c96b739a084509c4fe6091f8c4e9e6f",
+  "support_source_contract": "Template and token support are determined only from the corresponding LOSO training partition. Global vocabulary membership does not count as LOSO training support.",
+  "training_contract": "Support subsets are evaluation filters only. For a given held-out signer, the same trained LOSO recognizer is evaluated on all applicable support views; separate models are not trained for each support subset."
+}

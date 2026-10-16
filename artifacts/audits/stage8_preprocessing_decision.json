@@ -1,0 +1,37 @@
+﻿{
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 8,
+  "decision_status": "FROZEN",
+  "primary_representation": {
+    "name": "raw_rotation_38d",
+    "input_width": 38,
+    "use_raw_rotation_values": true,
+    "temporal_unwrap": false,
+    "sin_cos_encoding": false,
+    "in_place_conversion": false,
+    "normalization": "train_partition_only_later_in_stage_18"
+  },
+  "circular_encoding_ablation": {
+    "declared": true,
+    "primary": false,
+    "applies_to": "all_38_rotation_columns",
+    "input_width_after_encoding": 76,
+    "formula": "[sin(theta*pi/180), cos(theta*pi/180)]",
+    "column_selection_from_full_dataset": false,
+    "outer_test_used_for_selection": false,
+    "evaluation_rule": "development_or_inner-selection_data_only_before_any decision to promote the representation"
+  },
+  "evidence": {
+    "observed_global_min": -179.997086,
+    "observed_global_max": 179.99971,
+    "observed_max_frame_jump": 359.946503,
+    "candidate_pm180_wrap_crossings": 1599,
+    "candidate_pm180_wrap_rate": 0.00002309593580860908,
+    "empirical_scale": "STRONGLY_DEGREE_LIKE"
+  },
+  "interpretation": {
+    "degree_scale": "HIGH_CONFIDENCE_EMPIRICAL_AND_FORMAT_SUPPORTED",
+    "author_csv_unit_explicitly_documented": false,
+    "exact_csv_semantic_column_order": "UNVERIFIED"
+  }
+}

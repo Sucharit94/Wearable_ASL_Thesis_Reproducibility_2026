@@ -1,0 +1,130 @@
+{
+  "all_sample_checks": {
+    "cache_vs_stage13_equal": true,
+    "cache_vs_stage16_equal": true,
+    "metadata_mismatches": 0,
+    "missing_targets": 0
+  },
+  "collate_smoke": {
+    "batch_shape": [
+      3,
+      551,
+      38
+    ],
+    "input_lengths": [
+      81,
+      241,
+      551
+    ],
+    "input_padding_value": 0.0,
+    "mask_violations": 0,
+    "padding_violations": 0,
+    "sample_ids": [
+      "gu_s01_sent165_rep013",
+      "gu_s01_sent125_rep007",
+      "gu_s02_sent029_rep070"
+    ],
+    "target_padding_value": -1
+  },
+  "created_at_utc": "2026-08-31T05:24:32.752050+00:00",
+  "deferred": [
+    "CTC feasibility and output lengths — Stage 20",
+    "CTC loss and decoder — Stage 21",
+    "model output-length propagation — Stage 22",
+    "PyTorch training loaders — later training engine"
+  ],
+  "engine": {
+    "cache_access": "read_only_memmap",
+    "ctc_blank_id": 0,
+    "ctc_output_classes": 456,
+    "feature_width": 38,
+    "framework": "numpy",
+    "recordings": 7400,
+    "target_padding_id": -1,
+    "target_sentences": 300,
+    "total_timesteps": 1829320
+  },
+  "fold1_normalization_smoke": {
+    "feature_width": 38,
+    "fit_frames": 1463210,
+    "fit_recordings": 5920,
+    "maximum_std": 38.54312885408708,
+    "minimum_std": 7.442732841749875,
+    "sample_ids_sha256": "7b7c9d9c27256d144f519f34fdb0fe73000d5ae894194c118b1582619914191f",
+    "scientific_role": "integration diagnostic only; not a globally reusable normalization vector"
+  },
+  "hashes": {
+    "stage18_preprocessing_implementation": "58c91ed2b51874ae65c1b490c453497a9029fcd00a44dcdbacf41210096817f0",
+    "stage19_implementation": {
+      "collate_py": "130739f66137cf10d3f8eb4b3753718153d35dae926c35b7f0ad9f1890bcad2e",
+      "dataset_py": "cfe3dc4f20a4dfb090983569ae58efaf93a3ac1aaa24a689154026908a5f23ac",
+      "splits_py": "4b22fc295448a182ac07d553fc17a08312002ea1b4e5bc9b7a60465dbfaf065c",
+      "stage19_tests": "cdb24b5b60578fb83b066af4897f2289a58bc311985d26a08ca0ee1ffb21fcab"
+    },
+    "upstream": {
+      "stage10_targets": "2f87dab3a80e1d49029d809fc45f6cc885a521b750e7d8448e08a68484ac1de8",
+      "stage13_known_signer": "7b9943145ffd9658fe20fedc37e4bd4515496a7cd59b893f95e99f95ea6c95e9",
+      "stage14_loso": "28fef677789f652c0939fb4550a78ef928dfdbc58615ebea773c5ff8a9c86de9",
+      "stage16_template_holdout": "b36096c0cb14cf137eb2a5bdbf206a5aad462326cdc490dbe5810705ac5e3376",
+      "stage17_binary": "9d160032bd6879877b1e374ef5cc8fce8ae74bbdfe14b1bc5096790045c35e2a",
+      "stage17_index": "094050ed305b4e8093a1463aeea30db0a508ebac9131d28214619f9b6b5cd822"
+    }
+  },
+  "known_signer_folds": [
+    {
+      "outer_fold": 1,
+      "test": 1480,
+      "train": 5920
+    },
+    {
+      "outer_fold": 2,
+      "test": 1480,
+      "train": 5920
+    },
+    {
+      "outer_fold": 3,
+      "test": 1480,
+      "train": 5920
+    },
+    {
+      "outer_fold": 4,
+      "test": 1480,
+      "train": 5920
+    },
+    {
+      "outer_fold": 5,
+      "test": 1480,
+      "train": 5920
+    }
+  ],
+  "loso": {
+    "loso_subject1": {
+      "test": 6000,
+      "train": 1400
+    },
+    "loso_subject2": {
+      "test": 1000,
+      "train": 6400
+    },
+    "loso_subject3": {
+      "test": 400,
+      "train": 7000
+    }
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 19,
+  "target_checks": {
+    "maximum_target_id": 455,
+    "minimum_target_id": 1,
+    "targets_containing_blank": 0
+  },
+  "template_holdout": {
+    "test_recordings": 540,
+    "test_subjects": [
+      "subject1",
+      "subject2",
+      "subject3"
+    ],
+    "train_recordings": 6860
+  }
+}

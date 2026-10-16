@@ -1,0 +1,5 @@
+artifacts/cache/stage17_raw_cache_index.csv text eol=crlf
+artifacts/splits/stage13_known_signer_5fold.csv text eol=crlf
+artifacts/labels/stage10_gloss_vocabulary.json text eol=crlf
+artifacts/splits/stage14_loso_assignment.csv text eol=crlf
+artifacts/splits/stage15_loso_support_assignment.csv text eol=crlf

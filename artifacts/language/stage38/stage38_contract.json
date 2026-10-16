@@ -1,0 +1,196 @@
+{
+  "generated_portable_sha256": {
+    "artifacts/language/stage38/stage38_l0_l1_outputs.csv": "7b59e5768df4f66982932998aaee44666b38559e0335b2017eab22973ac2e103",
+    "artifacts/language/stage38/stage38_l0_l1_summary.csv": "7c6897be8a2238cb7261334ca2acce4c7e3036ce6079bcf470615defd0efe2af",
+    "artifacts/language/stage38/stage38_prediction_manifest.csv": "3ebc475b705a835497c48f6eac1bef2621417daf90ec9f8b69560a238a7faa0e",
+    "docs/STAGE_38_RETRIEVAL_BASELINES.md": "0a406a9acad38f3bebae50a85822af676f4ddc6aa6b5742794ddedf645a12985"
+  },
+  "generative_model_called": false,
+  "human_post_editing": false,
+  "implementation_portable_sha256": {
+    "scripts/build_stage38_retrieval_baselines.py": "5200887be5fd9c58a1f14f1d7a4f3f133d044d052b88183ffcaa6dd3a8a4da78",
+    "scripts/verify_stage38_retrieval_baselines.py": "f4c44021126f6b81fca0efddbd4a14353cc6be97dabc16949da222136417fc58",
+    "src/evaluation/stage38_retrieval.py": "d9fef72cec5b435041ba8819fcb2b80e951db0d9d31ededd42802f11ef3a576c",
+    "tests/test_stage38_retrieval_baselines.py": "63bee1f6573bd9b21f52d544499cd772d67c2da4406a842d68654e103b17b177"
+  },
+  "input_stage37_contract_portable_sha256": "8472f0635bf9348e6706c8976722ca5571407c3e1ed23e56720eeba7fc78da59",
+  "name": "immutable_predictions_and_deterministic_retrieval_baselines",
+  "prediction_sources": [
+    {
+      "model_id": "g1",
+      "outer_fold": 1,
+      "predictions": 1480,
+      "sha256": "89b2ce575d8a696bc7d237be05105d1aff5ac2eecc246c51464c771526de2389"
+    },
+    {
+      "model_id": "c1",
+      "outer_fold": 1,
+      "predictions": 1480,
+      "sha256": "285ba4b5d51dcc3b021fe55c472f7ac8b046b423719f6571ffe82513d20f25fb"
+    },
+    {
+      "model_id": "c2",
+      "outer_fold": 1,
+      "predictions": 1480,
+      "sha256": "3e557f2b2fea2632c8637e49264d38338639ee49965a0b4ff85356530bc13460"
+    },
+    {
+      "model_id": "c3",
+      "outer_fold": 1,
+      "predictions": 1480,
+      "sha256": "199895c80173eb0b6c9106aae58d656915956fc1ce532c34dd3598602ac79943"
+    },
+    {
+      "model_id": "c4",
+      "outer_fold": 1,
+      "predictions": 1480,
+      "sha256": "7d16666bf25df4cc0d50f065c3b3a40fed85659cd14be7deb7436591b5f53c0b"
+    },
+    {
+      "model_id": "g1",
+      "outer_fold": 2,
+      "predictions": 1480,
+      "sha256": "3b493947cb6af631f00e412a4caf327b55e5edc3769403186a646dfd72a01f14"
+    },
+    {
+      "model_id": "c1",
+      "outer_fold": 2,
+      "predictions": 1480,
+      "sha256": "7598e27b10af118de40c34ff3d0e4ba992ad152efdcd6d212b27dd0dc726856a"
+    },
+    {
+      "model_id": "c2",
+      "outer_fold": 2,
+      "predictions": 1480,
+      "sha256": "dd8b8549905a13daf2b08e02a96ae088685e68f65d260d534e86353c49f663f9"
+    },
+    {
+      "model_id": "c3",
+      "outer_fold": 2,
+      "predictions": 1480,
+      "sha256": "7a6551690bcce003026579c308fcff5c7e4502450f60984714fb3d5740bc7700"
+    },
+    {
+      "model_id": "c4",
+      "outer_fold": 2,
+      "predictions": 1480,
+      "sha256": "9143225b93f92ac6f990d0e2f8f49f18856b920006275976e26ae729bbb6f5b1"
+    },
+    {
+      "model_id": "g1",
+      "outer_fold": 3,
+      "predictions": 1480,
+      "sha256": "5c8fb4f0f87c3bf1f0a5f4fd53399f16b9c6935567905b7c20502a4778a8ffc7"
+    },
+    {
+      "model_id": "c1",
+      "outer_fold": 3,
+      "predictions": 1480,
+      "sha256": "35e05244423425a19ffffec52297514b7412f1916e3d70a7bdfa6a5b2b3d3d10"
+    },
+    {
+      "model_id": "c2",
+      "outer_fold": 3,
+      "predictions": 1480,
+      "sha256": "3f6a564de8e167a608d52174de5d313adb554575d2b22bca4256eab67cc9e8e4"
+    },
+    {
+      "model_id": "c3",
+      "outer_fold": 3,
+      "predictions": 1480,
+      "sha256": "6638c72fe48b4899e207692d8bba9ecd14276b756da5b80296dbd7e03ac60df9"
+    },
+    {
+      "model_id": "c4",
+      "outer_fold": 3,
+      "predictions": 1480,
+      "sha256": "d5c750148d022f858e0408e6547e76584e554f50af8cb9cccba0bf92b8d20c4d"
+    },
+    {
+      "model_id": "g1",
+      "outer_fold": 4,
+      "predictions": 1480,
+      "sha256": "020ae233347d66b5c84e54f04bee8d20de504dbeee8a0a1726f2b52a89d0f779"
+    },
+    {
+      "model_id": "c1",
+      "outer_fold": 4,
+      "predictions": 1480,
+      "sha256": "026c788d44745e547170d90cb4d30035558b10749463900e56b185a391de97b2"
+    },
+    {
+      "model_id": "c2",
+      "outer_fold": 4,
+      "predictions": 1480,
+      "sha256": "df84c4bf9a99293aad194eb016c5b749d2e6153735409ffea9a26998ffc614cf"
+    },
+    {
+      "model_id": "c3",
+      "outer_fold": 4,
+      "predictions": 1480,
+      "sha256": "44f651aaf7804c53c841a53f23049a94ff145310f61622711a0f1fef2567eeea"
+    },
+    {
+      "model_id": "c4",
+      "outer_fold": 4,
+      "predictions": 1480,
+      "sha256": "e4946dbe77d633265bf23110db2500bd98ebc6743affab1c9709c68fd7a6edf0"
+    },
+    {
+      "model_id": "g1",
+      "outer_fold": 5,
+      "predictions": 1480,
+      "sha256": "ffbfb86fe3e7d6bfb162fa69295925407045167c4ec2f3f587c3d1743f362761"
+    },
+    {
+      "model_id": "c1",
+      "outer_fold": 5,
+      "predictions": 1480,
+      "sha256": "1f7fb9e8825082968a47dc88b7c0d21ee82fa9c6c36608debef59520001db6e8"
+    },
+    {
+      "model_id": "c2",
+      "outer_fold": 5,
+      "predictions": 1480,
+      "sha256": "590caec84be35c870ebd8b8b6d83e680739783566fc1da5ff1e4a69208d0e401"
+    },
+    {
+      "model_id": "c3",
+      "outer_fold": 5,
+      "predictions": 1480,
+      "sha256": "21e530b73cbded7639b07c2ec26e979513ee1887fa74dd05185f6bb99b60fe6c"
+    },
+    {
+      "model_id": "c4",
+      "outer_fold": 5,
+      "predictions": 1480,
+      "sha256": "bd0ec7cb27cf65bbcd677b186a8c1aa7b11f3ef119b115d9aa616346a4976cfd"
+    }
+  ],
+  "project_generation": "fresh_start_2026_v1",
+  "protocol": {
+    "accuracy_used_alone": false,
+    "closed_set_template_limitation_declared": true,
+    "outer_samples_in_retrieval_bank": 0,
+    "primary_lightweight": "c2",
+    "recognition_quality_reference": "g1",
+    "retrieval_bank": "current_fold_inner_train_plus_inner_validation",
+    "retrieval_templates_per_fold": 300,
+    "systems": [
+      "L0_raw_gloss",
+      "L1_training_only_retrieval"
+    ]
+  },
+  "recognizer_rescored": false,
+  "stage": 38,
+  "status": "passed",
+  "training_started": false,
+  "validation": {
+    "folds_per_model": 5,
+    "language_output_rows": 74000,
+    "models": 5,
+    "prediction_files": 25,
+    "predictions_per_model": 7400,
+    "summary_rows": 10
+  }
+}

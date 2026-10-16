@@ -1,0 +1,37 @@
+{
+  "candidate_pm180_wrap_crossings": 1599,
+  "candidate_pm180_wrap_rate": 2.309593580860908e-05,
+  "created_at_utc": "2026-08-29T06:35:27.487776+00:00",
+  "feature_width": 38,
+  "fraction_values_abs_gt_2pi": 0.7720735314934396,
+  "global_max": 179.99971,
+  "global_max_absolute_frame_jump": 359.946503,
+  "global_max_absolute_value": 179.99971,
+  "global_min": -179.997086,
+  "jumps_gt_180_raw_units": 2019,
+  "jumps_gt_300_raw_units": 1714,
+  "preprocessing_decision": {
+    "in_place_modification": false,
+    "raw_rotation_primary": "DEFERRED_PENDING_STAGE_8_REVIEW",
+    "sin_cos_encoding": "DEFERRED_PENDING_STAGE_8_REVIEW"
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "raw_files_modified": false,
+  "recordings_audited": 7400,
+  "semantic_mapping_status": "UNVERIFIED_FOR_ALL_38_COLUMNS",
+  "stage": 8,
+  "total_feature_transitions": 69232960,
+  "total_scalar_values": 69514160,
+  "total_timesteps": 1829320,
+  "unit_evidence": {
+    "empirical_scale_assessment": "STRONGLY_DEGREE_LIKE",
+    "interpretation": "The numerical scale is diagnostic evidence only and is not treated as independent proof of the export unit.",
+    "paper_explicit_degree_or_radian_unit": false
+  },
+  "values_abs_gt_2pi": 53670043,
+  "wrap_diagnostic": {
+    "candidate_count": 1599,
+    "definition": "Opposite signs beyond +/-150 with absolute frame jump >=300 raw units.",
+    "this_definition_assumes_degree_like_scale": true
+  }
+}

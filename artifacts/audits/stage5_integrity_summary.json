@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-08-29T04:47:28.026879+00:00",
+  "empty_recordings": 0,
+  "expected_feature_count": 38,
+  "feature_semantics_interpretation_deferred_to_stage": 7,
+  "globally_constant_feature_count": 0,
+  "globally_constant_feature_indices_zero_based": [],
+  "input_manifest": "artifacts/manifests/raw_manifest.csv",
+  "input_manifest_sha256": "34ee6ef501fa038b8db79bd67a0bb8ea24edb6ed438e6d3dec32a5af697403f3",
+  "parse_failures": 0,
+  "project_generation": "fresh_start_2026_v1",
+  "raw_files_modified": false,
+  "recordings_audited": 7400,
+  "recordings_expected": 7400,
+  "recordings_failed": 0,
+  "recordings_passed": 7400,
+  "recordings_with_nonfinite_values": 0,
+  "sequence_length_interpretation_deferred_to_stage": 6,
+  "size_failures": 0,
+  "stage": 5,
+  "subject_pass_counts": {
+    "subject1": 6000,
+    "subject2": 1000,
+    "subject3": 400
+  },
+  "total_valid_numeric_values": 69514160,
+  "total_valid_timesteps": 1829320,
+  "wrong_width_recordings": 0
+}

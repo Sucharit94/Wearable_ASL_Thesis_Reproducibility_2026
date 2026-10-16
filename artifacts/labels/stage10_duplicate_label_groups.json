@@ -1,0 +1,19 @@
+﻿{
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 10,
+  "duplicate_label_group_count": 1,
+  "groups": [
+    {
+      "group_id": "label_equiv_001",
+      "sentence_ids": [39, 83],
+      "gloss_raw": "my book where",
+      "english_raw": "where is my book",
+      "policy": {
+        "keep_both_dataset_ids": true,
+        "merge_recordings": false,
+        "template_holdout_group_together": true,
+        "reason": "Holding out one ID while training on the other would expose the identical gloss and English target."
+      }
+    }
+  ]
+}

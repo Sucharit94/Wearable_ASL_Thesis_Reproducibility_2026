@@ -1,0 +1,456 @@
+token,template_group_frequency,sentence_id_frequency,template_group_ids_json,sentence_ids_json,globally_unique_to_one_template_group
+AC,1,1,"[""tplgrp_264""]",[265],True
+AUG,1,1,"[""tplgrp_033""]",[33],True
+US,1,1,"[""tplgrp_269""]",[270],True
+a_little,1,1,"[""tplgrp_165""]",[166],True
+a_lot,2,2,"[""tplgrp_022"", ""tplgrp_286""]","[22, 287]",False
+across_street,1,1,"[""tplgrp_089""]",[90],True
+afraid,1,1,"[""tplgrp_208""]",[209],True
+afternoon,2,2,"[""tplgrp_119"", ""tplgrp_122""]","[120, 123]",False
+again,3,3,"[""tplgrp_028"", ""tplgrp_045"", ""tplgrp_289""]","[28, 45, 290]",False
+age,3,3,"[""tplgrp_036"", ""tplgrp_133"", ""tplgrp_134""]","[36, 134, 135]",False
+alcohol,1,1,"[""tplgrp_182""]",[183],True
+allergic,1,1,"[""tplgrp_175""]",[176],True
+alright,1,1,"[""tplgrp_053""]",[53],True
+also,2,2,"[""tplgrp_097"", ""tplgrp_233""]","[98, 234]",False
+altogether,2,2,"[""tplgrp_074"", ""tplgrp_269""]","[74, 270]",False
+always,2,2,"[""tplgrp_082"", ""tplgrp_234""]","[82, 235]",False
+angry,1,1,"[""tplgrp_295""]",[296],True
+animal,2,2,"[""tplgrp_059"", ""tplgrp_062""]","[59, 62]",False
+annoy,1,1,"[""tplgrp_299""]",[300],True
+apartment,2,2,"[""tplgrp_210"", ""tplgrp_211""]","[211, 212]",False
+apple,1,1,"[""tplgrp_219""]",[220],True
+area,1,1,"[""tplgrp_263""]",[264],True
+arrive,2,2,"[""tplgrp_032"", ""tplgrp_078""]","[32, 78]",False
+baby,1,1,"[""tplgrp_132""]",[133],True
+back,3,3,"[""tplgrp_192"", ""tplgrp_253"", ""tplgrp_254""]","[193, 254, 255]",False
+bad_at,1,1,"[""tplgrp_064""]",[64],True
+bake,2,2,"[""tplgrp_110"", ""tplgrp_244""]","[111, 245]",False
+baseball,1,1,"[""tplgrp_265""]",[266],True
+basketball,2,2,"[""tplgrp_040"", ""tplgrp_085""]","[40, 86]",False
+bathroom,1,1,"[""tplgrp_017""]",[17],True
+beach,1,1,"[""tplgrp_138""]",[139],True
+because,1,1,"[""tplgrp_205""]",[206],True
+become,5,5,"[""tplgrp_051"", ""tplgrp_070"", ""tplgrp_146"", ""tplgrp_147"", ""tplgrp_149""]","[51, 70, 147, 148, 150]",False
+before,1,1,"[""tplgrp_277""]",[278],True
+biologist,1,1,"[""tplgrp_147""]",[148],True
+birthday,3,3,"[""tplgrp_033"", ""tplgrp_189"", ""tplgrp_266""]","[33, 190, 267]",False
+black,2,2,"[""tplgrp_204"", ""tplgrp_256""]","[205, 257]",False
+blonde,1,1,"[""tplgrp_081""]",[81],True
+blood,1,1,"[""tplgrp_179""]",[180],True
+book,3,4,"[""tplgrp_039"", ""tplgrp_073"", ""tplgrp_200""]","[39, 73, 83, 201]",False
+borrow_me,1,1,"[""tplgrp_200""]",[201],True
+boxing,1,1,"[""tplgrp_117""]",[118],True
+bring,4,4,"[""tplgrp_129"", ""tplgrp_139"", ""tplgrp_196"", ""tplgrp_275""]","[130, 140, 197, 276]",False
+broke,1,1,"[""tplgrp_131""]",[132],True
+brother,1,1,"[""tplgrp_246""]",[247],True
+brown,1,1,"[""tplgrp_080""]",[80],True
+brush_teeth,1,1,"[""tplgrp_098""]",[99],True
+busy,1,1,"[""tplgrp_021""]",[21],True
+but,4,4,"[""tplgrp_064"", ""tplgrp_122"", ""tplgrp_160"", ""tplgrp_235""]","[64, 123, 161, 236]",False
+cake,2,2,"[""tplgrp_195"", ""tplgrp_196""]","[196, 197]",False
+calculus,1,1,"[""tplgrp_128""]",[129],True
+canada,1,1,"[""tplgrp_298""]",[299],True
+car,1,1,"[""tplgrp_099""]",[100],True
+cash,1,1,"[""tplgrp_170""]",[171],True
+cat,2,2,"[""tplgrp_035"", ""tplgrp_063""]","[35, 63]",False
+celebrate,1,1,"[""tplgrp_221""]",[222],True
+chair,1,1,"[""tplgrp_199""]",[200],True
+chemistry,1,1,"[""tplgrp_064""]",[64],True
+chocolate,1,1,"[""tplgrp_113""]",[114],True
+christmas,6,6,"[""tplgrp_106"", ""tplgrp_108"", ""tplgrp_109"", ""tplgrp_112"", ""tplgrp_115"", ""tplgrp_279""]","[107, 109, 110, 113, 116, 280]",False
+christmas_day,1,1,"[""tplgrp_111""]",[112],True
+church,2,2,"[""tplgrp_087"", ""tplgrp_093""]","[88, 94]",False
+class,3,3,"[""tplgrp_068"", ""tplgrp_129"", ""tplgrp_158""]","[68, 130, 159]",False
+cleaning,1,1,"[""tplgrp_055""]",[55],True
+clinic,1,1,"[""tplgrp_089""]",[90],True
+close,1,1,"[""tplgrp_160""]",[161],True
+clothes,1,1,"[""tplgrp_247""]",[248],True
+cloud,2,2,"[""tplgrp_125"", ""tplgrp_281""]","[126, 282]",False
+coat,1,1,"[""tplgrp_247""]",[248],True
+coffee,1,1,"[""tplgrp_088""]",[89],True
+cold,1,1,"[""tplgrp_042""]",[42],True
+college,2,2,"[""tplgrp_066"", ""tplgrp_131""]","[66, 132]",False
+color,1,1,"[""tplgrp_069""]",[69],True
+come,3,3,"[""tplgrp_045"", ""tplgrp_093"", ""tplgrp_171""]","[45, 94, 172]",False
+come_on,1,1,"[""tplgrp_163""]",[164],True
+comfortable,1,1,"[""tplgrp_199""]",[200],True
+commercial,1,1,"[""tplgrp_161""]",[162],True
+compete,1,1,"[""tplgrp_227""]",[228],True
+congratulations,1,1,"[""tplgrp_212""]",[213],True
+cook,2,2,"[""tplgrp_194"", ""tplgrp_292""]","[195, 293]",False
+cookies,3,3,"[""tplgrp_056"", ""tplgrp_110"", ""tplgrp_195""]","[56, 111, 196]",False
+cost,3,3,"[""tplgrp_130"", ""tplgrp_153"", ""tplgrp_205""]","[131, 154, 206]",False
+costume,3,3,"[""tplgrp_230"", ""tplgrp_246"", ""tplgrp_256""]","[231, 247, 257]",False
+country,1,1,"[""tplgrp_269""]",[270],True
+cousin,1,1,"[""tplgrp_298""]",[299],True
+credit,1,1,"[""tplgrp_170""]",[171],True
+cute,1,1,"[""tplgrp_296""]",[297],True
+dad,1,1,"[""tplgrp_082""]",[82],True
+dark,1,1,"[""tplgrp_125""]",[126],True
+daughter,2,2,"[""tplgrp_079"", ""tplgrp_150""]","[79, 151]",False
+day,2,2,"[""tplgrp_145"", ""tplgrp_273""]","[146, 274]",False
+deaf,2,2,"[""tplgrp_023"", ""tplgrp_024""]","[23, 24]",False
+delicious,2,2,"[""tplgrp_104"", ""tplgrp_143""]","[105, 144]",False
+department,1,1,"[""tplgrp_225""]",[226],True
+dessert,1,1,"[""tplgrp_143""]",[144],True
+different,1,1,"[""tplgrp_268""]",[269],True
+dinner,2,2,"[""tplgrp_189"", ""tplgrp_194""]","[190, 195]",False
+dislike,3,3,"[""tplgrp_063"", ""tplgrp_271"", ""tplgrp_292""]","[63, 272, 293]",False
+do_you,1,1,"[""tplgrp_214""]",[215],True
+dog,2,2,"[""tplgrp_035"", ""tplgrp_135""]","[35, 136]",False
+dollars,1,1,"[""tplgrp_130""]",[131],True
+drink,1,1,"[""tplgrp_113""]",[114],True
+drug,1,1,"[""tplgrp_182""]",[183],True
+dry,1,1,"[""tplgrp_124""]",[125],True
+due,1,1,"[""tplgrp_132""]",[133],True
+during,3,3,"[""tplgrp_116"", ""tplgrp_196"", ""tplgrp_265""]","[117, 197, 266]",False
+easter,3,3,"[""tplgrp_221"", ""tplgrp_222"", ""tplgrp_259""]","[222, 223, 260]",False
+eat,6,6,"[""tplgrp_102"", ""tplgrp_105"", ""tplgrp_190"", ""tplgrp_202"", ""tplgrp_277"", ""tplgrp_291""]","[103, 106, 191, 203, 278, 292]",False
+eat_breakfast,1,1,"[""tplgrp_098""]",[99],True
+egg,2,2,"[""tplgrp_190"", ""tplgrp_259""]","[191, 260]",False
+eight,1,1,"[""tplgrp_036""]",[36],True
+elephant,1,1,"[""tplgrp_061""]",[61],True
+engineering,1,1,"[""tplgrp_066""]",[66],True
+english,1,1,"[""tplgrp_065""]",[65],True
+enjoy,7,7,"[""tplgrp_116"", ""tplgrp_156"", ""tplgrp_223"", ""tplgrp_259"", ""tplgrp_262"", ""tplgrp_270"", ""tplgrp_291""]","[117, 157, 224, 260, 263, 271, 292]",False
+every_day,1,1,"[""tplgrp_191""]",[192],True
+every_monday,1,1,"[""tplgrp_100""]",[101],True
+every_morning,2,2,"[""tplgrp_098"", ""tplgrp_190""]","[99, 191]",False
+every_saturday,1,1,"[""tplgrp_099""]",[100],True
+every_thursday,1,1,"[""tplgrp_100""]",[101],True
+excited,2,2,"[""tplgrp_253"", ""tplgrp_255""]","[254, 256]",False
+excuse_me,1,1,"[""tplgrp_012""]",[12],True
+experience,2,2,"[""tplgrp_178"", ""tplgrp_180""]","[179, 181]",False
+fall,1,1,"[""tplgrp_245""]",[246],True
+family,4,4,"[""tplgrp_074"", ""tplgrp_213"", ""tplgrp_239"", ""tplgrp_268""]","[74, 214, 240, 269]",False
+fancy,1,1,"[""tplgrp_144""]",[145],True
+favorite,11,11,"[""tplgrp_013"", ""tplgrp_040"", ""tplgrp_059"", ""tplgrp_062"", ""tplgrp_068"", ""tplgrp_069"", ""tplgrp_085"", ""tplgrp_094"", ""tplgrp_245"", ""tplgrp_261"", ""tplgrp_272""]","[13, 40, 59, 62, 68, 69, 86, 95, 246, 262, 273]",False
+feel,4,4,"[""tplgrp_029"", ""tplgrp_176"", ""tplgrp_238"", ""tplgrp_299""]","[29, 177, 239, 300]",False
+fifteen,1,1,"[""tplgrp_031""]",[31],True
+fine,1,1,"[""tplgrp_009""]",[9],True
+finger_spell,1,1,"[""tplgrp_173""]",[174],True
+finish,9,9,"[""tplgrp_049"", ""tplgrp_055"", ""tplgrp_058"", ""tplgrp_102"", ""tplgrp_146"", ""tplgrp_192"", ""tplgrp_204"", ""tplgrp_218"", ""tplgrp_284""]","[49, 55, 58, 103, 147, 193, 205, 219, 285]",False
+five,2,2,"[""tplgrp_133"", ""tplgrp_151""]","[134, 152]",False
+five_oclock,1,1,"[""tplgrp_152""]",[153],True
+flower,2,2,"[""tplgrp_142"", ""tplgrp_275""]","[143, 276]",False
+food,3,3,"[""tplgrp_094"", ""tplgrp_103"", ""tplgrp_168""]","[95, 104, 169]",False
+football,4,4,"[""tplgrp_085"", ""tplgrp_203"", ""tplgrp_270"", ""tplgrp_272""]","[86, 204, 271, 273]",False
+for,1,1,"[""tplgrp_239""]",[240],True
+forget,1,1,"[""tplgrp_232""]",[233],True
+friday,4,4,"[""tplgrp_034"", ""tplgrp_091"", ""tplgrp_155"", ""tplgrp_204""]","[34, 92, 156, 205]",False
+friend,5,5,"[""tplgrp_071"", ""tplgrp_227"", ""tplgrp_266"", ""tplgrp_271"", ""tplgrp_287""]","[71, 228, 267, 272, 288]",False
+fries,1,1,"[""tplgrp_097""]",[98],True
+from,1,1,"[""tplgrp_007""]",[7],True
+funny,1,1,"[""tplgrp_161""]",[162],True
+future,4,4,"[""tplgrp_147"", ""tplgrp_149"", ""tplgrp_286"", ""tplgrp_293""]","[148, 150, 287, 294]",False
+game,1,1,"[""tplgrp_212""]",[213],True
+get_together,1,1,"[""tplgrp_050""]",[50],True
+ghost,1,1,"[""tplgrp_246""]",[247],True
+give_me,2,2,"[""tplgrp_073"", ""tplgrp_095""]","[73, 96]",False
+go,6,6,"[""tplgrp_087"", ""tplgrp_109"", ""tplgrp_137"", ""tplgrp_138"", ""tplgrp_140"", ""tplgrp_144""]","[88, 110, 138, 139, 141, 145]",False
+go_ahead,1,1,"[""tplgrp_276""]",[277],True
+go_out,4,4,"[""tplgrp_091"", ""tplgrp_191"", ""tplgrp_223"", ""tplgrp_235""]","[92, 192, 224, 236]",False
+good,5,5,"[""tplgrp_118"", ""tplgrp_119"", ""tplgrp_120"", ""tplgrp_212"", ""tplgrp_220""]","[119, 120, 121, 213, 221]",False
+good_at,2,2,"[""tplgrp_064"", ""tplgrp_067""]","[64, 67]",False
+goodbye,1,1,"[""tplgrp_018""]",[18],True
+graduate,4,4,"[""tplgrp_146"", ""tplgrp_282"", ""tplgrp_283"", ""tplgrp_284""]","[147, 283, 284, 285]",False
+grandma,1,1,"[""tplgrp_036""]",[36],True
+growing_up,4,4,"[""tplgrp_082"", ""tplgrp_148"", ""tplgrp_194"", ""tplgrp_224""]","[82, 149, 195, 225]",False
+hail,1,1,"[""tplgrp_125""]",[126],True
+hair,2,2,"[""tplgrp_080"", ""tplgrp_081""]","[80, 81]",False
+half_time,1,1,"[""tplgrp_163""]",[164],True
+halloween,2,2,"[""tplgrp_206"", ""tplgrp_230""]","[207, 231]",False
+hamburger,4,4,"[""tplgrp_058"", ""tplgrp_106"", ""tplgrp_153"", ""tplgrp_291""]","[58, 107, 154, 292]",False
+happy,10,10,"[""tplgrp_046"", ""tplgrp_086"", ""tplgrp_107"", ""tplgrp_115"", ""tplgrp_145"", ""tplgrp_222"", ""tplgrp_236"", ""tplgrp_240"", ""tplgrp_273"", ""tplgrp_288""]","[46, 87, 108, 116, 146, 223, 237, 241, 274, 289]",False
+hat,2,2,"[""tplgrp_248"", ""tplgrp_251""]","[249, 252]",False
+hate,1,1,"[""tplgrp_224""]",[225],True
+have,9,9,"[""tplgrp_035"", ""tplgrp_103"", ""tplgrp_211"", ""tplgrp_219"", ""tplgrp_247"", ""tplgrp_250"", ""tplgrp_266"", ""tplgrp_269"", ""tplgrp_290""]","[35, 104, 212, 220, 248, 251, 267, 270, 291]",False
+hawaii,1,1,"[""tplgrp_154""]",[155],True
+he,2,2,"[""tplgrp_084"", ""tplgrp_292""]","[85, 293]",False
+hearing,1,1,"[""tplgrp_025""]",[25],True
+hearing_aid,1,1,"[""tplgrp_297""]",[298],True
+heart,1,1,"[""tplgrp_178""]",[179],True
+hello,1,1,"[""tplgrp_001""]",[1],True
+help,1,1,"[""tplgrp_047""]",[47],True
+help_you,1,1,"[""tplgrp_030""]",[30],True
+here,1,1,"[""tplgrp_123""]",[124],True
+hey,2,2,"[""tplgrp_002"", ""tplgrp_186""]","[2, 187]",False
+high,1,1,"[""tplgrp_179""]",[180],True
+hiking,2,2,"[""tplgrp_215"", ""tplgrp_262""]","[216, 263]",False
+history,2,2,"[""tplgrp_068"", ""tplgrp_086""]","[68, 87]",False
+holiday,2,2,"[""tplgrp_260"", ""tplgrp_267""]","[261, 268]",False
+home,5,5,"[""tplgrp_032"", ""tplgrp_078"", ""tplgrp_228"", ""tplgrp_234"", ""tplgrp_254""]","[32, 78, 229, 235, 255]",False
+hope,1,1,"[""tplgrp_111""]",[112],True
+host,2,2,"[""tplgrp_231"", ""tplgrp_283""]","[232, 284]",False
+hot,3,3,"[""tplgrp_042"", ""tplgrp_113"", ""tplgrp_263""]","[42, 114, 264]",False
+hotdog,1,1,"[""tplgrp_139""]",[140],True
+hotel,1,1,"[""tplgrp_090""]",[91],True
+house,2,2,"[""tplgrp_055"", ""tplgrp_210""]","[55, 211]",False
+how,4,4,"[""tplgrp_008"", ""tplgrp_030"", ""tplgrp_242"", ""tplgrp_285""]","[8, 30, 243, 286]",False
+how_many,3,3,"[""tplgrp_077"", ""tplgrp_105"", ""tplgrp_269""]","[77, 106, 270]",False
+how_old,1,1,"[""tplgrp_136""]",[137],True
+huge,1,1,"[""tplgrp_061""]",[61],True
+hungry,1,1,"[""tplgrp_201""]",[202],True
+hunt,1,1,"[""tplgrp_259""]",[260],True
+husband,3,3,"[""tplgrp_074"", ""tplgrp_080"", ""tplgrp_270""]","[74, 80, 271]",False
+i,82,82,"[""tplgrp_005"", ""tplgrp_009"", ""tplgrp_021"", ""tplgrp_024"", ""tplgrp_025"", ""tplgrp_026"", ""tplgrp_027"", ""tplgrp_029"", ""tplgrp_035"", ""tplgrp_037"", ""tplgrp_041"", ""tplgrp_046"", ""tplgrp_047"", ""tplgrp_050"", ""tplgrp_054"", ""tplgrp_057"", ""tplgrp_063"", ""tplgrp_064"", ""tplgrp_066"", ""tplgrp_071"", ""tplgrp_078"", ""tplgrp_079"", ""tplgrp_087"", ""tplgrp_091"", ""tplgrp_098"", ""tplgrp_099"", ""tplgrp_100"", ""tplgrp_101"", ""tplgrp_112"", ""tplgrp_113"", ""tplgrp_116"", ""tplgrp_128"", ""tplgrp_131"", ""tplgrp_133"", ""tplgrp_138"", ""tplgrp_139"", ""tplgrp_146"", ""tplgrp_147"", ""tplgrp_148"", ""tplgrp_156"", ""tplgrp_157"", ""tplgrp_165"", ""tplgrp_166"", ""tplgrp_172"", ""tplgrp_190"", ""tplgrp_191"", ""tplgrp_194"", ""tplgrp_208"", ""tplgrp_211"", ""tplgrp_213"", ""tplgrp_214"", ""tplgrp_215"", ""tplgrp_217"", ""tplgrp_219"", ""tplgrp_223"", ""tplgrp_224"", ""tplgrp_225"", ""tplgrp_231"", ""tplgrp_235"", ""tplgrp_236"", ""tplgrp_237"", ""tplgrp_238"", ""tplgrp_239"", ""tplgrp_247"", ""tplgrp_248"", ""tplgrp_249"", ""tplgrp_250"", ""tplgrp_251"", ""tplgrp_254"", ""tplgrp_255"", ""tplgrp_256"", ""tplgrp_258"", ""tplgrp_259"", ""tplgrp_262"", ""tplgrp_266"", ""tplgrp_274"", ""tplgrp_275"", ""tplgrp_283"", ""tplgrp_284"", ""tplgrp_293"", ""tplgrp_295"", ""tplgrp_299""]","[5, 9, 21, 24, 25, 26, 27, 29, 35, 37, 41, 46, 47, 50, 54, 57, 63, 64, 66, 71, 78, 79, 88, 92, 99, 100, 101, 102, 113, 114, 117, 129, 132, 134, 139, 140, 147, 148, 149, 157, 158, 166, 167, 173, 191, 192, 195, 209, 212, 214, 215, 216, 218, 220, 224, 225, 226, 232, 236, 237, 238, 239, 240, 248, 249, 250, 251, 252, 255, 256, 257, 259, 260, 263, 267, 275, 276, 284, 285, 294, 296, 300]",False
+icecream,2,2,"[""tplgrp_058"", ""tplgrp_083""]","[58, 84]",False
+important,3,3,"[""tplgrp_196"", ""tplgrp_228"", ""tplgrp_233""]","[197, 229, 234]",False
+introduce,1,1,"[""tplgrp_071""]",[71],True
+jingle_bells,1,1,"[""tplgrp_114""]",[115],True
+join,1,1,"[""tplgrp_217""]",[218],True
+karate,1,1,"[""tplgrp_117""]",[118],True
+ketchup,1,1,"[""tplgrp_095""]",[96],True
+knit,1,1,"[""tplgrp_251""]",[252],True
+know,2,2,"[""tplgrp_165"", ""tplgrp_287""]","[166, 288]",False
+lake,1,1,"[""tplgrp_140""]",[141],True
+language,1,1,"[""tplgrp_026""]",[26],True
+large,1,1,"[""tplgrp_043""]",[43],True
+last,1,1,"[""tplgrp_248""]",[249],True
+latter,1,1,"[""tplgrp_019""]",[19],True
+laughing,1,1,"[""tplgrp_161""]",[162],True
+learn,4,4,"[""tplgrp_005"", ""tplgrp_026"", ""tplgrp_243"", ""tplgrp_286""]","[5, 26, 244, 287]",False
+leave,1,1,"[""tplgrp_258""]",[259],True
+lets,1,1,"[""tplgrp_110""]",[111],True
+light,1,1,"[""tplgrp_109""]",[110],True
+like,7,7,"[""tplgrp_014"", ""tplgrp_057"", ""tplgrp_083"", ""tplgrp_084"", ""tplgrp_117"", ""tplgrp_197"", ""tplgrp_244""]","[14, 57, 84, 85, 118, 198, 245]",False
+lion,1,1,"[""tplgrp_060""]",[60],True
+live,2,2,"[""tplgrp_210"", ""tplgrp_298""]","[211, 299]",False
+local,1,1,"[""tplgrp_233""]",[234],True
+look,2,2,"[""tplgrp_052"", ""tplgrp_079""]","[52, 79]",False
+look_around,1,1,"[""tplgrp_109""]",[110],True
+lost,1,1,"[""tplgrp_248""]",[249],True
+love,5,5,"[""tplgrp_037"", ""tplgrp_141"", ""tplgrp_213"", ""tplgrp_214"", ""tplgrp_285""]","[37, 142, 214, 215, 286]",False
+love_all,1,1,"[""tplgrp_072""]",[72],True
+love_it,4,4,"[""tplgrp_101"", ""tplgrp_112"", ""tplgrp_113"", ""tplgrp_215""]","[102, 113, 114, 216]",False
+lunch,3,3,"[""tplgrp_191"", ""tplgrp_192"", ""tplgrp_193""]","[192, 193, 194]",False
+machine,1,1,"[""tplgrp_226""]",[227],True
+major,1,1,"[""tplgrp_066""]",[66],True
+make,1,1,"[""tplgrp_238""]",[239],True
+manage,1,1,"[""tplgrp_225""]",[226],True
+many,1,1,"[""tplgrp_266""]",[267],True
+marry,1,1,"[""tplgrp_237""]",[238],True
+maybe,2,2,"[""tplgrp_125"", ""tplgrp_147""]","[126, 148]",False
+medicine,1,1,"[""tplgrp_174""]",[175],True
+medium,1,1,"[""tplgrp_043""]",[43],True
+meet,4,4,"[""tplgrp_004"", ""tplgrp_051"", ""tplgrp_088"", ""tplgrp_092""]","[4, 51, 89, 93]",False
+meeting,2,2,"[""tplgrp_152"", ""tplgrp_155""]","[153, 156]",False
+milk,2,2,"[""tplgrp_056"", ""tplgrp_293""]","[56, 294]",False
+mix,1,1,"[""tplgrp_070""]",[70],True
+monday,1,1,"[""tplgrp_158""]",[159],True
+money,1,1,"[""tplgrp_290""]",[291],True
+monkey,1,1,"[""tplgrp_059""]",[59],True
+more,2,2,"[""tplgrp_096"", ""tplgrp_293""]","[97, 294]",False
+morning,3,3,"[""tplgrp_118"", ""tplgrp_122"", ""tplgrp_158""]","[119, 123, 159]",False
+mother,4,4,"[""tplgrp_050"", ""tplgrp_194"", ""tplgrp_273"", ""tplgrp_274""]","[50, 195, 274, 275]",False
+mountain,1,1,"[""tplgrp_215""]",[216],True
+move,1,1,"[""tplgrp_268""]",[269],True
+movie,3,3,"[""tplgrp_013"", ""tplgrp_112"", ""tplgrp_216""]","[13, 113, 217]",False
+museum,1,1,"[""tplgrp_090""]",[91],True
+mustache,1,1,"[""tplgrp_082""]",[82],True
+my,34,35,"[""tplgrp_033"", ""tplgrp_036"", ""tplgrp_039"", ""tplgrp_040"", ""tplgrp_051"", ""tplgrp_059"", ""tplgrp_068"", ""tplgrp_069"", ""tplgrp_071"", ""tplgrp_074"", ""tplgrp_079"", ""tplgrp_080"", ""tplgrp_081"", ""tplgrp_082"", ""tplgrp_094"", ""tplgrp_134"", ""tplgrp_149"", ""tplgrp_150"", ""tplgrp_151"", ""tplgrp_194"", ""tplgrp_213"", ""tplgrp_225"", ""tplgrp_227"", ""tplgrp_234"", ""tplgrp_239"", ""tplgrp_245"", ""tplgrp_246"", ""tplgrp_248"", ""tplgrp_261"", ""tplgrp_268"", ""tplgrp_270"", ""tplgrp_271"", ""tplgrp_274"", ""tplgrp_287""]","[33, 36, 39, 40, 51, 59, 68, 69, 71, 74, 79, 80, 81, 82, 83, 95, 135, 150, 151, 152, 195, 214, 226, 228, 235, 240, 246, 247, 249, 262, 269, 271, 272, 275, 288]",False
+name,2,2,"[""tplgrp_006"", ""tplgrp_075""]","[6, 75]",False
+nauseous,1,1,"[""tplgrp_177""]",[178],True
+need,6,6,"[""tplgrp_047"", ""tplgrp_077"", ""tplgrp_124"", ""tplgrp_258"", ""tplgrp_280"", ""tplgrp_293""]","[47, 77, 125, 259, 281, 294]",False
+nervous,1,1,"[""tplgrp_054""]",[54],True
+new,4,4,"[""tplgrp_051"", ""tplgrp_107"", ""tplgrp_243"", ""tplgrp_252""]","[51, 108, 244, 253]",False
+next_to,1,1,"[""tplgrp_090""]",[91],True
+next_week,3,3,"[""tplgrp_076"", ""tplgrp_092"", ""tplgrp_260""]","[76, 93, 261]",False
+nice,4,4,"[""tplgrp_004"", ""tplgrp_198"", ""tplgrp_234"", ""tplgrp_243""]","[4, 199, 235, 244]",False
+night,3,3,"[""tplgrp_091"", ""tplgrp_120"", ""tplgrp_283""]","[92, 121, 284]",False
+nine,1,1,"[""tplgrp_135""]",[136],True
+nine_oclock,2,2,"[""tplgrp_078"", ""tplgrp_158""]","[78, 159]",False
+nineteen,1,1,"[""tplgrp_033""]",[33],True
+no,1,1,"[""tplgrp_025""]",[25],True
+not,2,2,"[""tplgrp_022"", ""tplgrp_232""]","[22, 233]",False
+not_know,1,1,"[""tplgrp_249""]",[250],True
+not_yet,1,1,"[""tplgrp_279""]",[280],True
+now,10,10,"[""tplgrp_029"", ""tplgrp_122"", ""tplgrp_124"", ""tplgrp_231"", ""tplgrp_241"", ""tplgrp_242"", ""tplgrp_250"", ""tplgrp_280"", ""tplgrp_281"", ""tplgrp_288""]","[29, 123, 125, 232, 242, 243, 251, 281, 282, 289]",False
+office,1,1,"[""tplgrp_127""]",[128],True
+olympics,1,1,"[""tplgrp_116""]",[117],True
+one,2,2,"[""tplgrp_035"", ""tplgrp_134""]","[35, 135]",False
+optometrist,1,1,"[""tplgrp_146""]",[147],True
+orange,1,1,"[""tplgrp_207""]",[208],True
+order,1,1,"[""tplgrp_167""]",[168],True
+other,2,2,"[""tplgrp_044"", ""tplgrp_229""]","[44, 230]",False
+our,2,2,"[""tplgrp_135"", ""tplgrp_298""]","[136, 299]",False
+pack,1,1,"[""tplgrp_196""]",[197],True
+pain,1,1,"[""tplgrp_176""]",[177],True
+pancake,1,1,"[""tplgrp_041""]",[41],True
+paper,2,2,"[""tplgrp_129"", ""tplgrp_166""]","[130, 167]",False
+parade,1,1,"[""tplgrp_278""]",[279],True
+party,3,3,"[""tplgrp_187"", ""tplgrp_231"", ""tplgrp_283""]","[188, 232, 284]",False
+pass_out,1,1,"[""tplgrp_184""]",[185],True
+pay,1,1,"[""tplgrp_169""]",[170],True
+people,3,3,"[""tplgrp_051"", ""tplgrp_205"", ""tplgrp_229""]","[51, 206, 230]",False
+physics,1,1,"[""tplgrp_067""]",[67],True
+picnic,1,1,"[""tplgrp_139""]",[140],True
+pineapple,1,1,"[""tplgrp_101""]",[102],True
+pink,1,1,"[""tplgrp_070""]",[70],True
+plan,5,5,"[""tplgrp_231"", ""tplgrp_235"", ""tplgrp_242"", ""tplgrp_274"", ""tplgrp_284""]","[232, 236, 243, 275, 285]",False
+play,1,1,"[""tplgrp_203""]",[204],True
+please,5,5,"[""tplgrp_010"", ""tplgrp_028"", ""tplgrp_073"", ""tplgrp_096"", ""tplgrp_173""]","[10, 28, 73, 97, 174]",False
+police_officer,1,1,"[""tplgrp_149""]",[150],True
+potato,1,1,"[""tplgrp_219""]",[220],True
+prayer,1,1,"[""tplgrp_277""]",[278],True
+pregnant,1,1,"[""tplgrp_181""]",[182],True
+president,1,1,"[""tplgrp_227""]",[228],True
+pressure,1,1,"[""tplgrp_179""]",[180],True
+principal,1,1,"[""tplgrp_127""]",[128],True
+problem,2,2,"[""tplgrp_178"", ""tplgrp_185""]","[179, 186]",False
+pumpkin,2,2,"[""tplgrp_207"", ""tplgrp_219""]","[208, 220]",False
+purse,1,1,"[""tplgrp_037""]",[37],True
+rabbit,1,1,"[""tplgrp_296""]",[297],True
+rain,3,3,"[""tplgrp_122"", ""tplgrp_124"", ""tplgrp_235""]","[123, 125, 236]",False
+rainbow,1,1,"[""tplgrp_069""]",[69],True
+read,1,1,"[""tplgrp_197""]",[198],True
+ready,4,4,"[""tplgrp_167"", ""tplgrp_168"", ""tplgrp_169"", ""tplgrp_193""]","[168, 169, 170, 194]",False
+red,2,2,"[""tplgrp_070"", ""tplgrp_073""]","[70, 73]",False
+reduce,1,1,"[""tplgrp_205""]",[206],True
+remember,1,1,"[""tplgrp_280""]",[281],True
+resolution,1,1,"[""tplgrp_252""]",[253],True
+rest,1,1,"[""tplgrp_156""]",[157],True
+restaurant,3,3,"[""tplgrp_091"", ""tplgrp_144"", ""tplgrp_155""]","[92, 145, 156]",False
+run,3,3,"[""tplgrp_223"", ""tplgrp_224"", ""tplgrp_235""]","[224, 225, 236]",False
+run_out,1,1,"[""tplgrp_257""]",[258],True
+sad,3,3,"[""tplgrp_029"", ""tplgrp_188"", ""tplgrp_249""]","[29, 189, 250]",False
+same,2,2,"[""tplgrp_048"", ""tplgrp_079""]","[48, 79]",False
+saturday,1,1,"[""tplgrp_092""]",[93],True
+sausage,1,1,"[""tplgrp_041""]",[41],True
+scared,1,1,"[""tplgrp_294""]",[295],True
+scarf,1,1,"[""tplgrp_250""]",[251],True
+school,1,1,"[""tplgrp_253""]",[254],True
+season,4,4,"[""tplgrp_123"", ""tplgrp_245"", ""tplgrp_261"", ""tplgrp_265""]","[124, 246, 262, 266]",False
+seatbelt,1,1,"[""tplgrp_183""]",[184],True
+see,3,3,"[""tplgrp_019"", ""tplgrp_076"", ""tplgrp_296""]","[19, 76, 297]",False
+seizures,1,1,"[""tplgrp_180""]",[181],True
+senior,1,1,"[""tplgrp_128""]",[129],True
+seven,2,2,"[""tplgrp_036"", ""tplgrp_150""]","[36, 151]",False
+seven_dollars,1,1,"[""tplgrp_153""]",[154],True
+she,1,1,"[""tplgrp_194""]",[195],True
+shirt,1,1,"[""tplgrp_130""]",[131],True
+shop,4,4,"[""tplgrp_088"", ""tplgrp_205"", ""tplgrp_241"", ""tplgrp_242""]","[89, 206, 242, 243]",False
+show,1,1,"[""tplgrp_163""]",[164],True
+shrimp,1,1,"[""tplgrp_105""]",[106],True
+shy,1,1,"[""tplgrp_051""]",[51],True
+sign,5,5,"[""tplgrp_005"", ""tplgrp_026"", ""tplgrp_028"", ""tplgrp_064"", ""tplgrp_158""]","[5, 26, 28, 64, 159]",False
+since,1,1,"[""tplgrp_082""]",[82],True
+sister,2,2,"[""tplgrp_050"", ""tplgrp_134""]","[50, 135]",False
+six_oclock,1,1,"[""tplgrp_155""]",[156],True
+skill,1,1,"[""tplgrp_243""]",[244],True
+slower,1,1,"[""tplgrp_028""]",[28],True
+small,1,1,"[""tplgrp_043""]",[43],True
+snow,1,1,"[""tplgrp_111""]",[112],True
+soda,1,1,"[""tplgrp_057""]",[57],True
+sometimes,1,1,"[""tplgrp_157""]",[158],True
+son,5,5,"[""tplgrp_051"", ""tplgrp_074"", ""tplgrp_081"", ""tplgrp_149"", ""tplgrp_151""]","[51, 74, 81, 150, 152]",False
+soup,1,1,"[""tplgrp_096""]",[97],True
+spaghetti,1,1,"[""tplgrp_094""]",[95],True
+spider,1,1,"[""tplgrp_208""]",[209],True
+sport,1,1,"[""tplgrp_040""]",[40],True
+spread,1,1,"[""tplgrp_285""]",[286],True
+spring,4,4,"[""tplgrp_123"", ""tplgrp_265"", ""tplgrp_266"", ""tplgrp_267""]","[124, 266, 267, 268]",False
+start,4,4,"[""tplgrp_163"", ""tplgrp_185"", ""tplgrp_216"", ""tplgrp_265""]","[164, 186, 217, 266]",False
+state,2,2,"[""tplgrp_268"", ""tplgrp_269""]","[269, 270]",False
+stay,2,2,"[""tplgrp_154"", ""tplgrp_228""]","[155, 229]",False
+steak,1,1,"[""tplgrp_104""]",[105],True
+still,1,1,"[""tplgrp_226""]",[227],True
+strawberry,1,1,"[""tplgrp_103""]",[104],True
+strong,1,1,"[""tplgrp_079""]",[79],True
+student,1,1,"[""tplgrp_131""]",[132],True
+study,1,1,"[""tplgrp_086""]",[87],True
+subscribe,1,1,"[""tplgrp_218""]",[219],True
+summer,4,4,"[""tplgrp_116"", ""tplgrp_138"", ""tplgrp_255"", ""tplgrp_261""]","[117, 139, 256, 262]",False
+sunday,4,4,"[""tplgrp_087"", ""tplgrp_093"", ""tplgrp_162"", ""tplgrp_222""]","[88, 94, 163, 223]",False
+sunny,1,1,"[""tplgrp_122""]",[123],True
+super_bowl,1,1,"[""tplgrp_162""]",[163],True
+support,1,1,"[""tplgrp_159""]",[160],True
+sweet,1,1,"[""tplgrp_219""]",[220],True
+swimming,1,1,"[""tplgrp_262""]",[263],True
+take,1,1,"[""tplgrp_128""]",[129],True
+take_care,3,3,"[""tplgrp_020"", ""tplgrp_228"", ""tplgrp_229""]","[20, 229, 230]",False
+take_out,1,1,"[""tplgrp_100""]",[101],True
+talkative,1,1,"[""tplgrp_050""]",[50],True
+teacher,2,2,"[""tplgrp_038"", ""tplgrp_198""]","[38, 199]",False
+team,1,1,"[""tplgrp_159""]",[160],True
+tend,1,1,"[""tplgrp_179""]",[180],True
+test,3,3,"[""tplgrp_034"", ""tplgrp_054"", ""tplgrp_065""]","[34, 54, 65]",False
+thank_you,3,3,"[""tplgrp_011"", ""tplgrp_142"", ""tplgrp_171""]","[11, 143, 172]",False
+thankful,2,2,"[""tplgrp_239"", ""tplgrp_280""]","[240, 281]",False
+thanksgiving,1,1,"[""tplgrp_240""]",[241],True
+thanksgiving_day,2,2,"[""tplgrp_204"", ""tplgrp_278""]","[205, 279]",False
+that,2,2,"[""tplgrp_186"", ""tplgrp_226""]","[187, 227]",False
+they,2,2,"[""tplgrp_291"", ""tplgrp_295""]","[292, 296]",False
+think,1,1,"[""tplgrp_147""]",[148],True
+thirty,1,1,"[""tplgrp_152""]",[153],True
+this,1,1,"[""tplgrp_103""]",[104],True
+three,2,2,"[""tplgrp_133"", ""tplgrp_134""]","[134, 135]",False
+three_oclock,1,1,"[""tplgrp_031""]",[31],True
+three_of_you,1,1,"[""tplgrp_202""]",[203],True
+thursday,1,1,"[""tplgrp_283""]",[284],True
+time,3,3,"[""tplgrp_016"", ""tplgrp_077"", ""tplgrp_257""]","[16, 77, 258]",False
+tomorrow,5,5,"[""tplgrp_054"", ""tplgrp_065"", ""tplgrp_088"", ""tplgrp_121"", ""tplgrp_293""]","[54, 65, 89, 122, 294]",False
+tornado,1,1,"[""tplgrp_123""]",[124],True
+trash,1,1,"[""tplgrp_100""]",[101],True
+travel,2,2,"[""tplgrp_196"", ""tplgrp_284""]","[197, 285]",False
+treat,1,1,"[""tplgrp_209""]",[210],True
+trick,1,1,"[""tplgrp_209""]",[210],True
+try,1,1,"[""tplgrp_289""]",[290],True
+turkey,1,1,"[""tplgrp_106""]",[107],True
+turn_on,1,1,"[""tplgrp_264""]",[265],True
+twelve_oclock,1,1,"[""tplgrp_191""]",[192],True
+twenty_six,1,1,"[""tplgrp_130""]",[131],True
+two,2,2,"[""tplgrp_035"", ""tplgrp_260""]","[35, 261]",False
+two_of_us,4,4,"[""tplgrp_092"", ""tplgrp_144"", ""tplgrp_152"", ""tplgrp_197""]","[93, 145, 153, 198]",False
+two_week,1,1,"[""tplgrp_154""]",[155],True
+uncle,1,1,"[""tplgrp_075""]",[75],True
+understand,1,1,"[""tplgrp_027""]",[27],True
+use,5,5,"[""tplgrp_174"", ""tplgrp_182"", ""tplgrp_183"", ""tplgrp_289"", ""tplgrp_297""]","[175, 183, 184, 290, 298]",False
+vacation,2,2,"[""tplgrp_137"", ""tplgrp_154""]","[138, 155]",False
+valentine,1,1,"[""tplgrp_145""]",[146],True
+vegetable,1,1,"[""tplgrp_102""]",[103],True
+visit,1,1,"[""tplgrp_274""]",[275],True
+vote,2,2,"[""tplgrp_232"", ""tplgrp_233""]","[233, 234]",False
+waitress,1,1,"[""tplgrp_148""]",[149],True
+walk,1,1,"[""tplgrp_220""]",[221],True
+want,15,15,"[""tplgrp_026"", ""tplgrp_041"", ""tplgrp_042"", ""tplgrp_056"", ""tplgrp_058"", ""tplgrp_071"", ""tplgrp_097"", ""tplgrp_106"", ""tplgrp_108"", ""tplgrp_149"", ""tplgrp_162"", ""tplgrp_166"", ""tplgrp_172"", ""tplgrp_195"", ""tplgrp_202""]","[26, 41, 42, 56, 58, 71, 98, 107, 109, 150, 163, 167, 173, 196, 203]",False
+warm,1,1,"[""tplgrp_281""]",[282],True
+wash,1,1,"[""tplgrp_099""]",[100],True
+watch,3,3,"[""tplgrp_112"", ""tplgrp_162"", ""tplgrp_270""]","[113, 163, 271]",False
+we,7,7,"[""tplgrp_109"", ""tplgrp_160"", ""tplgrp_201"", ""tplgrp_286"", ""tplgrp_288"", ""tplgrp_290"", ""tplgrp_296""]","[110, 161, 202, 287, 289, 291, 297]",False
+wear,1,1,"[""tplgrp_256""]",[257],True
+weather,3,3,"[""tplgrp_121"", ""tplgrp_220"", ""tplgrp_281""]","[122, 221, 282]",False
+weekend,1,1,"[""tplgrp_156""]",[157],True
+welcome,1,1,"[""tplgrp_164""]",[165],True
+what,12,12,"[""tplgrp_006"", ""tplgrp_013"", ""tplgrp_016"", ""tplgrp_062"", ""tplgrp_075"", ""tplgrp_108"", ""tplgrp_121"", ""tplgrp_174"", ""tplgrp_175"", ""tplgrp_230"", ""tplgrp_252"", ""tplgrp_267""]","[6, 13, 16, 62, 75, 109, 122, 175, 176, 231, 253, 268]",False
+what_do,1,1,"[""tplgrp_014""]",[14],True
+what_time,1,1,"[""tplgrp_216""]",[217],True
+what_year,1,1,"[""tplgrp_126""]",[127],True
+whats_up,1,1,"[""tplgrp_003""]",[3],True
+when,6,6,"[""tplgrp_032"", ""tplgrp_132"", ""tplgrp_185"", ""tplgrp_187"", ""tplgrp_206"", ""tplgrp_282""]","[32, 133, 186, 188, 207, 283]",False
+where,10,11,"[""tplgrp_007"", ""tplgrp_015"", ""tplgrp_017"", ""tplgrp_039"", ""tplgrp_060"", ""tplgrp_127"", ""tplgrp_137"", ""tplgrp_189"", ""tplgrp_241"", ""tplgrp_249""]","[7, 15, 17, 39, 60, 83, 128, 138, 190, 242, 250]",False
+which,10,10,"[""tplgrp_042"", ""tplgrp_043"", ""tplgrp_085"", ""tplgrp_106"", ""tplgrp_117"", ""tplgrp_159"", ""tplgrp_170"", ""tplgrp_195"", ""tplgrp_210"", ""tplgrp_272""]","[42, 43, 86, 107, 118, 160, 171, 196, 211, 273]",False
+white,1,1,"[""tplgrp_070""]",[70],True
+who,2,2,"[""tplgrp_038"", ""tplgrp_186""]","[38, 187]",False
+whole,1,1,"[""tplgrp_238""]",[239],True
+why,3,3,"[""tplgrp_188"", ""tplgrp_221"", ""tplgrp_294""]","[189, 222, 295]",False
+wife,1,1,"[""tplgrp_292""]",[293],True
+win,1,1,"[""tplgrp_160""]",[161],True
+winter,1,1,"[""tplgrp_247""]",[248],True
+witch,1,1,"[""tplgrp_246""]",[247],True
+with,1,1,"[""tplgrp_236""]",[237],True
+work,3,3,"[""tplgrp_015"", ""tplgrp_148"", ""tplgrp_192""]","[15, 149, 193]",False
+working,1,1,"[""tplgrp_226""]",[227],True
+workout,1,1,"[""tplgrp_157""]",[158],True
+worry,2,2,"[""tplgrp_052"", ""tplgrp_295""]","[52, 296]",False
+wow,2,2,"[""tplgrp_104"", ""tplgrp_143""]","[105, 144]",False
+wrestling,2,2,"[""tplgrp_271"", ""tplgrp_272""]","[272, 273]",False
+write,2,2,"[""tplgrp_166"", ""tplgrp_172""]","[167, 173]",False
+year,8,8,"[""tplgrp_107"", ""tplgrp_128"", ""tplgrp_231"", ""tplgrp_242"", ""tplgrp_248"", ""tplgrp_250"", ""tplgrp_252"", ""tplgrp_288""]","[108, 129, 232, 243, 249, 251, 253, 289]",False
+yes,3,3,"[""tplgrp_024"", ""tplgrp_027"", ""tplgrp_048""]","[24, 27, 48]",False
+you,59,59,"[""tplgrp_004"", ""tplgrp_007"", ""tplgrp_008"", ""tplgrp_014"", ""tplgrp_015"", ""tplgrp_023"", ""tplgrp_042"", ""tplgrp_049"", ""tplgrp_052"", ""tplgrp_053"", ""tplgrp_056"", ""tplgrp_062"", ""tplgrp_067"", ""tplgrp_083"", ""tplgrp_084"", ""tplgrp_085"", ""tplgrp_086"", ""tplgrp_093"", ""tplgrp_097"", ""tplgrp_102"", ""tplgrp_108"", ""tplgrp_117"", ""tplgrp_136"", ""tplgrp_137"", ""tplgrp_140"", ""tplgrp_155"", ""tplgrp_159"", ""tplgrp_162"", ""tplgrp_174"", ""tplgrp_175"", ""tplgrp_176"", ""tplgrp_177"", ""tplgrp_178"", ""tplgrp_179"", ""tplgrp_180"", ""tplgrp_181"", ""tplgrp_182"", ""tplgrp_183"", ""tplgrp_184"", ""tplgrp_188"", ""tplgrp_193"", ""tplgrp_195"", ""tplgrp_203"", ""tplgrp_210"", ""tplgrp_214"", ""tplgrp_218"", ""tplgrp_236"", ""tplgrp_237"", ""tplgrp_238"", ""tplgrp_241"", ""tplgrp_242"", ""tplgrp_244"", ""tplgrp_253"", ""tplgrp_272"", ""tplgrp_282"", ""tplgrp_285"", ""tplgrp_287"", ""tplgrp_294"", ""tplgrp_297""]","[4, 7, 8, 14, 15, 23, 42, 49, 52, 53, 56, 62, 67, 84, 85, 86, 87, 94, 98, 103, 109, 118, 137, 138, 141, 156, 160, 163, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 189, 194, 196, 204, 211, 215, 219, 237, 238, 239, 242, 243, 245, 254, 273, 283, 286, 288, 295, 298]",False
+you_all,1,1,"[""tplgrp_129""]",[130],True
+you_mind,1,1,"[""tplgrp_264""]",[265],True
+your,14,14,"[""tplgrp_006"", ""tplgrp_013"", ""tplgrp_037"", ""tplgrp_038"", ""tplgrp_075"", ""tplgrp_132"", ""tplgrp_168"", ""tplgrp_187"", ""tplgrp_189"", ""tplgrp_198"", ""tplgrp_200"", ""tplgrp_230"", ""tplgrp_233"", ""tplgrp_252""]","[6, 13, 37, 38, 75, 133, 169, 188, 190, 199, 201, 231, 234, 253]",False
+yourself,1,1,"[""tplgrp_228""]",[229],True

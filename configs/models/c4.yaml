@@ -1,0 +1,49 @@
+{
+  "architecture_family": "tiny_swin_bilstm_ctc",
+  "constructor": "C4TinySwin",
+  "implementation_contract": {
+    "parameter_counts": {
+      "bilstm": 124416,
+      "budget_passed": true,
+      "budget_upper_bound": 1500000,
+      "classifier": 88008,
+      "expected_total": 348604,
+      "passed": true,
+      "post_lstm_normalization": 384,
+      "trainable_total": 348604,
+      "window_encoder": 135796
+    },
+    "path": "artifacts/models/stage30_c4_model_contract.json",
+    "sha256": "a1ca72495d51b10632394f081183bf5b84f90d369545704b0e7157a8f0651f3a",
+    "stage": 30
+  },
+  "input_adapter": "windowed_2d",
+  "interface": {
+    "blank_id": 0,
+    "input": "B_x_T_x_38_padded_float",
+    "input_lengths": "B_exact_raw_valid_lengths",
+    "output_lengths": "B_exact_valid_output_lengths",
+    "output_logits": "B_x_Tout_x_456_raw_logits",
+    "target_padding_value": -1
+  },
+  "model_id": "c4",
+  "project_generation": "fresh_start_2026_v1",
+  "schema_version": 1,
+  "scientific_role": "tiny_swin_window_attention_comparison",
+  "source": {
+    "path": "src/models/c4_tiny_swin.py",
+    "sha256": "73d03fac31517de36306227bbf122fbbe01db0258bb49697af356a937c5ca779"
+  },
+  "status": "frozen_before_outer_evaluation",
+  "training": {
+    "early_stopping_patience": 8,
+    "epoch_cap": 80,
+    "fixed_epoch_reference": false,
+    "gradient_clip_norm": 5.0,
+    "learning_rate": 5e-05,
+    "optimizer": "AdamW",
+    "physical_batch_size": 16,
+    "selection_scheduler": "ReduceLROnPlateau",
+    "weight_decay": 0.0001
+  }
+}

@@ -1,0 +1,12 @@
+﻿Project: gu_asl_fresh_start_2026
+Project generation: fresh_start_2026_v1
+Execution start: 2026-08-26
+
+This repository is a completely new experimental implementation.
+
+All experimental code, manifests, splits, caches, vocabularies,
+normalization statistics, model weights, predictions and final metrics
+must be generated newly inside this project.
+
+The original Gu dataset and published scientific literature may be used
+as source material when their corresponding project stages begin.

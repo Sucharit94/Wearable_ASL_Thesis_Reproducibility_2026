@@ -1,0 +1,300 @@
+template_group_id,sentence_ids_json,sentence_id_count,gloss_targets_json,english_targets_json,unique_gloss_token_count,minimum_token_template_group_frequency,globally_unique_token_count,globally_unique_tokens_json,individually_holdout_safe,subject_support_signature,supported_subject_count,subject1_recordings,subject2_recordings,subject3_recordings,total_recordings
+tplgrp_001,[1],1,"[""hello""]","[""hello""]",1,1,1,"[""hello""]",False,S1,1,20,0,0,20
+tplgrp_002,[2],1,"[""hey""]","[""hey""]",1,2,0,[],True,S1,1,20,0,0,20
+tplgrp_003,[3],1,"[""whats_up""]","[""what's up""]",1,1,1,"[""whats_up""]",False,S1,1,20,0,0,20
+tplgrp_004,[4],1,"[""nice meet you""]","[""nice to meet you""]",3,4,0,[],True,S1,1,20,0,0,20
+tplgrp_005,[5],1,"[""i learn sign i""]","[""I learn sign""]",3,4,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_006,[6],1,"[""your name what""]","[""what's your name""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_007,[7],1,"[""you from where""]","[""where are you from""]",3,1,1,"[""from""]",False,S1,1,20,0,0,20
+tplgrp_008,[8],1,"[""how you""]","[""how are you""]",2,4,0,[],True,S1,1,20,0,0,20
+tplgrp_009,[9],1,"[""i fine i""]","[""I am fine""]",2,1,1,"[""fine""]",False,S1+S2,2,20,20,0,40
+tplgrp_010,[10],1,"[""please""]","[""please""]",1,5,0,[],True,S1,1,20,0,0,20
+tplgrp_011,[11],1,"[""thank_you""]","[""thank you""]",1,3,0,[],True,S1,1,20,0,0,20
+tplgrp_012,[12],1,"[""excuse_me""]","[""excuse me""]",1,1,1,"[""excuse_me""]",False,S1,1,20,0,0,20
+tplgrp_013,[13],1,"[""your favorite movie what""]","[""what's your favorite movie""]",4,3,0,[],True,S1,1,20,0,0,20
+tplgrp_014,[14],1,"[""you like what_do""]","[""what do you like to do""]",3,1,1,"[""what_do""]",False,S1,1,20,0,0,20
+tplgrp_015,[15],1,"[""you work where""]","[""where do you work""]",3,3,0,[],True,S1,1,20,0,0,20
+tplgrp_016,[16],1,"[""time what""]","[""what time""]",2,3,0,[],True,S1,1,20,0,0,20
+tplgrp_017,[17],1,"[""bathroom where""]","[""where is bathroom""]",2,1,1,"[""bathroom""]",False,S1,1,20,0,0,20
+tplgrp_018,[18],1,"[""goodbye""]","[""goodbye""]",1,1,1,"[""goodbye""]",False,S1,1,20,0,0,20
+tplgrp_019,[19],1,"[""see latter""]","[""see you latter""]",2,1,1,"[""latter""]",False,S1,1,20,0,0,20
+tplgrp_020,[20],1,"[""take_care""]","[""take care""]",1,3,0,[],True,S1,1,20,0,0,20
+tplgrp_021,[21],1,"[""i busy i""]","[""I am busy""]",2,1,1,"[""busy""]",False,S1+S2,2,20,20,0,40
+tplgrp_022,[22],1,"[""not a_lot""]","[""not a lot""]",2,2,0,[],True,S1,1,20,0,0,20
+tplgrp_023,[23],1,"[""you deaf you""]","[""are you deaf""]",2,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_024,[24],1,"[""yes i deaf""]","[""yes I am deaf""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_025,[25],1,"[""no i hearing""]","[""no I am hearing""]",3,1,2,"[""hearing"", ""no""]",False,S1,1,20,0,0,20
+tplgrp_026,[26],1,"[""i want learn sign language""]","[""I want to learn sign language""]",5,1,1,"[""language""]",False,S1,1,20,0,0,20
+tplgrp_027,[27],1,"[""yes i understand""]","[""yes I understand""]",3,1,1,"[""understand""]",False,S1,1,20,0,0,20
+tplgrp_028,[28],1,"[""please sign again slower""]","[""please sign again slower""]",4,1,1,"[""slower""]",False,S1,1,20,0,0,20
+tplgrp_029,[29],1,"[""now i feel sad""]","[""today I feel sad""]",4,3,0,[],True,S1+S2,2,20,40,0,60
+tplgrp_030,[30],1,"[""help_you how""]","[""how to help you""]",2,1,1,"[""help_you""]",False,S1,1,20,0,0,20
+tplgrp_031,[31],1,"[""three_oclock fifteen""]","[""3 : 15""]",2,1,2,"[""fifteen"", ""three_oclock""]",False,S1,1,20,0,0,20
+tplgrp_032,[32],1,"[""home arrive when""]","[""when did you arrive home""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_033,[33],1,"[""my birthday AUG nineteen""]","[""my birthday is August 19""]",4,1,2,"[""AUG"", ""nineteen""]",False,S1,1,20,0,0,20
+tplgrp_034,[34],1,"[""friday test""]","[""the test is on Friday""]",2,3,0,[],True,S1,1,20,0,0,20
+tplgrp_035,[35],1,"[""i have two dog one cat""]","[""I have 2 dogs and 1 cat""]",6,2,0,[],True,S1,1,20,0,0,20
+tplgrp_036,[36],1,"[""my grandma age eight seven""]","[""my grandma is 87""]",5,1,2,"[""eight"", ""grandma""]",False,S1,1,20,0,0,20
+tplgrp_037,[37],1,"[""i love your purse""]","[""I love your purse""]",4,1,1,"[""purse""]",False,S1,1,20,0,0,20
+tplgrp_038,[38],1,"[""your teacher who""]","[""who is your teacher""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_039,"[39, 83]",2,"[""my book where""]","[""where is my book""]",3,3,0,[],True,S1,1,40,0,0,40
+tplgrp_040,[40],1,"[""my favorite sport basketball""]","[""my favorite sport is basketball""]",4,1,1,"[""sport""]",False,S1,1,20,0,0,20
+tplgrp_041,[41],1,"[""i want pancake sausage""]","[""I want pancakes and sausages""]",4,1,2,"[""pancake"", ""sausage""]",False,S1,1,20,0,0,20
+tplgrp_042,[42],1,"[""you want hot cold which""]","[""you want hot or cold""]",5,1,1,"[""cold""]",False,S1,1,20,0,0,20
+tplgrp_043,[43],1,"[""small medium large which""]","[""small medium large which""]",4,1,3,"[""large"", ""medium"", ""small""]",False,S1,1,20,0,0,20
+tplgrp_044,[44],1,"[""other""]","[""others""]",1,2,0,[],True,S1,1,20,0,0,20
+tplgrp_045,[45],1,"[""come again""]","[""come again""]",2,3,0,[],True,S1,1,20,0,0,20
+tplgrp_046,[46],1,"[""i happy i""]","[""I am happy""]",2,10,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_047,[47],1,"[""i need help i""]","[""I need help""]",3,1,1,"[""help""]",False,S1+S2,2,20,20,0,40
+tplgrp_048,[48],1,"[""yes same""]","[""yes same here""]",2,2,0,[],True,S1,1,20,0,0,20
+tplgrp_049,[49],1,"[""you finish you""]","[""you finish""]",2,9,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_050,[50],1,"[""i mother sister get_together talkative""]","[""when my mom sister and I get together we are talkative""]",5,1,2,"[""get_together"", ""talkative""]",False,S1,1,20,0,0,20
+tplgrp_051,[51],1,"[""meet new people my son become shy""]","[""when meeting new people my son becomes shy""]",7,1,1,"[""shy""]",False,S1,1,20,0,0,20
+tplgrp_052,[52],1,"[""you look worry you""]","[""you look worried""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_053,[53],1,"[""you alright you""]","[""are you alright""]",2,1,1,"[""alright""]",False,S1+S2,2,20,20,0,40
+tplgrp_054,[54],1,"[""test tomorrow i nervous i""]","[""I am nervous for the test tomorrow""]",4,1,1,"[""nervous""]",False,S1,1,20,0,0,20
+tplgrp_055,[55],1,"[""house cleaning finish""]","[""house cleaning is finished""]",3,1,1,"[""cleaning""]",False,S1+S2,2,20,20,0,40
+tplgrp_056,[56],1,"[""you want milk cookies you""]","[""do you want milk and cookies""]",4,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_057,[57],1,"[""i like soda""]","[""I like soda""]",3,1,1,"[""soda""]",False,S1,1,20,0,0,20
+tplgrp_058,[58],1,"[""hamburger finish icecream want""]","[""hamburgers finished and I want ice-cream""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_059,[59],1,"[""my favorite animal monkey""]","[""my favorite animal is monkey""]",4,1,1,"[""monkey""]",False,S1,1,20,0,0,20
+tplgrp_060,[60],1,"[""lion where""]","[""where is the lion""]",2,1,1,"[""lion""]",False,S1,1,20,0,0,20
+tplgrp_061,[61],1,"[""elephant huge""]","[""elephant is huge""]",2,1,2,"[""elephant"", ""huge""]",False,S1,1,20,0,0,20
+tplgrp_062,[62],1,"[""you favorite animal what you""]","[""what's your favorite animal""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_063,[63],1,"[""i dislike cat""]","[""I dislike cat""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_064,[64],1,"[""i good_at sign but bad_at chemistry i""]","[""I am good at sign but bad at chemistry""]",6,1,2,"[""bad_at"", ""chemistry""]",False,S1,1,20,0,0,20
+tplgrp_065,[65],1,"[""tomorrow english test""]","[""the English test is tomorrow""]",3,1,1,"[""english""]",False,S1+S2,2,20,20,0,40
+tplgrp_066,[66],1,"[""college i major engineering i""]","[""in college I major in engineering""]",4,1,2,"[""engineering"", ""major""]",False,S1,1,20,0,0,20
+tplgrp_067,[67],1,"[""you good_at physics you""]","[""are you good at physics""]",3,1,1,"[""physics""]",False,S1,1,20,0,0,20
+tplgrp_068,[68],1,"[""history class my favorite""]","[""my favorite class is history""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_069,[69],1,"[""my favorite color rainbow""]","[""my favorite color is rainbow""]",4,1,2,"[""color"", ""rainbow""]",False,S1,1,20,0,0,20
+tplgrp_070,[70],1,"[""red mix white become pink""]","[""red mix white becomes pink""]",5,1,3,"[""mix"", ""pink"", ""white""]",False,S1,1,20,0,0,20
+tplgrp_071,[71],1,"[""i want introduce my friend""]","[""I want to introduce my friend""]",5,1,1,"[""introduce""]",False,S1,1,20,0,0,20
+tplgrp_072,[72],1,"[""love_all""]","[""love to all""]",1,1,1,"[""love_all""]",False,S1,1,20,0,0,20
+tplgrp_073,[73],1,"[""book red give_me please""]","[""give me the red book please""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_074,[74],1,"[""my family altogether husband son""]","[""my family altogether husband and son""]",5,2,0,[],True,S1,1,20,0,0,20
+tplgrp_075,[75],1,"[""your uncle name what""]","[""what's your uncle's name""]",4,1,1,"[""uncle""]",False,S1,1,20,0,0,20
+tplgrp_076,[76],1,"[""see next_week""]","[""see you next week""]",2,3,0,[],True,S1,1,20,0,0,20
+tplgrp_077,[77],1,"[""time need how_many""]","[""how much time do you need""]",3,3,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_078,[78],1,"[""i arrive home nine_oclock i""]","[""I arrive home at 9""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_079,[79],1,"[""i my daughter look strong same""]","[""my daughter and I look strongly the same""]",6,1,1,"[""strong""]",False,S1,1,20,0,0,20
+tplgrp_080,[80],1,"[""my husband hair brown""]","[""my husband has brown hair""]",4,1,1,"[""brown""]",False,S1,1,20,0,0,20
+tplgrp_081,[81],1,"[""my son hair blonde""]","[""my son has blonde hair""]",4,1,1,"[""blonde""]",False,S1,1,20,0,0,20
+tplgrp_082,[82],1,"[""growing_up since my dad mustache always""]","[""growing up since my dad always had mustache""]",6,1,3,"[""dad"", ""mustache"", ""since""]",False,S1,1,20,0,0,20
+tplgrp_083,[84],1,"[""you like icecream you""]","[""do you like ice-cream""]",3,2,0,[],True,S1+S2,2,20,40,0,60
+tplgrp_084,[85],1,"[""you like he""]","[""you like him""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_085,[86],1,"[""you favorite football basketball which""]","[""your favorite is football or basketball""]",5,2,0,[],True,S1,1,20,0,0,20
+tplgrp_086,[87],1,"[""you happy study history you""]","[""are you happy with studying history""]",4,1,1,"[""study""]",False,S1+S3,2,20,0,20,40
+tplgrp_087,[88],1,"[""sunday i go church i""]","[""I go to church on Sunday""]",4,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_088,[89],1,"[""tomorrow meet coffee shop""]","[""meet at coffee shop tomorrow""]",4,1,1,"[""coffee""]",False,S1,1,20,0,0,20
+tplgrp_089,[90],1,"[""clinic across_street""]","[""the clinic is across the street""]",2,1,2,"[""across_street"", ""clinic""]",False,S1+S2,2,20,20,0,40
+tplgrp_090,[91],1,"[""hotel next_to museum""]","[""the hotel is next to the museum""]",3,1,3,"[""hotel"", ""museum"", ""next_to""]",False,S1,1,20,0,0,20
+tplgrp_091,[92],1,"[""friday night i go_out restaurant""]","[""I go out for restaurant Friday night""]",5,3,0,[],True,S1,1,20,0,0,20
+tplgrp_092,[93],1,"[""next_week saturday two_of_us meet""]","[""I will meet you next Saturday""]",4,1,1,"[""saturday""]",False,S1,1,20,0,0,20
+tplgrp_093,[94],1,"[""sunday you come church you""]","[""do you come to church on Sunday""]",4,2,0,[],True,S1+S3,2,20,0,20,40
+tplgrp_094,[95],1,"[""my favorite food spaghetti""]","[""my favorite food is spaghetti""]",4,1,1,"[""spaghetti""]",False,S1,1,20,0,0,20
+tplgrp_095,[96],1,"[""ketchup give_me""]","[""give me ketchup""]",2,1,1,"[""ketchup""]",False,S1+S2,2,20,20,0,40
+tplgrp_096,[97],1,"[""more soup please""]","[""more soup please""]",3,1,1,"[""soup""]",False,S1+S2,2,20,20,0,40
+tplgrp_097,[98],1,"[""you want fries also""]","[""do you also want fries""]",4,1,1,"[""fries""]",False,S1+S2+S3,3,20,20,20,60
+tplgrp_098,[99],1,"[""every_morning i eat_breakfast brush_teeth i""]","[""every morning I eat breakfast and brush teeth""]",4,1,2,"[""brush_teeth"", ""eat_breakfast""]",False,S1,1,20,0,0,20
+tplgrp_099,[100],1,"[""every_saturday i car wash i""]","[""every Saturday I wash car""]",4,1,3,"[""car"", ""every_saturday"", ""wash""]",False,S1,1,20,0,0,20
+tplgrp_100,[101],1,"[""every_monday every_thursday i trash take_out i""]","[""every Monday and every Thursday I take out trash""]",5,1,4,"[""every_monday"", ""every_thursday"", ""take_out"", ""trash""]",False,S1,1,20,0,0,20
+tplgrp_101,[102],1,"[""i love_it pineapple""]","[""I love pineapple""]",3,1,1,"[""pineapple""]",False,S1,1,20,0,0,20
+tplgrp_102,[103],1,"[""you eat finish vegetable you""]","[""have you finished eating vegetable""]",4,1,1,"[""vegetable""]",False,S1+S3,2,20,0,20,40
+tplgrp_103,[104],1,"[""this food strawberry have""]","[""this food has strawberry""]",4,1,2,"[""strawberry"", ""this""]",False,S1+S3,2,20,0,20,40
+tplgrp_104,[105],1,"[""wow steak delicious""]","[""wow the steak is delicious""]",3,1,1,"[""steak""]",False,S1+S2,2,20,20,0,40
+tplgrp_105,[106],1,"[""shrimp eat how_many""]","[""how many shrimps did you eat""]",3,1,1,"[""shrimp""]",False,S1,1,20,0,0,20
+tplgrp_106,[107],1,"[""christmas want hamburger turkey which""]","[""you want hamburgers or turkey for Christmas""]",5,1,1,"[""turkey""]",False,S1,1,20,0,0,20
+tplgrp_107,[108],1,"[""happy new year""]","[""happy new year""]",3,4,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_108,[109],1,"[""christmas you want what you""]","[""what do you want for Christmas""]",4,6,0,[],True,S1,1,20,0,0,20
+tplgrp_109,[110],1,"[""christmas light we go look_around we""]","[""we go to look at Christmas light""]",5,1,2,"[""light"", ""look_around""]",False,S1,1,20,0,0,20
+tplgrp_110,[111],1,"[""lets bake cookies""]","[""let's bake cookies""]",3,1,1,"[""lets""]",False,S1,1,20,0,0,20
+tplgrp_111,[112],1,"[""christmas_day snow hope""]","[""I hope Christmas day would snow""]",3,1,3,"[""christmas_day"", ""hope"", ""snow""]",False,S1,1,20,0,0,20
+tplgrp_112,[113],1,"[""i watch christmas movie love_it""]","[""I love watching Christmas movies""]",5,3,0,[],True,S1,1,20,0,0,20
+tplgrp_113,[114],1,"[""i drink hot chocolate love_it""]","[""I love drinking hot chocolate""]",5,1,2,"[""chocolate"", ""drink""]",False,S1,1,20,0,0,20
+tplgrp_114,[115],1,"[""jingle_bells""]","[""jingle bells""]",1,1,1,"[""jingle_bells""]",False,S1,1,20,0,0,20
+tplgrp_115,[116],1,"[""happy christmas""]","[""merry Christmas""]",2,6,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_116,[117],1,"[""during summer i enjoy olympics i""]","[""during summer I enjoy the olympics""]",5,1,1,"[""olympics""]",False,S1,1,20,0,0,20
+tplgrp_117,[118],1,"[""you like boxing karate which""]","[""you like boxing or karate""]",5,1,2,"[""boxing"", ""karate""]",False,S1,1,20,0,0,20
+tplgrp_118,[119],1,"[""good morning""]","[""good morning""]",2,3,0,[],True,S1,1,20,0,0,20
+tplgrp_119,[120],1,"[""good afternoon""]","[""good afternoon""]",2,2,0,[],True,S1,1,20,0,0,20
+tplgrp_120,[121],1,"[""good night""]","[""good night""]",2,3,0,[],True,S1,1,20,0,0,20
+tplgrp_121,[122],1,"[""tomorrow weather what""]","[""what's the weather tomorrow""]",3,3,0,[],True,S1,1,20,0,0,20
+tplgrp_122,[123],1,"[""now morning rain but afternoon sunny""]","[""today morning is rainy but afternoon is sunny""]",6,1,1,"[""sunny""]",False,S1,1,20,0,0,20
+tplgrp_123,[124],1,"[""spring here tornado season""]","[""spring here is tornado season""]",4,1,2,"[""here"", ""tornado""]",False,S1,1,20,0,0,20
+tplgrp_124,[125],1,"[""now dry rain need""]","[""it is dry now and the rain is needed""]",4,1,1,"[""dry""]",False,S1,1,20,0,0,20
+tplgrp_125,[126],1,"[""cloud dark maybe hail""]","[""clouds are dark it may hail""]",4,1,2,"[""dark"", ""hail""]",False,S1,1,20,0,0,20
+tplgrp_126,[127],1,"[""what_year""]","[""what year are you in""]",1,1,1,"[""what_year""]",False,S1,1,20,0,0,20
+tplgrp_127,[128],1,"[""principal office where""]","[""where is the principal office""]",3,1,2,"[""office"", ""principal""]",False,S1,1,20,0,0,20
+tplgrp_128,[129],1,"[""senior year i take calculus i""]","[""I take calculus in senior year""]",5,1,3,"[""calculus"", ""senior"", ""take""]",False,S1,1,20,0,0,20
+tplgrp_129,[130],1,"[""you_all paper bring class you_all""]","[""bring your paper to class""]",4,1,1,"[""you_all""]",False,S1,1,20,0,0,20
+tplgrp_130,[131],1,"[""shirt cost twenty_six dollars""]","[""the shirt costs 26 dollars""]",4,1,3,"[""dollars"", ""shirt"", ""twenty_six""]",False,S1,1,20,0,0,20
+tplgrp_131,[132],1,"[""i student college broke i""]","[""I am a broke college student""]",4,1,2,"[""broke"", ""student""]",False,S1+S3,2,20,0,20,40
+tplgrp_132,[133],1,"[""your baby due when""]","[""when is your baby due""]",4,1,2,"[""baby"", ""due""]",False,S1,1,20,0,0,20
+tplgrp_133,[134],1,"[""i age three five i""]","[""my age is 35""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_134,[135],1,"[""my sister age three one""]","[""my sister is 31""]",5,2,0,[],True,S1,1,20,0,0,20
+tplgrp_135,[136],1,"[""our dog nine""]","[""our dog is 9""]",3,1,1,"[""nine""]",False,S1,1,20,0,0,20
+tplgrp_136,[137],1,"[""how_old you""]","[""how old are you""]",2,1,1,"[""how_old""]",False,S1,1,20,0,0,20
+tplgrp_137,[138],1,"[""you go vacation where""]","[""where do you go on vacation""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_138,[139],1,"[""summer beach i go i""]","[""I go to beach on summer""]",4,1,1,"[""beach""]",False,S1+S3,2,20,0,20,40
+tplgrp_139,[140],1,"[""picnic i bring hotdog i""]","[""I bring hotdogs for picnic""]",4,1,2,"[""hotdog"", ""picnic""]",False,S1,1,20,0,0,20
+tplgrp_140,[141],1,"[""you go lake you""]","[""do you go to the lake""]",3,1,1,"[""lake""]",False,S1+S2,2,20,20,0,40
+tplgrp_141,[142],1,"[""love""]","[""I love you""]",1,5,0,[],True,S1,1,20,0,0,20
+tplgrp_142,[143],1,"[""flower thank_you""]","[""thank you for flowers""]",2,2,0,[],True,S1,1,20,0,0,20
+tplgrp_143,[144],1,"[""wow dessert delicious""]","[""wow the dessert is delicious""]",3,1,1,"[""dessert""]",False,S1+S2,2,20,20,0,40
+tplgrp_144,[145],1,"[""two_of_us go fancy restaurant""]","[""we both go to the fancy restaurant""]",4,1,1,"[""fancy""]",False,S1,1,20,0,0,20
+tplgrp_145,[146],1,"[""happy valentine day""]","[""happy Valentine's day""]",3,1,1,"[""valentine""]",False,S1,1,20,0,0,20
+tplgrp_146,[147],1,"[""graduate finish i become optometrist i""]","[""I become an optometrist when I graduate""]",5,1,1,"[""optometrist""]",False,S1,1,20,0,0,20
+tplgrp_147,[148],1,"[""i think future maybe become biologist""]","[""I think I may become a biologist in future""]",6,1,2,"[""biologist"", ""think""]",False,S1,1,20,0,0,20
+tplgrp_148,[149],1,"[""growing_up i work waitress i""]","[""I work as a waitress when growing up""]",4,1,1,"[""waitress""]",False,S1,1,20,0,0,20
+tplgrp_149,[150],1,"[""future my son want become police_officer""]","[""my son wants to become police officer in future""]",6,1,1,"[""police_officer""]",False,S1,1,20,0,0,20
+tplgrp_150,[151],1,"[""my daughter seven""]","[""my daughter is 7""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_151,[152],1,"[""my son five""]","[""my son is 5""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_152,[153],1,"[""two_of_us meeting five_oclock thirty""]","[""we meet at 5 : 30""]",4,1,2,"[""five_oclock"", ""thirty""]",False,S1,1,20,0,0,20
+tplgrp_153,[154],1,"[""hamburger cost seven_dollars""]","[""hamburgers cost 7 dollars""]",3,1,1,"[""seven_dollars""]",False,S1,1,20,0,0,20
+tplgrp_154,[155],1,"[""hawaii vacation stay two_week""]","[""I stay two weeks for Hawaii vacation""]",4,1,2,"[""hawaii"", ""two_week""]",False,S1,1,20,0,0,20
+tplgrp_155,[156],1,"[""friday six_oclock meeting restaurant you""]","[""meet you at the restaurant at 6 on Friday""]",5,1,1,"[""six_oclock""]",False,S1,1,20,0,0,20
+tplgrp_156,[157],1,"[""weekend i enjoy rest i""]","[""I enjoy resting on weekends""]",4,1,2,"[""rest"", ""weekend""]",False,S1,1,20,0,0,20
+tplgrp_157,[158],1,"[""i workout sometimes i""]","[""I workout sometimes""]",3,1,2,"[""sometimes"", ""workout""]",False,S1,1,20,0,0,20
+tplgrp_158,[159],1,"[""monday morning nine_oclock sign class""]","[""the sign class is Monday morning at 9""]",5,1,1,"[""monday""]",False,S1,1,20,0,0,20
+tplgrp_159,[160],1,"[""team support which you""]","[""which team do you support""]",4,1,2,"[""support"", ""team""]",False,S1,1,20,0,0,20
+tplgrp_160,[161],1,"[""close but we win""]","[""close game but we win""]",4,1,2,"[""close"", ""win""]",False,S1,1,20,0,0,20
+tplgrp_161,[162],1,"[""laughing commercial funny""]","[""haha the commercial is funny""]",3,1,3,"[""commercial"", ""funny"", ""laughing""]",False,S1+S3,2,20,0,20,40
+tplgrp_162,[163],1,"[""sunday you want watch super_bowl you""]","[""do you want to watch super bowl on Sunday""]",5,1,1,"[""super_bowl""]",False,S1,1,20,0,0,20
+tplgrp_163,[164],1,"[""come_on half_time show start""]","[""come on the half time show starts""]",4,1,3,"[""come_on"", ""half_time"", ""show""]",False,S1,1,20,0,0,20
+tplgrp_164,[165],1,"[""welcome""]","[""welcome""]",1,1,1,"[""welcome""]",False,S1,1,20,0,0,20
+tplgrp_165,[166],1,"[""i know a_little i""]","[""I know a little""]",3,1,1,"[""a_little""]",False,S1,1,20,0,0,20
+tplgrp_166,[167],1,"[""i want paper write i""]","[""I want paper to write""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_167,[168],1,"[""ready order""]","[""ready to order""]",2,1,1,"[""order""]",False,S1,1,20,0,0,20
+tplgrp_168,[169],1,"[""your food ready""]","[""your food is ready""]",3,3,0,[],True,S1,1,20,0,0,20
+tplgrp_169,[170],1,"[""ready pay""]","[""ready to pay""]",2,1,1,"[""pay""]",False,S1,1,20,0,0,20
+tplgrp_170,[171],1,"[""cash credit which""]","[""pay with cash or credit""]",3,1,2,"[""cash"", ""credit""]",False,S1,1,20,0,0,20
+tplgrp_171,[172],1,"[""thank_you come""]","[""thank you for coming""]",2,3,0,[],True,S1,1,20,0,0,20
+tplgrp_172,[173],1,"[""i want write i""]","[""I want to write""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_173,[174],1,"[""please finger_spell""]","[""please finger spell""]",2,1,1,"[""finger_spell""]",False,S1,1,20,0,0,20
+tplgrp_174,[175],1,"[""medicine you use what you""]","[""what medicine do you use""]",4,1,1,"[""medicine""]",False,S1,1,20,0,0,20
+tplgrp_175,[176],1,"[""you allergic what you""]","[""what are you allergic to""]",3,1,1,"[""allergic""]",False,S1,1,20,0,0,20
+tplgrp_176,[177],1,"[""you feel pain you""]","[""do you feel pain""]",3,1,1,"[""pain""]",False,S1,1,20,0,0,20
+tplgrp_177,[178],1,"[""you nauseous you""]","[""are you nauseous""]",2,1,1,"[""nauseous""]",False,S1,1,20,0,0,20
+tplgrp_178,[179],1,"[""you experience heart problem you""]","[""do you experience heart problem""]",4,1,1,"[""heart""]",False,S1,1,20,0,0,20
+tplgrp_179,[180],1,"[""blood pressure tend high you""]","[""your blood pressure tends to be high""]",5,1,4,"[""blood"", ""high"", ""pressure"", ""tend""]",False,S1,1,20,0,0,20
+tplgrp_180,[181],1,"[""seizures you experience you""]","[""do you experience seizures""]",3,1,1,"[""seizures""]",False,S1,1,20,0,0,20
+tplgrp_181,[182],1,"[""you pregnant you""]","[""are you pregnant""]",2,1,1,"[""pregnant""]",False,S1,1,20,0,0,20
+tplgrp_182,[183],1,"[""drug alcohol you use you""]","[""do you use drugs or alcohol""]",4,1,2,"[""alcohol"", ""drug""]",False,S1,1,20,0,0,20
+tplgrp_183,[184],1,"[""seatbelt you use you""]","[""do you use seatbelt""]",3,1,1,"[""seatbelt""]",False,S1,1,20,0,0,20
+tplgrp_184,[185],1,"[""you pass_out you""]","[""did you pass out""]",2,1,1,"[""pass_out""]",False,S1,1,20,0,0,20
+tplgrp_185,[186],1,"[""problem start when""]","[""when did the problem start""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_186,[187],1,"[""hey who that""]","[""hey who is that""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_187,[188],1,"[""your party when""]","[""when is your party""]",3,3,0,[],True,S1,1,20,0,0,20
+tplgrp_188,[189],1,"[""you sad why you""]","[""why you are sad""]",3,3,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_189,[190],1,"[""your birthday dinner where""]","[""where is your birthday dinner""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_190,[191],1,"[""every_morning i eat egg i""]","[""every morning I eat eggs""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_191,[192],1,"[""every_day twelve_oclock i go_out lunch i""]","[""everyday I go out for lunch on 12""]",5,1,2,"[""every_day"", ""twelve_oclock""]",False,S1,1,20,0,0,20
+tplgrp_192,[193],1,"[""lunch finish back work""]","[""lunch finished back to work""]",4,3,0,[],True,S1,1,20,0,0,20
+tplgrp_193,[194],1,"[""lunch you ready you""]","[""are you ready for lunch""]",3,3,0,[],True,S1,1,20,0,0,20
+tplgrp_194,[195],1,"[""i growing_up my mother she cook dinner she""]","[""when I growing up my mother cooked dinner""]",7,1,1,"[""she""]",False,S1,1,20,0,0,20
+tplgrp_195,[196],1,"[""you want cookies cake which""]","[""you want cookies or cakes""]",5,2,0,[],True,S1,1,20,0,0,20
+tplgrp_196,[197],1,"[""during travel cake pack bring important""]","[""during travel packing and bringing cakes are important""]",6,1,1,"[""pack""]",False,S1,1,20,0,0,20
+tplgrp_197,[198],1,"[""two_of_us like read""]","[""we both like to read""]",3,1,1,"[""read""]",False,S1+S2,2,20,20,0,40
+tplgrp_198,[199],1,"[""your teacher nice""]","[""your teacher is nice""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_199,[200],1,"[""chair comfortable""]","[""the chair is comfortable""]",2,1,2,"[""chair"", ""comfortable""]",False,S1,1,20,0,0,20
+tplgrp_200,[201],1,"[""your book borrow_me""]","[""I borrow your book""]",3,1,1,"[""borrow_me""]",False,S1+S2,2,20,20,0,40
+tplgrp_201,[202],1,"[""we hungry""]","[""we are hungry""]",2,1,1,"[""hungry""]",False,S1+S3,2,20,0,20,40
+tplgrp_202,[203],1,"[""three_of_you want eat""]","[""three of you want to eat""]",3,1,1,"[""three_of_you""]",False,S1,1,20,0,0,20
+tplgrp_203,[204],1,"[""you play football you""]","[""do you play football""]",3,1,1,"[""play""]",False,S1,1,20,0,0,20
+tplgrp_204,[205],1,"[""thanksgiving_day finish black friday""]","[""Thanksgiving finished there is black Friday""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_205,[206],1,"[""people shop because cost reduce""]","[""people shop because of cost reduction""]",5,1,2,"[""because"", ""reduce""]",False,S1,1,20,0,0,20
+tplgrp_206,[207],1,"[""halloween when""]","[""when is Halloween""]",2,2,0,[],True,S1,1,20,0,0,20
+tplgrp_207,[208],1,"[""pumpkin orange""]","[""pumpkin is orange""]",2,1,1,"[""orange""]",False,S1,1,20,0,0,20
+tplgrp_208,[209],1,"[""spider i afraid i""]","[""I am afraid of spider""]",3,1,2,"[""afraid"", ""spider""]",False,S1+S2,2,20,20,0,40
+tplgrp_209,[210],1,"[""trick treat""]","[""trick or treat""]",2,1,2,"[""treat"", ""trick""]",False,S1,1,20,0,0,20
+tplgrp_210,[211],1,"[""you live house apartment which""]","[""you live in house or apartment""]",5,2,0,[],True,S1,1,20,0,0,20
+tplgrp_211,[212],1,"[""i have apartment i""]","[""I have an apartment""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_212,[213],1,"[""congratulations good game""]","[""congratulations good game""]",3,1,2,"[""congratulations"", ""game""]",False,S1,1,20,0,0,20
+tplgrp_213,[214],1,"[""my family i love i""]","[""I love my family""]",4,4,0,[],True,S1,1,20,0,0,20
+tplgrp_214,[215],1,"[""you love i do_you""]","[""do you love me""]",4,1,1,"[""do_you""]",False,S1,1,20,0,0,20
+tplgrp_215,[216],1,"[""mountain hiking i love_it""]","[""I love mountain hiking""]",4,1,1,"[""mountain""]",False,S1,1,20,0,0,20
+tplgrp_216,[217],1,"[""movie start what_time""]","[""what time does the movie start""]",3,1,1,"[""what_time""]",False,S1,1,20,0,0,20
+tplgrp_217,[218],1,"[""i join""]","[""I join""]",2,1,1,"[""join""]",False,S1,1,20,0,0,20
+tplgrp_218,[219],1,"[""you subscribe finish you""]","[""have you finished subscribe""]",3,1,1,"[""subscribe""]",False,S1,1,20,0,0,20
+tplgrp_219,[220],1,"[""i have pumpkin sweet potato apple i""]","[""I have pumpkin sweet potato and apple""]",6,1,3,"[""apple"", ""potato"", ""sweet""]",False,S1,1,20,0,0,20
+tplgrp_220,[221],1,"[""good weather walk""]","[""good weather for walking""]",3,1,1,"[""walk""]",False,S1,1,20,0,0,20
+tplgrp_221,[222],1,"[""easter celebrate why""]","[""why celebrating Easter""]",3,1,1,"[""celebrate""]",False,S1,1,20,0,0,20
+tplgrp_222,[223],1,"[""happy easter sunday""]","[""happy Easter Sunday""]",3,3,0,[],True,S1,1,20,0,0,20
+tplgrp_223,[224],1,"[""i enjoy go_out run i""]","[""I enjoy going out running""]",4,3,0,[],True,S1,1,20,0,0,20
+tplgrp_224,[225],1,"[""run growing_up i hate i""]","[""I hate running and growing up""]",4,1,1,"[""hate""]",False,S1+S2,2,20,20,0,40
+tplgrp_225,[226],1,"[""my department i manage i""]","[""I manage my department""]",4,1,2,"[""department"", ""manage""]",False,S1,1,20,0,0,20
+tplgrp_226,[227],1,"[""that machine still working""]","[""that machine is still working""]",4,1,3,"[""machine"", ""still"", ""working""]",False,S1,1,20,0,0,20
+tplgrp_227,[228],1,"[""my friend compete president""]","[""my friend is competing for president""]",4,1,2,"[""compete"", ""president""]",False,S1,1,20,0,0,20
+tplgrp_228,[229],1,"[""important stay home take_care yourself""]","[""it is important to stay at home and take care of yourself""]",5,1,1,"[""yourself""]",False,S1,1,20,0,0,20
+tplgrp_229,[230],1,"[""take_care other people""]","[""take care of other people""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_230,[231],1,"[""halloween your costume what""]","[""what is your Halloween costume""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_231,[232],1,"[""now year i plan host party i""]","[""this year I plan to host a party""]",6,2,0,[],True,S1,1,20,0,0,20
+tplgrp_232,[233],1,"[""not forget vote""]","[""do not forget to vote""]",3,1,1,"[""forget""]",False,S1+S2,2,20,20,0,40
+tplgrp_233,[234],1,"[""your local vote important also""]","[""your local vote is important too""]",5,1,1,"[""local""]",False,S1,1,20,0,0,20
+tplgrp_234,[235],1,"[""my home always nice""]","[""my home is always nice""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_235,[236],1,"[""i plan go_out run but rain""]","[""I plan to go out running but it rains""]",6,3,0,[],True,S1,1,20,0,0,20
+tplgrp_236,[237],1,"[""with you i happy i""]","[""with you I am happy""]",4,1,1,"[""with""]",False,S1+S3,2,20,0,20,40
+tplgrp_237,[238],1,"[""you marry i""]","[""you marry me""]",3,1,1,"[""marry""]",False,S1+S2,2,20,20,0,40
+tplgrp_238,[239],1,"[""you make i feel whole""]","[""you make me feel whole""]",5,1,2,"[""make"", ""whole""]",False,S1,1,20,0,0,20
+tplgrp_239,[240],1,"[""i thankful for my family""]","[""I am thankful for my family""]",5,1,1,"[""for""]",False,S1,1,20,0,0,20
+tplgrp_240,[241],1,"[""happy thanksgiving""]","[""happy Thanksgiving""]",2,1,1,"[""thanksgiving""]",False,S1+S3,2,20,0,20,40
+tplgrp_241,[242],1,"[""now you shop where""]","[""now where do you shop""]",4,4,0,[],True,S1,1,20,0,0,20
+tplgrp_242,[243],1,"[""now year you plan shop how""]","[""this year how do you plan to shop""]",6,4,0,[],True,S1,1,20,0,0,20
+tplgrp_243,[244],1,"[""nice learn new skill""]","[""nice to learn new skills""]",4,1,1,"[""skill""]",False,S1,1,20,0,0,20
+tplgrp_244,[245],1,"[""you like bake you""]","[""do you like to bake""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_245,[246],1,"[""season favorite my fall""]","[""my favorite season is fall""]",4,1,1,"[""fall""]",False,S1,1,20,0,0,20
+tplgrp_246,[247],1,"[""my costume witch my brother ghost""]","[""my costume is witch and my brother is ghost""]",5,1,3,"[""brother"", ""ghost"", ""witch""]",False,S1,1,20,0,0,20
+tplgrp_247,[248],1,"[""winter clothes i have coat i""]","[""I have a coat for winter clothes""]",5,1,3,"[""clothes"", ""coat"", ""winter""]",False,S1,1,20,0,0,20
+tplgrp_248,[249],1,"[""last year my hat i lost i""]","[""last year I lost my hat""]",6,1,2,"[""last"", ""lost""]",False,S1,1,20,0,0,20
+tplgrp_249,[250],1,"[""i not_know where sad""]","[""I do not know where it is sad""]",4,1,1,"[""not_know""]",False,S1+S3,2,20,0,20,40
+tplgrp_250,[251],1,"[""now year i have scarf i""]","[""this year I have a scarf""]",5,1,1,"[""scarf""]",False,S1,1,20,0,0,20
+tplgrp_251,[252],1,"[""i knit hat i""]","[""I knit a hat""]",3,1,1,"[""knit""]",False,S1,1,20,0,0,20
+tplgrp_252,[253],1,"[""your new year resolution what""]","[""what's your new year resolution""]",5,1,1,"[""resolution""]",False,S1,1,20,0,0,20
+tplgrp_253,[254],1,"[""back school you excited you""]","[""are you excited for back to school""]",4,1,1,"[""school""]",False,S1,1,20,0,0,20
+tplgrp_254,[255],1,"[""i back home i""]","[""I go back home""]",3,3,0,[],True,S1+S3,2,20,0,20,40
+tplgrp_255,[256],1,"[""summer i excited i""]","[""I am excited for summer""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_256,[257],1,"[""i wear costume black i""]","[""I wear black costume""]",4,1,1,"[""wear""]",False,S1,1,20,0,0,20
+tplgrp_257,[258],1,"[""time run_out""]","[""running out of time""]",2,1,1,"[""run_out""]",False,S1+S2,2,20,20,0,40
+tplgrp_258,[259],1,"[""i need leave i""]","[""I need to leave""]",3,1,1,"[""leave""]",False,S1+S2,2,20,20,0,40
+tplgrp_259,[260],1,"[""easter egg hunt i enjoy i""]","[""I enjoy hunting Easter eggs""]",5,1,1,"[""hunt""]",False,S1,1,20,0,0,20
+tplgrp_260,[261],1,"[""next_week holiday two""]","[""next week has 2 holidays""]",3,2,0,[],True,S1,1,20,0,0,20
+tplgrp_261,[262],1,"[""summer my favorite season""]","[""summer is my favorite season""]",4,4,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_262,[263],1,"[""i enjoy hiking swimming i""]","[""I enjoy hiking and swimming""]",4,1,1,"[""swimming""]",False,S1,1,20,0,0,20
+tplgrp_263,[264],1,"[""area hot""]","[""the area is hot""]",2,1,1,"[""area""]",False,S1,1,20,0,0,20
+tplgrp_264,[265],1,"[""you_mind AC turn_on""]","[""do you mind turning on the AC""]",3,1,3,"[""AC"", ""turn_on"", ""you_mind""]",False,S1,1,20,0,0,20
+tplgrp_265,[266],1,"[""during spring baseball season start""]","[""during spring baseball season starts""]",5,1,1,"[""baseball""]",False,S1,1,20,0,0,20
+tplgrp_266,[267],1,"[""i have many friend birthday spring""]","[""I have many friends whose birthdays are in spring""]",6,1,1,"[""many""]",False,S1,1,20,0,0,20
+tplgrp_267,[268],1,"[""spring holiday what""]","[""what are spring holidays""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_268,[269],1,"[""my family move different state""]","[""my family moved to a different state""]",5,1,2,"[""different"", ""move""]",False,S1,1,20,0,0,20
+tplgrp_269,[270],1,"[""country US have state altogether how_many""]","[""how many states does country US have altogether""]",6,1,2,"[""US"", ""country""]",False,S1,1,20,0,0,20
+tplgrp_270,[271],1,"[""football watch my husband enjoy""]","[""my husband enjoys watching football""]",5,3,0,[],True,S1,1,20,0,0,20
+tplgrp_271,[272],1,"[""my friend dislike wrestling""]","[""my friend dislikes wrestling""]",4,2,0,[],True,S1+S3,2,20,0,20,40
+tplgrp_272,[273],1,"[""wrestling football you favorite which""]","[""you prefer wrestling or football""]",5,2,0,[],True,S1,1,20,0,0,20
+tplgrp_273,[274],1,"[""happy mother day""]","[""happy mother's day""]",3,2,0,[],True,S1+S3,2,20,0,20,40
+tplgrp_274,[275],1,"[""i plan visit my mother""]","[""I plan to visit my mother""]",5,1,1,"[""visit""]",False,S1,1,20,0,0,20
+tplgrp_275,[276],1,"[""i bring flower i""]","[""I bring flowers""]",3,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_276,[277],1,"[""go_ahead""]","[""go ahead""]",1,1,1,"[""go_ahead""]",False,S1,1,20,0,0,20
+tplgrp_277,[278],1,"[""prayer before eat""]","[""prayer before eating""]",3,1,2,"[""before"", ""prayer""]",False,S1+S2,2,20,20,0,40
+tplgrp_278,[279],1,"[""thanksgiving_day parade""]","[""Thanksgiving day parade""]",2,1,1,"[""parade""]",False,S1,1,20,0,0,20
+tplgrp_279,[280],1,"[""not_yet christmas""]","[""not yet Christmas""]",2,1,1,"[""not_yet""]",False,S1,1,20,0,0,20
+tplgrp_280,[281],1,"[""need remember thankful now""]","[""need to remember to be thankful today""]",4,1,1,"[""remember""]",False,S1,1,20,0,0,20
+tplgrp_281,[282],1,"[""now weather warm cloud""]","[""today the weather is warm and cloudy""]",4,1,1,"[""warm""]",False,S1,1,20,0,0,20
+tplgrp_282,[283],1,"[""you graduate when""]","[""when do you graduate""]",3,4,0,[],True,S1,1,20,0,0,20
+tplgrp_283,[284],1,"[""thursday night i host graduate party i""]","[""Thursday night I host graduation party""]",6,1,1,"[""thursday""]",False,S1,1,20,0,0,20
+tplgrp_284,[285],1,"[""graduate finish i plan travel i""]","[""graduation finished I plan to travel""]",5,2,0,[],True,S1,1,20,0,0,20
+tplgrp_285,[286],1,"[""you love spread how""]","[""how do you spread love""]",4,1,1,"[""spread""]",False,S1,1,20,0,0,20
+tplgrp_286,[287],1,"[""we future learn a_lot""]","[""we will learn a lot""]",4,2,0,[],True,S1,1,20,0,0,20
+tplgrp_287,[288],1,"[""you know my friend you""]","[""you know my friend""]",4,2,0,[],True,S1+S2,2,20,20,0,40
+tplgrp_288,[289],1,"[""now year we happy""]","[""this year we are happy""]",4,7,0,[],True,S1+S3,2,20,0,20,40
+tplgrp_289,[290],1,"[""try use again""]","[""try to use again""]",3,1,1,"[""try""]",False,S1+S2,2,20,20,0,40
+tplgrp_290,[291],1,"[""we have money""]","[""we have money""]",3,1,1,"[""money""]",False,S1+S2,2,20,20,0,40
+tplgrp_291,[292],1,"[""they enjoy eat hamburger""]","[""they enjoy eating hamburgers""]",4,2,0,[],True,S1+S3,2,20,0,20,40
+tplgrp_292,[293],1,"[""he wife dislike cook""]","[""his wife dislikes cooking""]",4,1,1,"[""wife""]",False,S1+S3,2,20,0,20,40
+tplgrp_293,[294],1,"[""tomorrow i future need more milk i""]","[""tomorrow I will need more milk""]",6,2,0,[],True,S1,1,20,0,0,20
+tplgrp_294,[295],1,"[""you scared why""]","[""why are you scared""]",3,1,1,"[""scared""]",False,S1,1,20,0,0,20
+tplgrp_295,[296],1,"[""i worry they angry""]","[""I am worried they are angry""]",4,1,1,"[""angry""]",False,S1+S3,2,20,0,20,40
+tplgrp_296,[297],1,"[""we see cute rabbit""]","[""we see cute rabbits""]",4,1,2,"[""cute"", ""rabbit""]",False,S1+S2,2,20,20,0,40
+tplgrp_297,[298],1,"[""you use hearing_aid you""]","[""do you use hearing-aid""]",3,1,1,"[""hearing_aid""]",False,S1+S2,2,20,20,0,40
+tplgrp_298,[299],1,"[""our cousin live canada""]","[""our cousin lives in Canada""]",4,1,2,"[""canada"", ""cousin""]",False,S1,1,20,0,0,20
+tplgrp_299,[300],1,"[""i feel annoy i""]","[""I feel annoyed""]",3,1,1,"[""annoy""]",False,S1+S3,2,20,0,20,40

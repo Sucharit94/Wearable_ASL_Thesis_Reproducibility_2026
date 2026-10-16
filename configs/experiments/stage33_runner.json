@@ -1,0 +1,69 @@
+{
+  "artifact_policy": {
+    "checkpoint_every_epochs": 1,
+    "external_artifact_root_required": true,
+    "predictions_written_only_after_complete_refit": true,
+    "support_views_derived_from_one_prediction_file": true
+  },
+  "batching": {
+    "effective_batch_size": "model_catalog_physical_batch_size",
+    "fallback_candidates": "halve_configured_physical_batch_until_one",
+    "gradient_accumulation_preserves_effective_batch": true,
+    "oom_fallback_only": true,
+    "shuffle": "numpy_generator_pcg64_seed_plus_epoch_v1"
+  },
+  "freeze": {
+    "required_annotated_git_tag": "stage33-loso-runner-v1",
+    "required_gpu_name_contains": "T4",
+    "stage33a_commit": "010256a",
+    "tag_commit_must_equal_head": true,
+    "working_tree_must_be_clean": true
+  },
+  "precision": {
+    "applies_to_models": ["g1", "c1", "c2", "c3", "c4"],
+    "automatic_mixed_precision": false,
+    "mode": "float32"
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "refit": {
+    "compact_minimum_learning_rate_ratio": 0.01,
+    "compact_schedule": "linear_warmup_cosine_v1",
+    "g1_schedule": "constant",
+    "normalization_partition": "all_training_subject_samples",
+    "reset_model_optimizer_and_rng": true,
+    "train_exactly_selected_epochs": true,
+    "validation_used": false
+  },
+  "reporting": {
+    "primary_metric": "loso_all_pooled_wer",
+    "report_slices": [
+      "loso_all",
+      "template_supported",
+      "token_supported",
+      "token_unsupported",
+      "support_statistics"
+    ],
+    "support_slices_train_separate_models": false
+  },
+  "schema_version": 1,
+  "selection": {
+    "compact_early_stopping_minimum_epoch": 15,
+    "compact_plateau_factor": 0.5,
+    "compact_plateau_min_lr": 0.0,
+    "compact_plateau_patience": 2,
+    "compact_plateau_threshold": 0.0001,
+    "compact_plateau_threshold_mode": "rel",
+    "g1_runs_full_catalog_epoch_cap": true,
+    "normalization_partition": "inner_training_subject_samples_only",
+    "scheduler_monitor": "validation_ctc_loss",
+    "tie_break_order": [
+      "lower_validation_wer",
+      "higher_validation_exact_sentence_accuracy",
+      "lower_validation_ctc_loss",
+      "earlier_epoch"
+    ]
+  },
+  "stage": 33,
+  "status": "frozen_before_loso_outer_evaluation",
+  "substage": "B"
+}

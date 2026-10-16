@@ -1,0 +1,72 @@
+{
+  "conv1d": {
+    "formula": "floor((L + 2P - D*(K-1) - 1)/S) + 1",
+    "model_specific_parameters": "frozen when each model architecture is implemented"
+  },
+  "created_at_utc": "2026-08-31T09:57:30.359704+00:00",
+  "direct_sequence": {
+    "initial_rule": "output_length = raw_valid_T",
+    "mismatches": 0,
+    "recordings_checked": 7400
+  },
+  "g1_c4_window_adapter": {
+    "formula": "1 + floor((T-W)/S)",
+    "full_windows_only": true,
+    "infeasible_recordings": 0,
+    "maximum_window_length": 45,
+    "minimum_window_length": 3,
+    "recordings_checked": 7400,
+    "stage20_length_mismatches": 0,
+    "stride": 18,
+    "window_length": 36
+  },
+  "hashes": {
+    "implementation_sha256": "3cb9f6d5b8025baac4d3f25f08e3218d0340318414f89730bc73bdf8f96d5304",
+    "test_sha256": "f74a6e3a2081252d7f2b9a9f66fc85927e7bd8ac5e956987e6be488a51b71c06"
+  },
+  "mask_verification": {
+    "mask_sum_failures": 0,
+    "padding_mask_exact_inverse": true,
+    "probe_lengths": [
+      81,
+      241,
+      831
+    ],
+    "probe_sample_ids": [
+      "gu_s01_sent165_rep012",
+      "gu_s01_sent114_rep015",
+      "gu_s02_sent029_rep080"
+    ]
+  },
+  "principles": {
+    "approximate_lengths_allowed_in_code": false,
+    "padded_time_used_as_valid_length": false,
+    "same_final_length_used_for_ctc_loss_and_decoder": true,
+    "valid_length_is_first_class": true
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "recurrent_policy": {
+    "bilstm_valid_length_change": "none",
+    "implementation_requirement": "pack_padded_sequence or equivalent valid-length-safe processing"
+  },
+  "stage": 22,
+  "stage20_dependency": {
+    "audit_hash_match": true,
+    "selected_infeasible_recordings": 0,
+    "selected_stride": 18
+  },
+  "stage21_dependency": {
+    "decoder_slices_valid_length": true,
+    "padded_timesteps_decoded": false,
+    "pre_loss_feasibility_guard": true
+  },
+  "swin_policy": {
+    "requirement": "Every patch/merge operation that changes temporal resolution must propagate exact valid lengths",
+    "source": "Stage-20 full-window sequence",
+    "time_global_pooling": false
+  },
+  "transformer_policy": {
+    "mask_requirement": "exact padding mask derived from propagated valid lengths",
+    "valid_length_change": "none unless an explicit temporal downsampling layer precedes it"
+  }
+}

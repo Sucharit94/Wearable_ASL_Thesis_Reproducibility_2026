@@ -1,0 +1,108 @@
+{
+  "circular_ablation": {
+    "encoding_order": "sin_f0,cos_f0,...,sin_f37,cos_f37",
+    "input_width": 38,
+    "normalization": "fit feature-wise z-score on current training partition after circular transform",
+    "output_width": 76,
+    "primary": false
+  },
+  "created_at_utc": "2026-08-31T03:52:59.079678+00:00",
+  "fit_rules": {
+    "known_signer_final_refit": {
+      "fit_on": "full_outer_training_pool",
+      "never_fit_on": "outer_test_fold"
+    },
+    "known_signer_inner_selection": {
+      "fit_on": "inner_training_partition_only",
+      "never_fit_on": [
+        "inner_validation_partition",
+        "outer_test_fold"
+      ]
+    },
+    "known_signer_outer": {
+      "fit_on": "outer_training_pool_only",
+      "never_fit_on": "outer_test_fold"
+    },
+    "loso_final_refit": {
+      "fit_on": "all_training_subject_recordings",
+      "never_fit_on": "held_out_subject"
+    },
+    "loso_inner_selection": {
+      "fit_on": "inner_training_partition_from_training_subjects_only",
+      "never_fit_on": [
+        "inner_validation_partition",
+        "held_out_subject"
+      ]
+    },
+    "template_holdout_final_refit": {
+      "fit_on": "all_template_holdout_training_recordings",
+      "never_fit_on": "held_out_template_groups"
+    },
+    "template_holdout_inner_selection": {
+      "fit_on": "inner_training_partition_only",
+      "never_fit_on": [
+        "inner_validation_partition",
+        "held_out_template_groups"
+      ]
+    }
+  },
+  "hashes": {
+    "config_sha256": "f1ba3d5e37210a135f4fd618c21aec61136096e5514b0606ce0bdc269b8b5731",
+    "implementation_sha256": "58c91ed2b51874ae65c1b490c453497a9029fcd00a44dcdbacf41210096817f0",
+    "pytest_config_sha256": "0e6875a9a85c10c54f81fe5fdb2f2f7c84692c3450bf04100327043569343aab",
+    "test_sha256": "957f51557aac3f7086043687c3bb714e0c1398894e21c4308547af953208e397",
+    "upstream": {
+      "stage13_known_signer_5fold": "7b9943145ffd9658fe20fedc37e4bd4515496a7cd59b893f95e99f95ea6c95e9",
+      "stage14_loso": "28fef677789f652c0939fb4550a78ef928dfdbc58615ebea773c5ff8a9c86de9",
+      "stage16_template_holdout": "b36096c0cb14cf137eb2a5bdbf206a5aad462326cdc490dbe5810705ac5e3376",
+      "stage17_cache_index": "094050ed305b4e8093a1463aeea30db0a508ebac9131d28214619f9b6b5cd822"
+    }
+  },
+  "model_adapter_boundary": {
+    "C1": "direct normalized T x 38",
+    "C2": "direct normalized T x 38",
+    "C3": "direct normalized T x 38",
+    "C4": "normalized native-source-order T x 38 then Stage-20-frozen temporal-feature adapter",
+    "G1": "normalized T x 38 then Stage-20-frozen window adapter"
+  },
+  "numeric_stats_frozen_globally": false,
+  "numeric_stats_rule": "Normalization numbers are fitted separately from the exact training partition of each inner-selection or final-refit run.",
+  "padding_contract": {
+    "future_padding_value_after_normalization": 0.0,
+    "normalization_fitted_before_padding": true,
+    "valid_lengths_required": true
+  },
+  "primary_disabled_operations": {
+    "angle_unwrapping": false,
+    "augmentation": false,
+    "filtering": false,
+    "per_sample_standardization": false,
+    "resampling": false,
+    "smoothing": false,
+    "truncation": false
+  },
+  "primary_normalization": {
+    "aggregation": "all_valid_training_timesteps_frame_weighted",
+    "clipping": false,
+    "fit_dtype": "float64",
+    "fit_scope": "current_training_partition_only",
+    "formula": "(x_j - train_mean_j) / train_std_j",
+    "low_std_policy": "error",
+    "minimum_allowed_std": 1e-08,
+    "name": "featurewise_zscore",
+    "output_dtype": "float32",
+    "population_ddof": 0
+  },
+  "primary_representation": {
+    "feature_width": 38,
+    "name": "raw_rotation_38d",
+    "temporal_length_preserved": true,
+    "temporal_unwrap": false
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "stage": 18,
+  "test_execution": {
+    "preferred_command": "python -m pytest",
+    "pytest_pythonpath": "."
+  }
+}

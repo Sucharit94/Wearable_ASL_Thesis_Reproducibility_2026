@@ -1,0 +1,7 @@
+claim_id,status,thesis_safe_wording,evidence,prohibited_overclaim
+C35-01,supported,G1 achieved the lowest five-fold pooled WER and serves as the accuracy reference.,stage34b_model_metrics.csv; stage34c_model_confidence_intervals.csv,G1 is universally best for unseen signers or every deployment setting.
+C35-02,supported,C2 is the recommended lightweight recognizer under the predeclared quality and multi-criteria rules.,stage34e_decision_matrix.csv; stage34e_sensitivity_ranking.csv,C2 has the highest accuracy or lowest WER overall.
+C35-03,not_resolved,The five-fold WER difference between C2 and C4 was not resolved at 95% confidence after Holm correction.,stage34c_pairwise_tests.csv,C2 has significantly lower WER than C4.
+C35-04,supported,"On the measured CPU protocol, C2 was operationally more efficient than C4 in latency, throughput and peak RSS.",stage34d_efficiency_metrics.csv,The measured CPU timings are identical on every device.
+C35-05,supported,C3 was the smallest model but did not meet the frozen recognition-quality threshold.,stage34d_efficiency_metrics.csv; stage34e_decision_matrix.csv,The smallest parameter count alone makes C3 the best lightweight recognizer.
+C35-06,methodological_rule,"Model selection used recognition quality, uncertainty, paired inference and measured efficiency rather than accuracy alone.",stage34c_contract.json; stage34d_contract.json; stage34e_contract.json,One accuracy value is sufficient to establish model superiority.

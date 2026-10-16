@@ -1,0 +1,70 @@
+{
+  "code_freeze": {
+    "required_git_tag": "stage31-freeze-v1",
+    "tag_must_point_to_stage31_commit": true,
+    "working_tree_must_be_clean_before_outer_run": true
+  },
+  "project_generation": "fresh_start_2026_v1",
+  "protocol": {
+    "held_out_template_leakage_test_required": true,
+    "inputs": [
+      "predicted_gloss",
+      "oracle_gloss"
+    ],
+    "protocol_id": "gloss_to_english_language_v1",
+    "recognition_test_predictions_are_immutable_inputs": true,
+    "reference_english": "label_order_text",
+    "retrieval_and_prompt_library": "training_partition_only",
+    "source_gloss": "recognized_label_no_order_tokens",
+    "systems": [
+      "L0_raw_gloss",
+      "L1_training_only_retrieval",
+      "L2_constrained_generator",
+      "L3_template_holdout"
+    ]
+  },
+  "schema_version": 1,
+  "shared_recognition_policy": {
+    "augmentation": "none",
+    "ctc_decoder": "greedy_valid_length_truncated_v1",
+    "memory_fallback": {
+      "allowed_cause": "verified_out_of_memory_only",
+      "must_log_change": true,
+      "other_hyperparameter_fallback_allowed": false,
+      "physical_batch_candidates": "halve_until_one",
+      "preserve_effective_batch_with_gradient_accumulation": true,
+      "restart_run_from_seed_after_change": true
+    },
+    "model_ids": [
+      "g1",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "normalization": "feature_zscore_fit_on_current_training_partition_only",
+    "refit": {
+      "compact_minimum_learning_rate_ratio": 0.01,
+      "compact_schedule": "deterministic_linear_warmup_cosine_v1",
+      "compact_warmup_epochs_formula": "min(5,max(1,ceil(0.10*selected_epochs)))",
+      "epochs": "selected_epoch_count",
+      "g1_schedule": "constant_catalog_learning_rate",
+      "training_pool": "all_non_test_training_samples",
+      "validation_used": false
+    },
+    "seed": 20260826,
+    "selection": {
+      "inner_validation_only": true,
+      "metric": "word_error_rate",
+      "reset_before_refit": true,
+      "tie_break_order": [
+        "lower_validation_wer",
+        "higher_validation_sentence_accuracy",
+        "lower_validation_ctc_loss",
+        "earlier_epoch"
+      ]
+    },
+    "test_controls_training": false
+  },
+  "status": "frozen_before_outer_evaluation"
+}

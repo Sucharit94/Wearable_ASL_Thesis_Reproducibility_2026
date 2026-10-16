@@ -1,0 +1,4 @@
+loso_id,held_out_subject,training_subjects,train_recordings,test_recordings,train_unique_templates,test_unique_templates,train_subject_count,test_subject_count,sample_overlap,split_group_overlap
+loso_subject1,subject1,subject2+subject3,1400,6000,67,300,2,1,0,0
+loso_subject2,subject2,subject1+subject3,6400,1000,300,48,2,1,0,0
+loso_subject3,subject3,subject1+subject2,7000,400,300,20,2,1,0,0

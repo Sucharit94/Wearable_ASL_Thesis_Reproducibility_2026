@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-08-29T02:05:49.764744+00:00",
+  "python_version": "3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]",
+  "python_executable": "/usr/bin/python3",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "PyYAML": "6.0.3",
+    "tqdm": "4.67.3",
+    "matplotlib": "3.10.0",
+    "jiwer": "4.0.0",
+    "pytest": "8.4.2"
+  },
+  "torch": {
+    "version": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "cudnn_version": 91900,
+    "gpu_count": 1,
+    "gpu_name": "Tesla T4",
+    "gpu_memory_bytes": 15637086208
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-08-29T05:48:12.246601+00:00",
+  "csv_column_mapping": {
+    "exact_column_order_status": "UNVERIFIED",
+    "physical_columns": 38,
+    "semantic_mappings_unverified": 38,
+    "semantic_mappings_verified": 0
+  },
+  "feature_width": 38,
+  "future_mapping_policy": "A semantic column mapping may only be added if authoritative author metadata, source code, export configuration, or equivalent direct evidence becomes available.",
+  "project_generation": "fresh_start_2026_v1",
+  "raw_files_modified": false,
+  "representative_csv": "data/raw/gu_author_dataset/csv/subject1/1_1.csv",
+  "representative_first_row_columns": 38,
+  "representative_first_row_numeric": true,
+  "semantic_inventory": {
+    "basis": "Gu et al. 2024 Table 2",
+    "coordinate_count": 38,
+    "meaning": "Verified set of selected joint-rotation coordinate types."
+  },
+  "stage": 7,
+  "swin_implication": {
+    "anatomical_2d_topology_verified": false,
+    "primary_safe_representation": "temporal-feature map preserving native CSV feature order without anatomical claims",
+    "source_order_available": true
+  },
+  "terminology": {
+    "appropriate": [
+      "wearable inertial motion-capture-derived joint rotation features",
+      "38-dimensional joint-rotation feature vector",
+      "rotation-coordinate time series"
+    ],
+    "unsupported_as_input_description": [
+      "sEMG",
+      "raw accelerometer channels",
+      "raw gyroscope channels",
+      "raw magnetometer channels"
+    ]
+  }
+}

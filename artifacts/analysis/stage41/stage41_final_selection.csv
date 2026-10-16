@@ -1,0 +1,6 @@
+decision,selected_model,selected_language_system,primary_evidence,statistical_context,claim_scope
+recognition_quality_reference,G1,n.a.,lowest five-fold recognition WER and highest exact accuracy,G1 was significantly better in the Stage 34 paired comparisons,known-signer mixed-subject five-fold recognition
+lightweight_recognizer,C2,n.a.,"best joint recognition-quality, size, latency, throughput, memory and stability trade-off",C2-C4 recognition WER difference was not resolved at 95%; efficiency breaks the tie,"recommended lightweight model, not the absolute accuracy winner"
+closed_template_language_method,all recognizers,L1,lowest English WER for every recognizer in the evaluated closed-template protocol,C2 L1-vs-L2 WER conclusion: l1,training-only retrieval on the known 300-sentence inventory
+lightweight_end_to_end_system,C2,L1,"WER=0.004715, exact=0.987973, content F1=0.9958",selection combines language quality with the frozen lightweight efficiency evidence,final recommended lightweight closed-template pipeline
+generative_language_reference,G1,L2,best L2 WER=0.085451,C2-vs-C4 L2 WER conclusion: not_resolved,best constrained-generation result; not the lightweight recommendation

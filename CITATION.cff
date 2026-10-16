@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use or discuss this thesis repository, please cite it using this metadata."
+title: "Wearable ASL Recognition and Gloss-to-English Evaluation"
+type: software
+authors:
+  - family-names: "Biswas"
+    given-names: "Sucharit Kanti"
+version: 1.0.0
+date-released: 2026-10-16
+license: LicenseRef-Proprietary
