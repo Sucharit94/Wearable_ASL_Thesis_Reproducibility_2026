@@ -1,9 +1,15 @@
 Copyright (c) 2026 Sucharit Kanti Biswas. All rights reserved.
 
-This repository is made publicly viewable for academic examination and
-reproducibility review. No licence is granted to copy, modify, redistribute,
-sublicense, or use the code or accompanying artifacts beyond rights provided
-by applicable law or separately granted in writing by the copyright holder.
+Permission is granted to any person to download, clone, inspect, and execute
+this repository and its accompanying release assets solely for non-commercial
+academic examination and reproducibility verification. Local modifications
+that are reasonably necessary to configure paths, environments, or compatible
+hardware for those purposes are also permitted.
+
+No permission is granted to redistribute, publish modified versions,
+sublicense, incorporate the material into another product or project, or use
+it for commercial purposes without prior written permission from the copyright
+holder.
 
 The external Gu, Oku and Todoh dataset is not included and remains subject to
 its own terms. Third-party software and model dependencies remain subject to

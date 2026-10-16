@@ -15,14 +15,14 @@ checkpoints, and large execution caches are intentionally not included.
 
 | ID | Architecture | Parameters | Five-fold pooled WER | Exact sentence accuracy |
 |---|---|---:|---:|---:|
-| G1 | Near-Gu Conv2D–2xBiLSTM–CTC | 4,791,688 | 0.001074 | 0.996486 |
-| C1 | Compact Conv1D–BiLSTM–CTC | 392,488 | 0.067215 | 0.799595 |
-| C2 | Compact Conv1D–BiLSTM–self-attention–CTC | 656,168 | 0.040050 | 0.864730 |
-| C3 | Compact Conv1D–Transformer–CTC | 237,352 | 0.444667 | 0.136486 |
-| C4 | Custom Tiny-Swin–BiLSTM–CTC | 348,604 | 0.040909 | 0.876622 |
+| G1 | Near-Gu Conv2Dâ€“2xBiLSTMâ€“CTC | 4,791,688 | 0.001074 | 0.996486 |
+| C1 | Compact Conv1Dâ€“BiLSTMâ€“CTC | 392,488 | 0.067215 | 0.799595 |
+| C2 | Compact Conv1Dâ€“BiLSTMâ€“self-attentionâ€“CTC | 656,168 | 0.040050 | 0.864730 |
+| C3 | Compact Conv1Dâ€“Transformerâ€“CTC | 237,352 | 0.444667 | 0.136486 |
+| C4 | Custom Tiny-Swinâ€“BiLSTMâ€“CTC | 348,604 | 0.040909 | 0.876622 |
 
 G1 is retained as the recognition-quality reference. C2 is the recommended
-lightweight recognizer because the C2–C4 WER difference was not resolved after
+lightweight recognizer because the C2â€“C4 WER difference was not resolved after
 Holm correction and C2 offered the stronger overall quality, efficiency,
 stability, and downstream-language trade-off. See
 `docs/STAGE_43_ALL_MODEL_STATISTICAL_VALIDATION.md` for the five-model tests.
@@ -38,6 +38,14 @@ The recommended lightweight closed-template pipeline is C2 + L1 (English WER
 generation result is G1 + L2 (English WER 0.085451). These results do not
 support open-vocabulary or unseen-template claims.
 
+## Start here
+
+- Follow `QUICKSTART.md` for the shortest independent verification procedure.
+- Read `REPRODUCIBILITY.md` for evidence rebuilding and full-retraining scope.
+- Download the frozen external evidence from the
+  [latest GitHub Release](https://github.com/Sucharit94/Wearable_ASL_Thesis_Reproducibility_2026/releases/latest).
+- Read `DATA_ACCESS.md` before obtaining or placing the raw dataset.
+
 ## Repository layout
 
 | Path | Contents |
@@ -48,7 +56,7 @@ support open-vocabulary or unseen-template claims.
 | `configs/` | Frozen data, model, preprocessing, and experiment settings |
 | `artifacts/` | Small manifests, tables, contracts, and figures |
 | `docs/` | Stage reports and reproducibility guidance |
-| `notebooks/` | Clean Stage 39B V2 Colab generation notebook |
+| `notebooks/` | Stage 39B V2 Colab generation notebook |
 
 ## Installation
 
@@ -63,8 +71,8 @@ python -m pip install -r requirements-local.txt
 ```
 
 Install a PyTorch build appropriate for the local CPU/CUDA environment before
-running model tests or training. Stage 39B generation has its own pinned file,
-`requirements-stage39b.txt`.
+running the complete test suite or training. Stage 39B generation has its own
+pinned file, `requirements-stage39b.txt`.
 
 ## Verify the published evidence
 
@@ -79,19 +87,23 @@ python scripts/verify_stage36_error_analysis.py
 python scripts/verify_stage40_end_to_end_evaluation.py
 python scripts/verify_stage41_final_thesis_evidence.py
 python scripts/verify_stage43.py artifacts/analysis/stage43
-python -m pytest
 ```
 
-The frozen Stage 32 predictions and Stage 39B V2 responses are distributed as
-release assets rather than normal Git files. See `REPRODUCIBILITY.md` for exact
-placement and rebuild commands.
+These commands verify the frozen published evidence without retraining a model.
+The full test suite can be run with `python -m pytest` after PyTorch is installed.
 
-## Data, scope, and reuse
+## Scope, access and reuse
 
-- See `DATA_ACCESS.md` before obtaining or placing the raw dataset.
-- See `NON_REUSE.md` for the fresh-start experimental evidence boundary.
-- The repository is source-available for thesis examination but is not released
-  under an open-source licence; see `LICENSE`.
+- The frozen Stage 32 predictions and Stage 39B V2 responses are distributed as
+  GitHub Release assets instead of normal Git files.
+- The raw participant recordings cannot be redistributed here. See
+  `DATA_ACCESS.md`.
+- `docs/environment/pip_freeze_colab.txt` is an archival snapshot of every
+  package present in the Colab runtime; inclusion in that list does not mean a
+  package was imported or used by this project.
+- The custom `LICENSE` permits downloading, inspection, local execution, and
+  local adaptation for non-commercial academic examination and reproducibility
+  verification. It is not an open-source licence.
 - Citation metadata is provided in `CITATION.cff`.
 
 The repository does not contain raw participant recordings, checkpoints,

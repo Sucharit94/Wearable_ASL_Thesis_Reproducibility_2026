@@ -5,6 +5,8 @@ type: software
 authors:
   - family-names: "Biswas"
     given-names: "Sucharit Kanti"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-16
+repository-code: "https://github.com/Sucharit94/Wearable_ASL_Thesis_Reproducibility_2026"
+url: "https://github.com/Sucharit94/Wearable_ASL_Thesis_Reproducibility_2026"
 license: LicenseRef-Proprietary

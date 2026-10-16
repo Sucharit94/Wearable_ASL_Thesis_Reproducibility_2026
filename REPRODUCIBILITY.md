@@ -1,38 +1,60 @@
 # Reproducibility guide
 
-## What is in Git
+## Reproducibility levels
 
-Git contains implementation code, configurations, tests, frozen split and
-protocol contracts, compact result tables, statistical outputs, and reports.
-Raw participant data, checkpoints, the Stage 17 binary cache, and large frozen
-prediction/response files remain outside Git.
+| Level | What can be reproduced | Additional requirements |
+|---|---|---|
+| Evidence verification | Integrity of the published contracts, tables, metrics and statistical outputs | Repository only |
+| Analysis reconstruction | Five-model statistics and final language evaluation from frozen predictions and responses | Two GitHub Release assets |
+| Full retraining | Preprocessing, model selection, refitting and outer evaluation | Authorized raw dataset, compatible GPU environment, substantial compute and adaptation of original Git provenance gates |
 
-## Required external inputs
+The first two levels are the intended public review route. They do not require
+participant recordings or model checkpoints.
 
-1. Obtain the Gu, Oku and Todoh dataset under the terms supplied by its authors.
-2. Place its 7,400 CSV recordings and two label files as described in
-   `DATA_ACCESS.md`.
-3. Download these GitHub Release assets when rebuilding final evidence:
-   - `stage32c_results_without_checkpoints.zip`
-   - `stage39b_v2_results.zip`
+## External evidence assets
 
-Verify every release asset against `docs/release_asset_manifest.csv` before use.
+Download these files from the
+[latest GitHub Release](https://github.com/Sucharit94/Wearable_ASL_Thesis_Reproducibility_2026/releases/latest):
+
+- `stage32c_results_without_checkpoints.zip`
+- `stage39b_v2_results.zip`
+- `release_asset_manifest.csv`
+
+Verify their sizes and SHA-256 values against both the Release digest and
+`docs/release_asset_manifest.csv` before use.
 
 ## Environment
 
-Use Python 3.11 for local work. Install `requirements-local.txt`, then install a
-PyTorch build suitable for the machine. The recorded Colab T4 environment is in
-`docs/environment/environment_colab_t4.json`; the full snapshot is in
-`docs/environment/pip_freeze_colab.txt`.
+Use Python 3.11 for local analysis. Install `requirements-local.txt`, then
+install a PyTorch build suitable for the machine if running model tests or
+training. The recorded Colab T4 environment is in
+`docs/environment/environment_colab_t4.json`; the complete package snapshot is
+in `docs/environment/pip_freeze_colab.txt`.
+
+The complete snapshot records packages present in the runtime, including
+packages that were not imported or used by this project.
+
+## Verify the evidence already stored in Git
+
+```powershell
+$env:PYTHONPATH = "."
+python scripts/verify_stage34_model_evaluation.py
+python scripts/verify_stage34_statistical_comparison.py
+python scripts/verify_stage35_evidence_freeze.py
+python scripts/verify_stage36_error_analysis.py
+python scripts/verify_stage40_end_to_end_evaluation.py
+python scripts/verify_stage41_final_thesis_evidence.py
+python scripts/verify_stage43.py artifacts/analysis/stage43
+```
 
 ## Rebuild Stage 43 statistics
 
 ```powershell
 python scripts/build_stage43.py `
     path\to\stage32c_results_without_checkpoints.zip `
-    --output artifacts\analysis\stage43
+    --output artifacts\analysis\stage43_rebuilt
 
-python scripts/verify_stage43.py artifacts\analysis\stage43
+python scripts/verify_stage43.py artifacts\analysis\stage43_rebuilt
 python -m unittest -v tests.test_stage43
 ```
 
@@ -52,23 +74,26 @@ python scripts/build_stage41_final_thesis_evidence.py
 python scripts/verify_stage41_final_thesis_evidence.py
 ```
 
-Stage 40 hashes text after canonical newline normalization. Therefore its
-contracts verify whether Git checks out text with LF or CRLF line endings.
+Stage 40 hashes text after canonical newline normalization. Its contracts
+therefore verify after Git checks out text with LF or CRLF line endings.
 
-## Full training reproduction
+## Requirements and limitation for full retraining
 
-The training runners are in `src/training/` and the frozen experiment settings
-are in `configs/experiments/`. Re-running training requires the raw data,
-preprocessing cache generation, appropriate PyTorch hardware, and considerably
-more compute than evidence verification. Checkpoints are deliberately excluded
-because the Stage 32 frozen prediction archive is sufficient for the reported
-recognition metrics and Stage 43 statistical analysis.
+Full retraining requires the author-provided Gu, Oku and Todoh dataset under its
+original terms, generation of the Stage 17 binary cache, a compatible NVIDIA
+GPU environment, and considerably more compute than evidence verification.
+
+The experimental training runners preserve strict checks against annotated Git
+tags from the original execution history. The public examination repository
+was repackaged into a new Git history, so those provenance gates must be adapted
+and revalidated before starting a new full training run from this public clone.
+This limitation does not affect verification or reconstruction from the frozen
+published evidence.
 
 ## Integrity rules
 
-- Do not mix files from an earlier experimental implementation with this
-  fresh-start evidence track.
 - Do not alter raw participant files in place.
+- Do not mix artifacts from an earlier implementation with this evidence track.
 - Use the supplied verifiers after any transfer or line-ending conversion.
-- Treat exact sentence accuracy as a secondary metric; the primary recognition
-  metric is pooled gloss WER.
+- Treat exact sentence accuracy as a secondary metric; pooled gloss WER is the
+  primary recognition metric.
