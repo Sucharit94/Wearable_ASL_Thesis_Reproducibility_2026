@@ -4,8 +4,6 @@ The Gu, Oku and Todoh dataset is not redistributed in this repository. Obtain
 it from the original authors or its authorized distribution point and follow
 the accompanying terms, participant-data restrictions, and citation guidance.
 
-The dataset link is provided in the thesis appendix because public redistribution is restricted.
-
 Expected local layout:
 
 ```text
