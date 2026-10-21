@@ -6,10 +6,19 @@
 |---|---|---|
 | Evidence verification | Integrity of the published contracts, tables, metrics and statistical outputs | Repository only |
 | Analysis reconstruction | Five-model statistics and final language evaluation from frozen predictions and responses | Two GitHub Release assets |
+| Saved-prediction rescoring | Recomputed edit counts, exact correctness and token mapping for all recognition predictions | v1.0.1 Stage 32 prediction ZIP |
+| Pretrained model execution check | Checkpoint identity, strict loading and forward execution on synthetic input | Locally available Fold-1 checkpoint supplement; see its distribution status |
 | Full retraining | Preprocessing, model selection, refitting and outer evaluation | Authorized raw dataset, compatible GPU environment, substantial compute and adaptation of original Git provenance gates |
 
 The first two levels are the intended public review route. They do not require
 participant recordings or model checkpoints.
+
+The selected Fold-1 checkpoint manifest and verification/packaging scripts are
+additional examination tools. See `pretrained_checkpoints/README.md` for actual
+distribution status: the v1.0.1 assets do not contain checkpoint binaries.
+The prepared supplement supports synthetic-input execution, and its matching
+normalization vectors have not been included. It is not a complete real-input
+prediction package or a replacement for the five-fold frozen results.
 
 ## External evidence assets
 

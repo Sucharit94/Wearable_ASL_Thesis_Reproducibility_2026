@@ -1,0 +1,15 @@
+{
+  "augmentation": "none",
+  "code_commit": "867f8206c6a543e26b7bbb8ed5d464008501f01e",
+  "config_sha256": "9603cde081888fde129d8ba5fb28606430c16971ed941027e75097e09a6eb3dd",
+  "data_manifest_sha256": "094050ed305b4e8093a1463aeea30db0a508ebac9131d28214619f9b6b5cd822",
+  "experiment_id": "c4_known_fold01_seed20260826_v1",
+  "hardware_required": "NVIDIA_Tesla_T4",
+  "label_vocab_sha256": "58093d312909962344203fbf4700c7b32095255015771289d08e262c93e7b2ca",
+  "model_id": "c4",
+  "normalization": "train_partition_feature_zscore",
+  "phase": "outer_evaluation",
+  "project_generation": "fresh_start_2026_v1",
+  "seed": 20260826,
+  "split_id": "known_fold01_v1"
+}

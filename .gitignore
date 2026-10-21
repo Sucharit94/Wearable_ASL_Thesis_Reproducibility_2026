@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -38,6 +38,7 @@ data/cache/
 # Temporary files
 *.tmp
 *.temp
+.best.pt.*
 ~*
 
 # Generated large artifacts

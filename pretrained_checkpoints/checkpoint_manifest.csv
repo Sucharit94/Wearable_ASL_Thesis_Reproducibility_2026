@@ -1,0 +1,6 @@
+"Model","Fold","File","SizeBytes","SizeMiB","SHA256"
+"G1","fold01","checkpoints/fold01/g1/best.pt","57552597","54.8864","487a0de7bbdba60eab41b8ff8abbc2c5e56f57aa14a6e482111df15cbf834159"
+"C1","fold01","checkpoints/fold01/c1/best.pt","4750192","4.5301","8d94fbf855d8c842aa691c7276712397ea9a15f35ac581f57db866c4bd02a263"
+"C2","fold01","checkpoints/fold01/c2/best.pt","7921133","7.5542","cd8acc806749f31cee5917e0d86a399d3ef625b401f094bb46aa04c11877270b"
+"C3","fold01","checkpoints/fold01/c3/best.pt","3293197","3.1406","ea827c3945ed513904b055829bf367277a99fb016aae45656b6a9a7807c5a624"
+"C4","fold01","checkpoints/fold01/c4/best.pt","4336825","4.1359","5e2f52a51c14a74192ef4b65076e921db0fb8577d14ebd8f2e88ddea762db902"

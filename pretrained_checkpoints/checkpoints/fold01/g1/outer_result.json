@@ -1,0 +1,27 @@
+{
+  "decoder": "greedy_valid_length_truncated_v1",
+  "evaluated_at_utc": "2026-09-09T14:42:53.783699+00:00",
+  "model_id": "g1",
+  "outer_fold": 1,
+  "outer_test_controlled_training": false,
+  "outer_test_ctc_loss": 0.018424264701536377,
+  "outer_test_metrics": {
+    "deletions": 12,
+    "exact_sentence_accuracy": 0.9925675675675676,
+    "hypothesis_tokens": 5576,
+    "insertions": 0,
+    "macro_sample_wer": 0.002421171171171171,
+    "matches": 5575,
+    "one_minus_wer": 0.9976735862562635,
+    "pooled_wer": 0.0023264137437365782,
+    "reference_tokens": 5588,
+    "samples": 1480,
+    "sentence_errors": 11,
+    "ser": 0.007432432432432433,
+    "substitutions": 1,
+    "total_edits": 13
+  },
+  "outer_test_samples": 1480,
+  "selected_epochs": 19,
+  "status": "COMPLETE"
+}
