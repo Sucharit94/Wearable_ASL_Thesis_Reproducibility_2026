@@ -1,3 +1,4 @@
 filename,size_bytes,sha256,purpose
 stage32c_results_without_checkpoints.zip,1303830,262d6a91f03db1f07ee3a8ad2509117dcdfda5773b53f99a06ef2a7e2c12eac7,Frozen Stage 32C out-of-fold predictions without checkpoints
 stage39b_v2_results.zip,535378,c79a495439b7c84a22e50770c54fc49880317c007a7dd1cb9fca3d06c7b7e15c,Frozen Stage 39B V2 responses execution manifest and response hash
+fold01_pretrained_checkpoints.zip,71859946,c26ab51821caa2d54405da65ad4b11d231e7bdd66a40d3f78fadd4caedd90f7d,Fold-1 pretrained checkpoints and supporting verification records
