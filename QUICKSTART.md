@@ -128,35 +128,6 @@ python scripts/verify_stage41_final_thesis_evidence.py
 
 ## Interpretation
 
-### Rescore the saved recognition predictions
-
-The supplied Stage 43 builder consumes saved evaluation records. For an
-additional check that recalculates edit counts from reference/predicted token
-IDs and checks the vocabulary mapping, run:
-
-```powershell
-python scripts/verify_saved_predictions.py --project . --results-zip .\stage32c_results_without_checkpoints.zip
-```
-
-Expected coverage is 37,000 predictions, 7,400 per recognizer. This still uses
-saved predictions and does not run a network on raw sensor inputs.
-
-### Optional pretrained checkpoint check
-
-`pretrained_checkpoints/README.md` documents the manifest, distribution status
-and extraction paths for the selected Fold-1 supplement. v1.0.1 itself does not
-include checkpoint binaries. If the supplement is available locally and
-PyTorch is installed, run:
-
-```powershell
-python scripts/verify_pretrained_models.py --project .
-```
-
-Expected result: five models pass their hash, identity, strict weight-loading
-and CPU forward-pass checks. The input is synthetic zeros. A real-recording
-demonstration also requires the matching full-refit normalization values,
-authorized input data and preprocessing/decoding tooling.
-
 The verification and reconstruction procedures above reproduce the reported
 tables, metrics and statistical conclusions from frozen out-of-fold
 predictions and generation responses. They do not retrain the neural networks.

@@ -4,26 +4,7 @@ The Gu, Oku and Todoh dataset is not redistributed in this repository. Obtain
 it from the original authors or its authorized distribution point and follow
 the accompanying terms, participant-data restrictions, and citation guidance.
 
-## Access for thesis examination
-
-The researcher plans to provide authorized examiners with controlled access to
-the study copy through Google Drive. The access details will be supplied in
-the examination copy of the thesis and are intentionally omitted from this
-public repository. No dataset download link is published here.
-
-Availability is subject to the original dataset owner's permission, applicable
-data-use terms, and institutional requirements. Until an authorized examination
-copy is available, obtain the dataset from the original authors or an
-authorized distribution point. Possession of the thesis or its link does not
-itself grant permission to redistribute the participant recordings.
-
-The researcher should restrict the Drive folder to authorized examination
-accounts. Keeping a link out of GitHub does not prevent a thesis recipient
-from forwarding it; access permissions should enforce the intended audience.
-Code, frozen predictions, generation responses, and the documented analysis
-verification route remain publicly available without raw-data access.
-
-## Dataset placement and integrity
+The dataset link is provided in the thesis appendix because public redistribution is restricted.
 
 Expected local layout:
 

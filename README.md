@@ -45,9 +45,6 @@ support open-vocabulary or unseen-template claims.
 - Download the frozen external evidence from the
   [latest GitHub Release](https://github.com/Sucharit94/Wearable_ASL_Thesis_Reproducibility_2026/releases/latest).
 - Read `DATA_ACCESS.md` before obtaining or placing the raw dataset.
-- Read `pretrained_checkpoints/README.md` for the selected Fold-1 checkpoint
-  manifest, local verification command, distribution status and raw-input
-  inference limitations. The binary supplement is separate from v1.0.1.
 
 ## Repository layout
 
@@ -95,34 +92,12 @@ python scripts/verify_stage43.py artifacts/analysis/stage43
 These commands verify the frozen published evidence without retraining a model.
 The full test suite can be run with `python -m pytest` after PyTorch is installed.
 
-To independently rescore all 37,000 saved recognition predictions from their
-reference and predicted token IDs, download the v1.0.1 prediction asset and run:
-
-```powershell
-python scripts/verify_saved_predictions.py --project . --results-zip path\to\stage32c_results_without_checkpoints.zip
-```
-
-This recomputes edit counts and exact correctness and checks vocabulary
-mapping. It does not regenerate predictions from raw recordings.
-
-With the optional checkpoint supplement available locally, run:
-
-```powershell
-python scripts/verify_pretrained_models.py --project .
-```
-
-This is a synthetic-input loading and execution check, not a raw-data
-recognition-accuracy test. Check the checkpoint guide for actual distribution
-status before expecting binary files in a download.
-
 ## Scope, access and reuse
 
 - The frozen Stage 32 predictions and Stage 39B V2 responses are distributed as
   GitHub Release assets instead of normal Git files.
 - The raw participant recordings cannot be redistributed here. See
-  `DATA_ACCESS.md` for the planned controlled examination route. Dataset
-  access details will be supplied with the examination copy of the thesis,
-  rather than published in this repository, subject to authorization.
+  `DATA_ACCESS.md`.
 - `docs/environment/pip_freeze_colab.txt` is an archival snapshot of every
   package present in the Colab runtime; inclusion in that list does not mean a
   package was imported or used by this project.
