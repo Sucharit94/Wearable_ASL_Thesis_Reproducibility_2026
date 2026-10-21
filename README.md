@@ -85,9 +85,9 @@ After installing PyTorch and NumPy, run:
 python .\scripts\verify_pretrained_models.py --project .
 ```
 
-The verifier checks the SHA-256 hash, model identity, strict weight loading, and one synthetic CPU-inference pass for each Fold-1 model. It does not process the research dataset, reproduce the reported recognition accuracy, or retrain any model.
+The checkpoint verifier uses synthetic zero-valued input with the correct shape. It confirms that the five checkpoint files have the expected SHA-256 hashes and model identities, load strictly into the corresponding architectures, and complete one CPU forward pass. It does not process participant recordings, reproduce the reported recognition accuracy, or retrain any model.
 
-Dataset-level inference with these pretrained checkpoints would additionally require the matching fitted normalization and preprocessing state and a tested raw-data inference procedure. These materials are not currently distributed; therefore, the repository does not claim reproducible raw-recording inference from the supplied checkpoints.
+Repeating inference on raw recordings would additionally require the checkpoint-matched fitted normalization state and a tested command that converts raw recordings into model inputs and decoded predictions. These items are not included in the current public package; therefore, the repository does not claim reproducible raw-recording inference from the supplied checkpoints.
 
 ## Scope, access and reuse
 
