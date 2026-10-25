@@ -1,8 +1,6 @@
 # Dataset access and placement
 
-The Gu, Oku and Todoh dataset is not redistributed in this repository. Obtain
-it from the original authors or its authorized distribution point and follow
-the accompanying terms, participant-data restrictions, and citation guidance.
+The Gu, Oku, and Todoh dataset is not hosted or linked directly in this public repository. Dataset access information for this study is provided in Appendix A, “Reproducibility Repository and Supporting Research Artifacts,” of the associated thesis. Access to and use of the dataset remain subject to the original data licence, participant-data restrictions, ethical requirements, and citation guidance.
 
 Expected local layout:
 
